@@ -1,0 +1,15 @@
+.section,.systems-section,.system-layout,.navigator-wrap,.resources-grid{color:#211d16;background-color:#eee5c5;background-image:radial-gradient(#554c351c .7px,transparent .8px);background-size:4px 4px}
+.systems-grid .system-card{color:#211d16;background:#f4edcf;border:1px solid #211d16;box-shadow:3px 4px 0 #5c523c}
+.systems-grid .system-card:hover{transform:translateY(-2px);border:3px double #211d16;box-shadow:4px 5px 0 #5c523c}
+.systems-grid .system-card-copy{background:#f4edcf}
+.systems-grid .system-art{height:160px;background:#d9cda4!important;border-bottom:3px double #211d16;filter:grayscale(1) sepia(.35);overflow:hidden}
+.systems-grid .system-art:before{width:132px;height:132px;border:3px double #211d16;background:#e7ddbc;opacity:.72}
+.systems-grid .system-art:after{width:105px;height:105px;border:1px solid #211d16;opacity:.6}
+.systems-grid .system-glyph{z-index:2;color:#211d16;font-family:"Libre Baskerville",Georgia,serif;font-size:72px;line-height:1;filter:grayscale(1) contrast(1.35) sepia(.3);text-shadow:none}
+.systems-grid .unit-number{z-index:3;color:#211d16;font-family:"IM Fell English",serif;font-size:50px;text-shadow:none}
+.section p,.systems-section p,.system-layout p,.navigator-wrap p,.resources-grid p,.vocab-database p{color:#211d16}
+.section-heading>p,.card-kicker,.day-card .mini-target,.day-card .date-small{color:#514936!important}
+.topic-item h3,.i-can,.meta-box p,.vocab-card h2,.connections-card h2,.vocab-card p,.connections-card p,.physiology-vocab p,.resource-card h2,.resource-card p{color:#211d16!important}
+.vocab-database-body{color:#211d16;background:#eee5c5}
+.master-vocab-term,.vocab-chip,.resource-pill{font-weight:700}
+.back-link,.navigator-video{color:#552845!important;text-decoration-thickness:2px}

@@ -1,6 +1,6 @@
 const DATA = window.COURSE_DATA;
 const main = document.querySelector('#main');
-const glyphs = {compass:'⌖',cells:'◉',skin:'≋',bone:'╫',muscle:'〽',brain:'◎',hormone:'✣',heart:'♡',shield:'⬡',lungs:')( ',digest:'∿',kidney:'◒',dna:'⌬'};
+const glyphs = {compass:'⌖',cells:'🔬',skin:'☝',bone:'🦴',muscle:'💪',brain:'🧠',hormone:'⚗',heart:'🫀',shield:'⚕',lungs:'🫁',digest:'♨',kidney:'◒',dna:'🧬'};
 
 const escapeHTML = (value='') => String(value).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const formatDate = (iso, opts={month:'short',day:'numeric'}) => new Date(`${iso}T12:00:00`).toLocaleDateString('en-US',opts);
