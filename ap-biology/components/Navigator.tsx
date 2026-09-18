@@ -2,32 +2,55 @@ import React, { useEffect, useMemo, useState } from 'react';
 import snapshot from '../data/calendar.json';
 import { courseData } from '../constants';
 
-interface CalendarEntry { week: number; day: string; date: string; cedTopic: string; learningTarget: string; classwork: string; campbell: string; biozone: string; homework: string; apTarget: string; teacherNote: string; }
-const CSV_URL = (import.meta.env.VITE_NAVIGATOR_CSV_URL as string | undefined) || 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSQmAQUeLO19pcXizo9fhfSULh1KEewdq4Og3vnTLBxgrA7QYpKq_NNwcqoFDaf57OMiFf7FQx3MM5E/pub?gid=135989314&single=true&output=csv';
-const fields: Array<[keyof CalendarEntry, string]> = [['learningTarget','Learning target'],['classwork','In class'],['homework','HOME After Class'],['teacherNote','Teacher Notes'],['campbell','Campbell'],['biozone','BIOZONE'],['apTarget','AP target']];
-const alwaysVisible = new Set<keyof CalendarEntry>(['homework', 'teacherNote']);
+interface CalendarEntry { week:number; day:string; date:string; cedTopic:string; learningTarget:string; classwork:string; campbell:string; biozone:string; homework:string; apTarget:string; teacherNote:string; }
+interface NavigatorProps { mode:'today'|'weekly'; }
+const CSV_URL=(import.meta.env.VITE_NAVIGATOR_CSV_URL as string|undefined)||'https://docs.google.com/spreadsheets/d/e/2PACX-1vSQmAQUeLO19pcXizo9fhfSULh1KEewdq4Og3vnTLBxgrA7QYpKq_NNwcqoFDaf57OMiFf7FQx3MM5E/pub?gid=135989314&single=true&output=csv';
+const fields:Array<[keyof CalendarEntry,string]>=[['learningTarget','Learning target'],['classwork','In class'],['homework','HOME After Class'],['teacherNote','Teacher Notes'],['campbell','Campbell'],['biozone','BIOZONE'],['apTarget','AP target']];
+const alwaysVisible=new Set<keyof CalendarEntry>(['homework','teacherNote']);
 
-function parseCsv(text: string): CalendarEntry[] {
-  const rows: string[][]=[]; let row:string[]=[]; let cell=''; let quoted=false;
-  for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c==='"'&&quoted&&n==='"'){cell+='"';i++;}else if(c==='"')quoted=!quoted;else if(c===','&&!quoted){row.push(cell);cell='';}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&n==='\n')i++;row.push(cell);if(row.some(Boolean))rows.push(row);row=[];cell='';}else cell+=c;}
-  if(cell||row.length){row.push(cell);rows.push(row);} const header=rows.findIndex(r=>r.some(v=>v.trim().toLowerCase()==='week')); if(header<0)return [];
-  const isoDate=(value:string)=>{const d=new Date(value);return Number.isNaN(d.getTime())?value:d.toISOString().slice(0,10);};
-  return rows.slice(header+1).map(r=>({week:Number(r[0])||0,day:r[1]||'',date:isoDate(r[2]||''),cedTopic:r[3]||'',learningTarget:r[4]||'',classwork:r[5]||'',campbell:r[6]||'',biozone:r[7]||'',homework:r[8]||'',apTarget:r[9]||'',teacherNote:r[10]||''})).filter(e=>e.date&&Object.values(e).some(Boolean));
+function toIso(value:string){
+  const raw=String(value||'').trim();if(!raw)return '';
+  if(/^\d{4}-\d{2}-\d{2}$/.test(raw))return raw;
+  const us=raw.match(/^(\d{1,2})\/(\d{1,2})\/(\d{2}|\d{4})/);
+  if(us){const year=us[3].length===2?`20${us[3]}`:us[3];return `${year}-${us[1].padStart(2,'0')}-${us[2].padStart(2,'0')}`;}
+  const d=new Date(raw);return Number.isNaN(d.getTime())?raw:`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
 }
+function parseCsv(text:string):CalendarEntry[]{
+  const rows:string[][]=[];let row:string[]=[];let cell='',quoted=false;
+  for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c==='"'&&quoted&&n==='"'){cell+='"';i++;}else if(c==='"')quoted=!quoted;else if(c===','&&!quoted){row.push(cell);cell='';}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&n==='\n')i++;row.push(cell);if(row.some(Boolean))rows.push(row);row=[];cell='';}else cell+=c;}
+  if(cell||row.length){row.push(cell);rows.push(row);}const header=rows.findIndex(r=>r.some(v=>v.trim().toLowerCase()==='week'));if(header<0)return [];
+  return rows.slice(header+1).map(r=>({week:Number(r[0])||0,day:r[1]||'',date:toIso(r[2]||''),cedTopic:r[3]||'',learningTarget:r[4]||'',classwork:r[5]||'',campbell:r[6]||'',biozone:r[7]||'',homework:r[8]||'',apTarget:r[9]||'',teacherNote:r[10]||''})).filter(e=>e.date&&hasLesson(e));
+}
+const hasLesson=(e:CalendarEntry)=>[e.cedTopic,e.learningTarget,e.classwork,e.campbell,e.biozone,e.homework,e.apTarget,e.teacherNote].some(v=>String(v||'').trim());
 const formatDate=(value:string)=>new Intl.DateTimeFormat('en-US',{weekday:'long',month:'long',day:'numeric'}).format(new Date(`${value}T12:00:00`));
+const unitColor=(entry:CalendarEntry)=>courseData.units[Number(entry.cedTopic.split('.')[0])-1]?.color||'#3e382b';
 
-const Navigator: React.FC = () => {
-  const [entries,setEntries]=useState<CalendarEntry[]>(snapshot as CalendarEntry[]); const [search,setSearch]=useState(''); const [topic,setTopic]=useState('all'); const [week,setWeek]=useState('all'); const [showPast,setShowPast]=useState(true); const [live,setLive]=useState(false);
-  useEffect(()=>{if(!CSV_URL)return;fetch(CSV_URL).then(r=>{if(!r.ok)throw new Error();return r.text();}).then(t=>{const p=parseCsv(t);if(p.length){setEntries(p);setLive(true);}}).catch(()=>setLive(false));},[]);
-  const today=new Date();today.setHours(0,0,0,0);const todayIso=today.toISOString().slice(0,10);
-  const topics=useMemo(()=>[...new Set(entries.map(e=>e.cedTopic).filter(Boolean))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true})),[entries]);
-  const weeks=useMemo(()=>[...new Set(entries.map(e=>e.week).filter(Boolean))].sort((a,b)=>a-b),[entries]);
-  const visible=useMemo(()=>entries.filter(e=>(showPast||e.date>=todayIso)&&(topic==='all'||e.cedTopic===topic)&&(week==='all'||e.week===Number(week))&&(!search||Object.values(e).join(' ').toLowerCase().includes(search.toLowerCase()))).sort((a,b)=>b.date.localeCompare(a.date)),[entries,search,topic,week,showPast,todayIso]);
-  return <main className="min-h-[calc(100vh-73px)] bg-slate-100 px-4 py-8"><div className="mx-auto max-w-7xl">
-    <section className="mb-7 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-xl"><div className="flex h-2">{courseData.units.map(unit=><span key={unit.id} className="flex-1" style={{backgroundColor:unit.color}} />)}</div><div className="flex flex-col gap-4 p-6 sm:flex-row sm:items-end sm:justify-between sm:p-8"><div><p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-cyan-600">2025 CED aligned</p><h2 className="text-3xl font-black text-slate-950 sm:text-4xl">Daily Learning Navigator</h2><p className="mt-2 max-w-2xl text-slate-600">Classwork, readings, BIOZONE pages, HOME After Class, teacher notes, and AP learning targets—organized for quick daily use.</p></div><span className="w-fit rounded-full bg-cyan-100 px-3 py-1 text-xs font-semibold text-cyan-800">{live?'Live Google Sheet':'Saved schedule'}</span></div></section>
-    <section className="mb-6 grid gap-3 rounded-2xl border-2 border-slate-300 bg-white p-4 shadow-md md:grid-cols-[1fr_150px_170px_auto]"><label className="text-sm font-semibold text-slate-700">Search<input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Lab, reading, topic…" className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 font-normal outline-none focus:border-cyan-500 focus:ring-2 focus:ring-cyan-100" /></label><label className="text-sm font-semibold text-slate-700">Week<select value={week} onChange={e=>setWeek(e.target.value)} className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 font-normal"><option value="all">All weeks</option>{weeks.map(w=><option key={w} value={w}>Week {w}</option>)}</select></label><label className="text-sm font-semibold text-slate-700">CED topic<select value={topic} onChange={e=>setTopic(e.target.value)} className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 font-normal"><option value="all">All topics</option>{topics.map(t=><option key={t}>{t}</option>)}</select></label><label className="flex items-center gap-2 self-end rounded-lg bg-slate-100 px-3 py-2 text-sm font-semibold"><input type="checkbox" checked={showPast} onChange={e=>setShowPast(e.target.checked)} className="accent-cyan-600" />Show past days</label></section>
-    <div className="mb-3 flex items-center justify-between"><p className="text-sm text-slate-500">Newest dates appear first</p><p className="text-sm font-semibold text-slate-700">{visible.length} school days</p></div>
-    <section className="space-y-6">{visible.map((entry,index)=>{const isToday=entry.date===todayIso;const unit=courseData.units[Number(entry.cedTopic.split('.')[0])-1];const color=unit?.color||'#22d3ee';return <article key={`${entry.date}-${index}`} className={`overflow-hidden rounded-2xl border-2 bg-white shadow-lg ${isToday?'ring-4 ring-cyan-200':'border-slate-300'}`} style={{borderTopWidth:6,borderTopColor:color}}><header className="flex flex-col gap-2 border-b-2 border-slate-200 px-5 py-4 sm:flex-row sm:items-center sm:justify-between" style={{backgroundColor:isToday?'#ecfeff':`${color}18`}}><div className="flex items-center gap-3"><div className="rounded-xl border px-3 py-2 text-center text-slate-950 shadow-sm" style={{backgroundColor:`${color}55`,borderColor:color}}><div className="text-[10px] font-bold uppercase tracking-wider">Week</div><div className="text-xl font-black leading-none">{entry.week}</div></div><div><h3 className="text-lg font-extrabold text-slate-950">{formatDate(entry.date)}</h3><p className="text-sm text-slate-500">{entry.day}</p></div></div><div className="flex items-center gap-2">{isToday&&<span className="rounded-full bg-cyan-600 px-3 py-1 text-xs font-bold text-white">Today</span>}{entry.cedTopic&&<span className="rounded-full px-3 py-1 text-xs font-bold text-slate-900" style={{backgroundColor:`${color}55`,borderColor:color}}>CED {entry.cedTopic}</span>}</div></header><div className="grid gap-4 bg-slate-100 p-5 md:grid-cols-2">{fields.map(([key,label])=>(entry[key]||alwaysVisible.has(key))?<div key={key} className={`${['learningTarget','classwork','homework','teacherNote'].includes(key)?'md:col-span-2':''} rounded-xl border-2 border-slate-300 bg-white p-4 shadow-sm`}><h4 className="mb-2 text-xs font-extrabold uppercase tracking-wider" style={{color}}>{label}</h4><p className={`whitespace-pre-line text-sm leading-6 ${entry[key]?'text-slate-700':'italic text-slate-400'}`}>{entry[key] || (key==='homework'?'No HOME After Class posted.':'No teacher note posted.')}</p></div>:null)}</div></article>})}{!visible.length&&<div className="rounded-2xl border border-dashed border-slate-300 bg-white p-12 text-center text-slate-500">No calendar entries match those filters.</div>}</section>
-    </div></main>;
+function LessonCard({entry,compact=false,todayIso}:{entry:CalendarEntry;compact?:boolean;todayIso:string}){
+  const color=unitColor(entry),isToday=entry.date===todayIso;
+  return <article className={`dreadful-lesson ${compact?'compact':''} ${isToday?'current':''}`} style={{'--unit-color':color} as React.CSSProperties}>
+    <header><div><p className="issue-line">Week {entry.week} · {entry.day||'Class Day'}</p><h3>{formatDate(entry.date)}</h3></div><div className="lesson-marks">{isToday&&<span>Today</span>}{entry.cedTopic&&<b>CED {entry.cedTopic}</b>}</div></header>
+    <div className="lesson-columns">{fields.map(([key,label])=>(entry[key]||alwaysVisible.has(key))?<section key={key} className={`lesson-field field-${key}`}><h4>{label}</h4><p>{entry[key]||(key==='homework'?'No HOME After Class posted.':'No teacher note posted.')}</p></section>:null)}</div>
+  </article>;
+}
+
+const Navigator:React.FC<NavigatorProps>=({mode})=>{
+  const [entries,setEntries]=useState<CalendarEntry[]>(snapshot as CalendarEntry[]),[live,setLive]=useState(false),[weekIndex,setWeekIndex]=useState(0),[initialized,setInitialized]=useState(false);
+  useEffect(()=>{fetch(CSV_URL,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error();return r.text();}).then(t=>{const parsed=parseCsv(t);if(parsed.length){setEntries(parsed);setLive(true);}}).catch(()=>setLive(false));},[]);
+  const now=new Date(),todayIso=`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+  const populated=useMemo(()=>entries.filter(hasLesson).sort((a,b)=>a.date.localeCompare(b.date)),[entries]);
+  const featured=useMemo(()=>populated.find(e=>e.date===todayIso)||[...populated].filter(e=>e.date<todayIso).pop()||populated[0],[populated,todayIso]);
+  const weeks=useMemo(()=>[...new Set(populated.map(e=>e.week).filter(Boolean))].sort((a,b)=>a-b),[populated]);
+  useEffect(()=>{if(initialized||!weeks.length)return;const exact=populated.find(e=>e.date===todayIso),recent=exact||[...populated].filter(e=>e.date<=todayIso).pop()||populated[0];setWeekIndex(Math.max(0,weeks.indexOf(recent?.week)));setInitialized(true);},[weeks,populated,todayIso,initialized]);
+  const selectedWeek=weeks[weekIndex],weekEntries=populated.filter(e=>e.week===selectedWeek).sort((a,b)=>a.date.localeCompare(b.date));
+  return <main className="dreadful-main"><div className="dreadful-page">
+    <section className="masthead"><p className="edition">The Scholarly Chronicle · 2025 CED Edition</p><h2>AP Biology</h2><div className="masthead-rule"><span>{mode==='today'?'Today’s Dispatch':'Weekly Navigator'}</span><span>{live?'Published Sheet Online':'Saved Edition'}</span></div></section>
+    {mode==='today'?<>
+      <section className="lead-story"><p className="kicker">Latest Classroom Dispatch</p><h1>{featured?.date===todayIso?'Today’s Class':'Most Recent Class'}</h1><p>{featured?`The lesson recorded for ${formatDate(featured.date)} appears below.`:'No populated class entry has been posted yet.'}</p></section>
+      {featured&&<LessonCard entry={featured} todayIso={todayIso}/>} 
+    </>:<>
+      <section className="weekly-toolbar"><button onClick={()=>setWeekIndex(Math.max(0,weekIndex-1))} disabled={weekIndex===0}>← Previous</button><div><small>Course Week</small><strong>{selectedWeek||'—'}</strong></div><button onClick={()=>setWeekIndex(Math.min(weeks.length-1,weekIndex+1))} disabled={weekIndex>=weeks.length-1}>Next →</button></section>
+      <section className="weekly-grid">{weekEntries.map((entry,index)=><LessonCard key={`${entry.date}-${index}`} entry={entry} compact todayIso={todayIso}/>)}{!weekEntries.length&&<p className="empty-edition">No class entries are posted for this week.</p>}</section>
+    </>}
+  </div></main>;
 };
 export default Navigator;

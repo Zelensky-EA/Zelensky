@@ -1,6 +1,8 @@
 # Mr. Zelensky's Science Navigator
 
-One GitHub Pages website containing the AP Biology and Anatomy & Physiology course navigators.
+One GitHub Pages website containing the AP Biology and Anatomy & Physiology course navigators, presented as an aged penny-dreadful science chronicle.
+
+The AP Biology course opens to a single Today dispatch (or the most recent populated class entry) and includes a separate five-day Weekly Navigator with previous/next week controls.
 
 ## Local preview
 
