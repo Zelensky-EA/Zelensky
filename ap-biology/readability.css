@@ -1,3 +1,13 @@
 .dreadful-page,.masthead,.masthead .edition,.masthead h2,.masthead-rule,.lead-story,.lead-story h1,.weekly-toolbar,.dreadful-lesson,.dreadful-lesson h3,.lesson-field p{color:#211d16!important}
 .dreadful-lesson .lesson-marks span{color:#eee5c5!important}
 .dreadful-lesson .lesson-marks b,.weekly-toolbar button{color:#211d16!important}
+
+/* Course-resource color key */
+.lesson-field.field-biozone{background:#f5dadd}
+.lesson-field.field-campbell{background:#dcebf5}
+.lesson-field.field-classwork{background:#dcebd7}
+.lesson-field.field-homework{background:#e7ddf1}
+.lesson-field.field-biozone h4{color:#743843}
+.lesson-field.field-campbell h4{color:#31556e}
+.lesson-field.field-classwork h4{color:#3f6239}
+.lesson-field.field-homework h4{color:#59416f}
