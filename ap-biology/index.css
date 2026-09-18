@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Pixelify+Sans:wght@500;600;700&display=swap');
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; font-family: "IBM Plex Mono", ui-monospace, monospace; background:#101022; }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+.course-shell{background:radial-gradient(circle at 15% 0%,#163c45 0,transparent 30%),linear-gradient(#17162c,#0d0d1b);min-height:100vh}
+.rpg-header{background:#24223d;border-bottom:3px solid #64d7cf;box-shadow:0 4px 0 #0a0912,0 8px 24px #0008}
+.rpg-header h1,.rpg-tabs button{font-family:"Pixelify Sans",sans-serif;letter-spacing:.04em}
+.home-rune{display:grid;place-items:center;width:42px;height:42px;color:#f8e8a8;background:#3a345c;border:2px solid #8ae1d8;box-shadow:inset 2px 2px #ffffff2e,inset -2px -2px #090812;text-decoration:none;font-size:24px}
+.rpg-tabs{gap:4px;background:#151426;border:2px solid #4c466f;box-shadow:inset 2px 2px #090812}
+.rpg-tabs button{color:#cbc8df;background:#302c4c;border:1px solid #625b87}
+.rpg-tabs button:hover,.rpg-tabs button.active{color:#151426;background:#72ded2;border-color:#d7fff9;box-shadow:inset 1px 1px #fff8}
+.course-shell main{color:#1e293b}

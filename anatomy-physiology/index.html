@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#372b64">
+  <meta name="description" content="Anatomy & Physiology daily learning navigator, course map, vocabulary, and system resources.">
+  <title>Anatomy & Physiology · Course Navigator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20260910-4">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#today" aria-label="Anatomy and Physiology Navigator home">
+      <span class="brand-mark" aria-hidden="true"><span></span></span>
+      <span><strong>Anatomy &amp; Physiology</strong><small>Course Navigator // 199X</small></span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="../" class="portal-home">⌂ Course Select</a>
+      <a href="#today" data-nav="today">Today</a>
+      <a href="#calendar" data-nav="calendar">Daily Navigator</a>
+      <a href="#systems" data-nav="systems">Body Systems</a>
+      <a href="#resources" data-nav="resources">Resources</a>
+      <button class="search-button" id="open-search" aria-label="Search course"><span aria-hidden="true">⌕</span> Search</button>
+    </nav>
+  </header>
+
+  <main id="main"></main>
+
+  <footer>
+    <div class="footer-brand"><span class="brand-mark mini" aria-hidden="true"><span></span></span><strong>Anatomy &amp; Physiology</strong></div>
+    <p>Structure tells a story. Physiology explains what happens next.</p>
+    <p class="source-note">Course sequence aligned to BIOZONE Anatomy &amp; Physiology, 3rd Edition.</p>
+  </footer>
+
+  <dialog id="search-dialog">
+    <form method="dialog" class="search-shell">
+      <div class="search-top">
+        <span aria-hidden="true">⌕</span>
+        <input id="global-search" type="search" autocomplete="off" placeholder="Search topics, targets, or vocabulary…" aria-label="Search course">
+        <button value="cancel" aria-label="Close search">×</button>
+      </div>
+      <div id="search-results" class="search-results" aria-live="polite"></div>
+    </form>
+  </dialog>
+
+  <dialog id="vocab-dialog" class="vocab-dialog">
+    <div class="vocab-window">
+      <div class="vocab-titlebar"><span>VOCAB_RECORD.DAT</span><button type="button" id="close-vocab" aria-label="Close vocabulary record">×</button></div>
+      <div class="vocab-record">
+        <p class="record-path" id="vocab-path"></p>
+        <div class="record-heading"><h2 id="vocab-term"></h2><span id="vocab-priority"></span></div>
+        <section><h3>Definition</h3><p id="vocab-definition"></p></section>
+        <section><h3>Course connection</h3><p id="vocab-connection"></p></section>
+        <section><h3>What you should be able to do</h3><p>Define the term accurately, recognize it in diagrams or course examples, and use it when explaining the linked learning target. If it names a structure, locate it and connect its form to its function. If it names a process, trace its cause, major steps, and effects.</p></section>
+      </div>
+    </div>
+  </dialog>
+
+  <template id="system-card-template">
+    <a class="system-card">
+      <div class="system-art" aria-hidden="true"><span class="system-glyph"></span><span class="unit-number"></span></div>
+      <div class="system-card-copy"><p class="eyebrow"></p><h3></h3><p class="card-kicker"></p><span class="card-link">Explore system <b>→</b></span></div>
+    </a>
+  </template>
+
+  <script src="data.js?v=20260910-4"></script>
+  <script src="app.js?v=20260910-4"></script>
+</body>
+</html>
