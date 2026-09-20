@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Libre+Baskerville:wght@400;700&family=UnifrakturCook:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,500&family=IM+Fell+English:ital@0;1&family=Libre+Baskerville:wght@400;700&family=UnifrakturCook:wght@700&display=swap');
 
 :root { --paper:#f1e8ca; --ink:#211d16; --red:#8b3326; }
 * { box-sizing:border-box; }
@@ -15,6 +15,7 @@ body { margin:0; color:var(--paper); font-family:"Libre Baskerville",Georgia,ser
 .boot span { color:#d85a3e; }
 .eyebrow { margin:0; color:#ffd6b3; text-shadow:0 2px 10px #000; text-transform:uppercase; font-size:11px; font-weight:700; letter-spacing:.24em; }
 .welcome h1 { max-width:1120px; margin:10px 0 38px; color:#fff5d8; font-family:"UnifrakturCook","IM Fell English",serif; font-size:clamp(58px,8vw,112px); font-weight:700; line-height:.84; text-shadow:0 4px 3px #160a04,0 9px 28px rgba(0,0,0,.9); }
+.welcome h1 .display-swash { display:block; font-family:"Bodoni Moda","Times New Roman",serif; font-style:italic; font-weight:500; letter-spacing:-.055em; line-height:.88; }
 .welcome h1 em { display:block; margin-top:14px; font-family:"IM Fell English",serif; font-size:.62em; font-style:normal; }
 .course-buttons { width:min(850px,100%); display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
 .course-button { min-height:132px; display:grid; align-content:center; gap:6px; padding:20px 28px; color:var(--ink); background:rgba(241,232,202,.94); border:5px double #2d271b; outline:1px solid rgba(241,232,202,.8); outline-offset:4px; box-shadow:7px 9px 0 rgba(18,14,9,.72),0 15px 35px rgba(0,0,0,.5); text-decoration:none; transition:transform .16s ease,background-color .16s ease; }
