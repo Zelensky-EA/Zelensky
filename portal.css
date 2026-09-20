@@ -25,6 +25,12 @@ body { margin:0; color:var(--paper); font-family:"Libre Baskerville",Georgia,ser
 .course-button:focus-visible { outline:3px solid white; }
 .biology { border-color:#345d4b; }
 .anatomy { border-color:#74362c; }
+.resources { border-color:#49677f; }
+.talontech { border-color:#8a6723; }
+.subpage .welcome h1 { font-size:clamp(54px,7vw,96px); }
+.subpage .course-buttons.single { max-width:520px; grid-template-columns:1fr; }
+.back-link { display:inline-block; margin-top:28px; padding:9px 13px; color:#fff5d8; border:1px solid rgba(255,245,216,.75); background:rgba(20,18,14,.72); text-decoration:none; text-transform:uppercase; font-size:9px; font-weight:700; letter-spacing:.16em; }
+.back-link:hover,.back-link:focus-visible { background:rgba(139,51,38,.9); }
 footer { display:flex; justify-content:space-between; gap:12px; padding:10px clamp(18px,3vw,48px); border-block:4px double rgba(241,232,202,.65); background:rgba(20,18,14,.84); text-transform:uppercase; font-size:9px; letter-spacing:.13em; }
 .status i { display:inline-block; width:7px; height:7px; border-radius:50%; background:#56b26f; box-shadow:0 0 8px #56b26f; }
 @media(max-width:720px){body{background-attachment:scroll}.welcome{min-height:auto;padding:48px 18px 58px}.welcome h1{font-size:clamp(50px,16vw,76px)}.course-buttons{grid-template-columns:1fr}.course-button{min-height:112px}footer{justify-content:center;flex-wrap:wrap}}
