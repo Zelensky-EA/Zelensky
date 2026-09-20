@@ -11,4 +11,17 @@ button { cursor: pointer; }
 .rpg-tabs{gap:4px;background:#151426;border:2px solid #4c466f;box-shadow:inset 2px 2px #090812}
 .rpg-tabs button{color:#cbc8df;background:#302c4c;border:1px solid #625b87}
 .rpg-tabs button:hover,.rpg-tabs button.active{color:#151426;background:#72ded2;border-color:#d7fff9;box-shadow:inset 1px 1px #fff8}
-.course-shell main{color:#1e293b}
+.course-shell main{color:#172033;background:#f4f7fb}
+.course-shell main>div{color:#172033}
+.course-shell main [class*="bg-white/50"],.course-shell main [class*="bg-white/60"]{background:rgba(255,255,255,.96)!important}
+.course-shell main [class*="text-slate-500"]{color:#475569!important}
+.course-shell main [class*="text-slate-600"]{color:#334155!important}
+.course-shell main [class*="text-slate-700"]{color:#1e293b!important}
+.course-shell main [class*="text-slate-800"],.course-shell main [class*="text-slate-900"],.course-shell main [class*="text-slate-950"]{color:#0f172a!important}
+.course-shell main [class*="border-slate-200"]{border-color:#cbd5e1!important}
+.course-shell main [class*="bg-slate-100"]{background:#eef2f7!important}
+.course-shell main button.bg-white{background:#fff!important}
+.course-shell main button.bg-white:hover{background:#f8fafc!important}
+.course-shell aside{background:#e8edf3!important;color:#172033;border-color:#aeb8c5!important}
+.course-shell aside button{color:#334155}
+.course-shell aside button:hover{background:#fff!important;color:#0e7490!important}
