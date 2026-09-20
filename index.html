@@ -3,62 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#17162c">
+  <meta name="theme-color" content="#17150f">
   <meta name="description" content="Mr. Zelensky's AP Biology and Anatomy & Physiology course navigators.">
   <title>Mr. Zelensky's Science Navigator</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Pixelify+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Libre+Baskerville:wght@400;700&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="portal.css">
 </head>
 <body>
   <a class="skip" href="#courses">Skip to courses</a>
   <div class="desktop">
     <header class="titlebar">
-      <div class="title"><span class="orb"></span> ZELENSKY_NAVIGATOR.EXE</div>
-      <div class="window-controls" aria-hidden="true"><span>_</span><span>□</span><span>×</span></div>
+      <div class="title"><span class="orb"></span> Mr. Zelensky - EAHS</div>
     </header>
 
-    <main>
-      <section class="welcome">
-        <p class="boot">SYSTEM ONLINE <span></span> STUDENT ACCESS</p>
-        <div class="crest" aria-hidden="true"><span>⚗</span></div>
+    <main class="landing">
+      <section class="welcome" aria-labelledby="landing-heading">
+        <p class="boot">SYSTEM ONLINE <span>•</span> STUDENT ACCESS</p>
         <p class="eyebrow">Everett Alvarez High School</p>
-        <h1>Welcome to<br><em>Mr. Zelensky’s</em> Science Navigator</h1>
-        <p class="intro">Choose your course to open today’s quest log, learning targets, resources, and progress tools.</p>
-        <a class="start" href="#courses">ENTER COURSE SELECT <b>▼</b></a>
-      </section>
+        <h1 id="landing-heading">Welcome to<br><em>Mr. Zelensky’s</em> Science Navigator</h1>
 
-      <section class="course-select" id="courses" aria-labelledby="course-heading">
-        <div class="section-title"><span>01</span><div><p>SELECT_CAMPAIGN.DAT</p><h2 id="course-heading">Choose your course</h2></div></div>
-        <div class="course-grid">
-          <a class="course-card biology" href="ap-biology/">
-            <div class="card-titlebar"><span>AP_BIOLOGY.EXE</span><span>LVL AP</span></div>
-            <div class="card-art"><div class="dna">⌬</div><span class="scan"></span></div>
-            <div class="card-copy">
-              <p class="class-label">Advanced Placement</p>
-              <h3>AP Biology</h3>
-              <p>Investigate life from molecules to ecosystems. Track your CED progress and prepare for the AP Exam.</p>
-              <ul><li>Daily Navigator</li><li>CED Progress</li><li>AP Exam Guide</li></ul>
-              <span class="launch">LAUNCH COURSE <b>▶</b></span>
-            </div>
+        <nav class="course-buttons" id="courses" aria-label="Choose a science course">
+          <a class="course-button biology" href="ap-biology/">
+            <small>Advanced Placement</small>
+            <strong>AP Biology</strong>
+            <span>Open course →</span>
           </a>
-
-          <a class="course-card anatomy" href="anatomy-physiology/">
-            <div class="card-titlebar"><span>ANATOMY_PHYSIOLOGY.EXE</span><span>LVL H</span></div>
-            <div class="card-art"><div class="figure">♙</div><span class="scan"></span></div>
-            <div class="card-copy">
-              <p class="class-label">Honors Science</p>
-              <h3>Anatomy &amp; Physiology</h3>
-              <p>Explore the structures and processes that keep the human body alive, connected, and in balance.</p>
-              <ul><li>Daily Navigator</li><li>Body Systems</li><li>Vocabulary Database</li></ul>
-              <span class="launch">LAUNCH COURSE <b>▶</b></span>
-            </div>
+          <a class="course-button anatomy" href="anatomy-physiology/">
+            <small>Honors Science</small>
+            <strong>Anatomy &amp; Physiology</strong>
+            <span>Open course →</span>
           </a>
-        </div>
+        </nav>
       </section>
     </main>
-    <footer><span>© 2026 MR. ZELENSKY</span><span class="status"><i></i> TWO CAMPAIGNS READY</span><span>SCIENCE_NAV // v1.0</span></footer>
+
+    <footer><span>© 2026 MR. ZELENSKY</span><span class="status"><i></i> TWO COURSES READY</span><span>EAHS SCIENCE</span></footer>
   </div>
 </body>
 </html>
