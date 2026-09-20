@@ -26,7 +26,8 @@ jobs:
           VITE_NAVIGATOR_CSV_URL: ${{ vars.VITE_NAVIGATOR_CSV_URL }}
       - run: |
           mkdir -p _site/ap-biology _site/anatomy-physiology
-          cp index.html portal.css .nojekyll _site/
+          cp index.html other-resources.html talontech-club.html portal.css landing-field.jpg _site/
+          touch _site/.nojekyll
           cp -R ap-biology/dist/. _site/ap-biology/
           cp -R anatomy-physiology/. _site/anatomy-physiology/
       - uses: actions/configure-pages@v5
