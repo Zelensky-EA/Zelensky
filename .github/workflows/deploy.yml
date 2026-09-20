@@ -24,11 +24,16 @@ jobs:
         working-directory: ap-biology
         env:
           VITE_NAVIGATOR_CSV_URL: ${{ vars.VITE_NAVIGATOR_CSV_URL }}
+      - run: npm install
+        working-directory: ap-chemistry
+      - run: npm run build
+        working-directory: ap-chemistry
       - run: |
-          mkdir -p _site/ap-biology _site/anatomy-physiology
+          mkdir -p _site/ap-biology _site/ap-chemistry _site/anatomy-physiology
           cp index.html other-resources.html talontech-club.html portal.css landing-field.jpg _site/
           touch _site/.nojekyll
           cp -R ap-biology/dist/. _site/ap-biology/
+          cp -R ap-chemistry/dist/. _site/ap-chemistry/
           cp -R anatomy-physiology/. _site/anatomy-physiology/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
