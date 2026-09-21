@@ -24,6 +24,14 @@ function parseCsv(text:string):CalendarEntry[]{
 const hasLesson=(e:CalendarEntry)=>[e.cedTopic,e.learningTarget,e.classwork,e.campbell,e.biozone,e.homework,e.apTarget,e.teacherNote].some(v=>String(v||'').trim());
 const formatDate=(value:string)=>new Intl.DateTimeFormat('en-US',{weekday:'long',month:'long',day:'numeric'}).format(new Date(`${value}T12:00:00`));
 const unitColor=(entry:CalendarEntry)=>courseData.units[Number(entry.cedTopic.split('.')[0])-1]?.color||'#3e382b';
+const localIso=(date:Date)=>`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
+function navigatorWeekBounds(now:Date){
+  const monday=new Date(now);monday.setHours(12,0,0,0);
+  const day=monday.getDay();
+  monday.setDate(monday.getDate()+(day===6?2:day===0?1:1-day));
+  const sunday=new Date(monday);sunday.setDate(monday.getDate()+6);
+  return {start:localIso(monday),end:localIso(sunday)};
+}
 
 function LessonCard({entry,compact=false,todayIso}:{entry:CalendarEntry;compact?:boolean;todayIso:string}){
   const color=unitColor(entry),isToday=entry.date===todayIso;
@@ -34,18 +42,27 @@ function LessonCard({entry,compact=false,todayIso}:{entry:CalendarEntry;compact?
 }
 
 const Navigator:React.FC<NavigatorProps>=({mode})=>{
-  const [entries,setEntries]=useState<CalendarEntry[]>(snapshot as CalendarEntry[]),[live,setLive]=useState(false),[weekIndex,setWeekIndex]=useState(0),[initialized,setInitialized]=useState(false);
+  const [entries,setEntries]=useState<CalendarEntry[]>(snapshot as CalendarEntry[]),[live,setLive]=useState(false),[weekIndex,setWeekIndex]=useState(0),[initializedKey,setInitializedKey]=useState('');
   useEffect(()=>{fetch(CSV_URL,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error();return r.text();}).then(t=>{const parsed=parseCsv(t);if(parsed.length){setEntries(parsed);setLive(true);}}).catch(()=>setLive(false));},[]);
   const now=new Date(),todayIso=`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+  const {start:weekStart,end:weekEnd}=navigatorWeekBounds(now);
   const populated=useMemo(()=>entries.filter(hasLesson).sort((a,b)=>a.date.localeCompare(b.date)),[entries]);
   const featured=useMemo(()=>populated.find(e=>e.date===todayIso)||[...populated].filter(e=>e.date<todayIso).pop()||populated[0],[populated,todayIso]);
   const weeks=useMemo(()=>[...new Set(populated.map(e=>e.week).filter(Boolean))].sort((a,b)=>a-b),[populated]);
-  useEffect(()=>{if(initialized||!weeks.length)return;const exact=populated.find(e=>e.date===todayIso),recent=exact||[...populated].filter(e=>e.date<=todayIso).pop()||populated[0];setWeekIndex(Math.max(0,weeks.indexOf(recent?.week)));setInitialized(true);},[weeks,populated,todayIso,initialized]);
+  const dataKey=`${weekStart}|${weeks.join(',')}|${populated.at(-1)?.date||''}`;
+  useEffect(()=>{
+    if(initializedKey===dataKey||!weeks.length)return;
+    const currentWeekEntry=populated.find(e=>e.date>=weekStart&&e.date<=weekEnd);
+    const fallback=[...populated].filter(e=>e.date<weekStart).pop()||populated.find(e=>e.date>weekEnd)||populated[0];
+    setWeekIndex(Math.max(0,weeks.indexOf((currentWeekEntry||fallback)?.week)));
+    setInitializedKey(dataKey);
+  },[weeks,populated,weekStart,weekEnd,dataKey,initializedKey]);
   const selectedWeek=weeks[weekIndex],weekEntries=populated.filter(e=>e.week===selectedWeek).sort((a,b)=>a.date.localeCompare(b.date));
   return <main className="dreadful-main"><div className="dreadful-page">
     <section className="masthead"><p className="edition">The Scholarly Chronicle · 2025 CED Edition</p><h2>AP Biology</h2><div className="masthead-rule"><span>{mode==='today'?'Today’s Dispatch':'Weekly Navigator'}</span><span>{live?'Published Sheet Online':'Saved Edition'}</span></div></section>
     {mode==='today'?<>
       <section className="lead-story"><p className="kicker">Latest Classroom Dispatch</p><h1>{featured?.date===todayIso?'Today’s Class':'Most Recent Class'}</h1><p>{featured?`The lesson recorded for ${formatDate(featured.date)} appears below.`:'No populated class entry has been posted yet.'}</p></section>
+      <nav className="today-quick-links" aria-label="AP Biology class tools"><a href="https://teach-quest.com/" target="_blank" rel="noreferrer">TeachQuest ↗</a><a href="https://apclassroom.collegeboard.org/" target="_blank" rel="noreferrer">AP Classroom ↗</a></nav>
       {featured&&<LessonCard entry={featured} todayIso={todayIso}/>} 
     </>:<>
       <section className="weekly-toolbar"><button onClick={()=>setWeekIndex(Math.max(0,weekIndex-1))} disabled={weekIndex===0}>← Previous</button><div><small>Course Week</small><strong>{selectedWeek||'—'}</strong></div><button onClick={()=>setWeekIndex(Math.min(weeks.length-1,weekIndex+1))} disabled={weekIndex>=weeks.length-1}>Next →</button></section>
