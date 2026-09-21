@@ -6,7 +6,7 @@ type Tab = 'progress' | 'exam';
 
 const App: React.FC = () => {
   const [tab, setTab] = useState<Tab>('progress');
-  return <div className="course-shell min-h-screen text-slate-100">
+  return <div className="course-shell chemistry-poster min-h-screen text-slate-100">
     <header className="rpg-header sticky top-0 z-40">
       <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-3"><a className="home-rune" href="../" aria-label="Return to Mr. Zelensky's course selection">⌂</a><div><p className="text-xs font-bold uppercase tracking-[0.18em] text-cyan-300">Science Navigator // Quest Log</p><h1 className="text-xl font-extrabold text-white">AP Chemistry</h1></div></div>

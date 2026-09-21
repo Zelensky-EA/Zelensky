@@ -16,7 +16,7 @@ const Topic: React.FC<TopicProps> = ({ topic, studentProgress, onStatusChange, c
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b border-slate-200">
+    <div className="topic-poster border-b border-slate-200">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="w-full text-left py-4 px-2 flex justify-between items-center hover:bg-slate-100/80 transition"

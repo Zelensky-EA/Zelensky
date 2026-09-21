@@ -14,7 +14,7 @@ interface ICanStatementProps {
 
 const ICanStatement: React.FC<ICanStatementProps> = ({ statement, progress, studentProgress, onStatusChange, color }) => {
   return (
-    <div className="bg-white p-4 rounded-lg mb-4 shadow-md border border-slate-200/80">
+    <div className="ican-poster bg-white p-4 rounded-lg mb-4 shadow-md border border-slate-200/80">
       <p className="font-semibold text-slate-800">{statement.text}</p>
       <ProgressBar progress={progress} color={color} />
       <div className="space-y-2 mt-3">

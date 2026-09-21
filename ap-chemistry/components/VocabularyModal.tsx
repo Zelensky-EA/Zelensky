@@ -30,7 +30,7 @@ const VocabularyModal: React.FC<VocabularyModalProps> = ({ term, onClose }) => {
         onClick={onClose}
     >
       <div 
-        className="bg-slate-100 rounded-xl shadow-2xl p-6 border border-slate-200 max-w-2xl w-full"
+        className="vocab-poster bg-slate-100 rounded-xl shadow-2xl p-6 border border-slate-200 max-w-2xl w-full"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex justify-between items-center mb-4">

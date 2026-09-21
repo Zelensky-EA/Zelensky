@@ -16,7 +16,7 @@ interface UnitViewProps {
 
 const InfoCard: React.FC<{title: string, children: React.ReactNode, className?: string}> = ({ title, children, className }) => {
     return (
-        <div className={`bg-white/50 p-4 rounded-lg border border-slate-200/50 ${className}`}>
+        <div className={`info-poster-card bg-white/50 p-4 rounded-lg border border-slate-200/50 ${className}`}>
             <h3 className="text-md font-semibold text-cyan-600 mb-2 uppercase tracking-wider">{title}</h3>
             <div className="text-slate-700 leading-relaxed text-sm">
                 {children}
@@ -27,7 +27,7 @@ const InfoCard: React.FC<{title: string, children: React.ReactNode, className?: 
 
 const UnitView: React.FC<UnitViewProps> = ({ unit, studentProgress, onStatusChange, onResetUnit, calculateICanProgress, onVocabClick, unitProgress }) => {
   return (
-    <div className="p-4 md:p-6 animate-fade-in">
+    <div className="unit-poster-page p-4 md:p-6 animate-fade-in">
       <header className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
         <div><p className="text-xs font-bold uppercase tracking-[0.16em] text-slate-500 mb-1">2025 AP Chemistry CED</p>
         <h1 className="text-4xl font-extrabold mb-1" style={{color: unit.color}}>{unit.name}</h1>

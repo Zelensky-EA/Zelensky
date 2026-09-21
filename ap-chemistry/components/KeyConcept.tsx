@@ -30,7 +30,7 @@ const statusConfig = {
 
 const KeyConcept: React.FC<KeyConceptProps> = ({ concept, status, onStatusChange }) => {
   return (
-    <div className="py-3 px-4 bg-slate-100 rounded-lg flex items-start gap-4">
+    <div className="concept-poster py-3 px-4 bg-slate-100 rounded-lg flex items-start gap-4">
       <div className="flex-1">
         <p className="text-slate-700">{concept.text}</p>
       </div>

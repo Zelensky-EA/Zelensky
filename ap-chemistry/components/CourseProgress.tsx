@@ -11,7 +11,7 @@ const unitColors = courseData.units.map(u => u.color);
 
 const CourseProgress: React.FC<CourseProgressProps> = ({ overallProgress, unitProgress }) => {
   return (
-    <div className="bg-white/60 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-slate-200 sticky top-4 z-20">
+    <div className="course-progress-card bg-white/60 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-slate-200 sticky top-4 z-20">
       <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
         <h2 className="text-xl font-bold text-cyan-600">AP Chemistry Exam Readiness</h2>
         <span className="rounded-full bg-cyan-100 px-3 py-1 text-xs font-bold text-cyan-800">2025 CED</span>

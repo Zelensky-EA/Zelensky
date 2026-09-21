@@ -6,7 +6,7 @@ const datesSource='https://apstudents.collegeboard.org/exam-dates';
 const equationsSource='https://apcentral.collegeboard.org/media/pdf/ap-chemistry-equations-sheet.pdf';
 const cedSource='https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf';
 
-const ExamGuide:React.FC=()=> <main className="mx-auto max-w-7xl px-4 py-8">
+const ExamGuide:React.FC=()=> <main className="exam-poster mx-auto max-w-7xl px-4 py-8">
  <section className="mb-7 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-xl">
   <div className="flex h-2">{courseData.units.map(u=><span key={u.id} className="flex-1" style={{backgroundColor:u.color}} />)}</div>
   <div className="p-6 sm:p-8"><p className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-cyan-600">2027 AP Chemistry Exam</p><h2 className="text-3xl font-black text-slate-950 sm:text-4xl">Thursday, May 6, 2027</h2><p className="mt-2 text-lg font-semibold text-slate-600">Session 2 · Hybrid digital · 3 hours 15 minutes</p></div>
