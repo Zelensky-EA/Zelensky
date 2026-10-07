@@ -48,6 +48,14 @@ function mostRelevantDay(rows=DATA.dailyFallback){
 
 function xDate(entry){return toISODate(entry.date)}
 function hasLessonData(entry){return [entry.topic,entry.topicText,entry.classwork,entry.biozone,entry.video,entry.home,entry.standard,entry.teacherNote].some(value=>String(value||'').trim())}
+function schoolTerm(entry){
+  const iso=xDate(entry),month=Number(iso.slice(5,7));
+  return month>=7?'Fall':'Spring';
+}
+function termWeekKey(entry){return `${schoolTerm(entry)}|${String(entry.week||'').trim()}`}
+function localISODate(date=new Date()){
+  return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
+}
 function oddityPanel(topicCode){
   const item=DATA.oddityFacts?.[String(topicCode)];
   if(!item)return '';
@@ -76,7 +84,7 @@ function parseCSV(text){
 function normalizeLiveRows(rows){
   const headerIndex=rows.findIndex(r=>r.includes('Week')&&r.includes('Date')); if(headerIndex<0)return [];
   const h=rows[headerIndex]; const col=name=>h.indexOf(name);
-  return rows.slice(headerIndex+1).map(r=>({week:r[col('Week')],day:r[col('Day')],date:toISODate(r[col('Date')]),topic:r[col('Topic')],topicText:r[col('Topic Title / I Can…')],classwork:r[col('Class')],biozone:r[col('BIOZONE')],video:r[col('Crash Course / Video')],home:r[col('HOME After Class')],standard:r[col('A&P Target')],teacherNote:r[col('Teacher Note')]})).filter(x=>x.date&&Object.values(x).some(Boolean));
+  return rows.slice(headerIndex+1).map(r=>({week:r[col('Week')],day:r[col('Day')],date:toISODate(r[col('Date')]),topic:r[col('Topic')],topicText:r[col('Topic Title / I Can…')],classwork:r[col('Class')],biozone:r[col('BIOZONE')],video:r[col('Crash Course / Video')],home:r[col('HOME After Class')],standard:r[col('A&P Target')],teacherNote:r[col('Teacher Note')]})).filter(x=>x.date&&x.week&&hasLessonData(x));
 }
 async function loadDaily(){
   try{const separator=DATA.dailyCsv.includes('?')?'&':'?';const liveUrl=`${DATA.dailyCsv}${separator}_=${Date.now()}`;const res=await fetch(liveUrl,{cache:'no-store'});if(!res.ok)throw new Error('Unavailable');const live=normalizeLiveRows(parseCSV(await res.text()));if(!live.length)throw new Error('Empty');return {rows:live,live:true}}catch{return {rows:DATA.dailyFallback,live:false}}
@@ -84,15 +92,19 @@ async function loadDaily(){
 
 async function renderCalendar(){
   main.innerHTML=`<section class="navigator-hero"><p class="overline">Daily course map</p><h1>Daily Navigator</h1><p>Learning targets, classwork, BIOZONE pages, videos, and what to complete after class—all in one place.</p></section><section class="navigator-wrap"><div class="navigator-toolbar"><div class="week-controls"><button class="icon-btn" id="prev-week" aria-label="Previous week">←</button><span class="week-label" id="week-label">Loading…</span><button class="icon-btn" id="next-week" aria-label="Next week">→</button></div><span class="sync-status" id="sync-status">Loading published plan</span></div><div class="week-grid" id="week-grid"></div></section>`;
-  const {rows,live}=await loadDaily(); let weekIndex=0;
-  const weeks=[...new Set(rows.map(x=>String(x.week)))]; const todayIso=new Date().toISOString().slice(0,10);
-  const currentRow=rows.find(x=>x.date===todayIso); if(currentRow)weekIndex=Math.max(0,weeks.indexOf(String(currentRow.week))); else {const future=rows.find(x=>x.date>=todayIso);weekIndex=future?weeks.indexOf(String(future.week)):Math.max(0,weeks.length-1)}
-  const draw=()=>{const week=weeks[weekIndex];document.querySelector('#week-label').textContent=`Week ${week}`;document.querySelector('#prev-week').disabled=weekIndex===0;document.querySelector('#next-week').disabled=weekIndex===weeks.length-1;document.querySelector('#week-grid').innerHTML=rows.filter(x=>String(x.week)===week).map(dayCard).join('')||'<p>No plans posted for this week.</p>'};
+  const {rows:loadedRows,live}=await loadDaily(); let weekIndex=0;
+  const rows=loadedRows.filter(row=>row.date&&row.week&&hasLessonData(row)).sort((a,b)=>xDate(a).localeCompare(xDate(b)));
+  const weeks=[...new Map(rows.map(row=>[termWeekKey(row),{key:termWeekKey(row),term:schoolTerm(row),number:String(row.week).trim(),start:xDate(row)}])).values()];
+  const todayIso=localISODate();
+  const currentRow=rows.find(row=>xDate(row)===todayIso);
+  if(currentRow)weekIndex=Math.max(0,weeks.findIndex(week=>week.key===termWeekKey(currentRow)));
+  else {const future=rows.find(row=>xDate(row)>=todayIso);weekIndex=future?weeks.findIndex(week=>week.key===termWeekKey(future)):Math.max(0,weeks.length-1)}
+  const draw=()=>{const week=weeks[weekIndex];if(!week){document.querySelector('#week-label').textContent='No current week';document.querySelector('#week-grid').innerHTML='<p>No plans posted.</p>';return}document.querySelector('#week-label').textContent=`${week.term} ${week.number}`;document.querySelector('#prev-week').disabled=weekIndex===0;document.querySelector('#next-week').disabled=weekIndex===weeks.length-1;document.querySelector('#week-grid').innerHTML=rows.filter(row=>termWeekKey(row)===week.key).map(dayCard).join('')||'<p>No plans posted for this week.</p>'};
   const status=document.querySelector('#sync-status');status.textContent=live?'Live from the published course sheet':'Showing the framework’s saved schedule';status.classList.toggle('live',live);
   document.querySelector('#prev-week').onclick=()=>{weekIndex=Math.max(0,weekIndex-1);draw()};document.querySelector('#next-week').onclick=()=>{weekIndex=Math.min(weeks.length-1,weekIndex+1);draw()};draw();
 }
 function navigatorVideos(value){return String(value||'').split(/\n+/).map(v=>v.trim()).filter(Boolean).map(v=>`<a class="navigator-video" href="${youtubeSearch(v)}" target="_blank" rel="noopener">▶ ${escapeHTML(v)}</a>`).join('')}
-function dayCard(d){const t=topicByCode(d.topic);const today=xDate(d)===new Date().toISOString().slice(0,10);const videos=navigatorVideos(d.video);return `<article class="day-card ${today?'current':''}"><div class="date-line"><span class="weekday">${escapeHTML(d.day||formatDate(xDate(d),{weekday:'short'}))}</span><span class="date-small">${formatDate(xDate(d))}</span></div>${t?`<span class="topic-badge">${escapeHTML(t.code)}</span><h3>${escapeHTML(t.title)}</h3><p class="mini-target">${escapeHTML(t.target)}</p>`:'<h3>Course work</h3>'}<div class="day-block class-block"><b>Class</b><p>${escapeHTML(d.classwork||'—')}</p></div><div class="day-block biozone-block"><b>BIOZONE</b><p>${escapeHTML(d.biozone||'—')}</p></div><div class="day-block video-block"><b>Crash Course / Video</b>${videos||'<p>—</p>'}</div><div class="day-block home-block"><b>After class</b><p>${escapeHTML(d.home||'—')}</p></div>${d.teacherNote?`<div class="day-block teacher-note-block"><b>Teacher note</b><p>${escapeHTML(d.teacherNote)}</p></div>`:''}${t?`<div class="day-block"><a class="back-link" href="#system/${Number(t.unit.split(' ')[1])}">Open unit guide →</a></div>`:''}</article>`}
+function dayCard(d){const t=topicByCode(d.topic);const today=xDate(d)===localISODate();const videos=navigatorVideos(d.video);return `<article class="day-card ${today?'current':''}"><div class="date-line"><span class="weekday">${escapeHTML(d.day||formatDate(xDate(d),{weekday:'short'}))}</span><span class="date-small">${formatDate(xDate(d))}</span></div>${t?`<span class="topic-badge">${escapeHTML(t.code)}</span><h3>${escapeHTML(t.title)}</h3><p class="mini-target">${escapeHTML(t.target)}</p>`:'<h3>Course work</h3>'}<div class="day-block class-block"><b>Class</b><p>${escapeHTML(d.classwork||'—')}</p></div><div class="day-block biozone-block"><b>BIOZONE</b><p>${escapeHTML(d.biozone||'—')}</p></div><div class="day-block video-block"><b>Crash Course / Video</b>${videos||'<p>—</p>'}</div><div class="day-block home-block"><b>After class</b><p>${escapeHTML(d.home||'—')}</p></div>${d.teacherNote?`<div class="day-block teacher-note-block"><b>Teacher note</b><p>${escapeHTML(d.teacherNote)}</p></div>`:''}${t?`<div class="day-block"><a class="back-link" href="#system/${Number(t.unit.split(' ')[1])}">Open unit guide →</a></div>`:''}</article>`}
 
 function renderSystems(){main.innerHTML=`<section class="navigator-hero"><p class="overline">The complete course</p><h1>Body Systems</h1><p>Begin with foundations, then move through twelve connected units. Each guide includes every framework target, BIOZONE assignment, key vocabulary, and aligned video.</p></section><section class="section"><div class="systems-grid">${DATA.systems.map(systemCard).join('')}</div></section>`}
 
