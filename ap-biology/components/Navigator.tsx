@@ -19,10 +19,17 @@ function parseCsv(text:string):CalendarEntry[]{
   const rows:string[][]=[];let row:string[]=[];let cell='',quoted=false;
   for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c==='"'&&quoted&&n==='"'){cell+='"';i++;}else if(c==='"')quoted=!quoted;else if(c===','&&!quoted){row.push(cell);cell='';}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&n==='\n')i++;row.push(cell);if(row.some(Boolean))rows.push(row);row=[];cell='';}else cell+=c;}
   if(cell||row.length){row.push(cell);rows.push(row);}const header=rows.findIndex(r=>r.some(v=>v.trim().toLowerCase()==='week'));if(header<0)return [];
-  return rows.slice(header+1).map(r=>({week:Number(r[0])||0,day:r[1]||'',date:toIso(r[2]||''),cedTopic:r[3]||'',learningTarget:r[4]||'',classwork:r[5]||'',campbell:r[6]||'',biozone:r[7]||'',homework:r[8]||'',apTarget:r[9]||'',teacherNote:r[10]||''})).filter(e=>e.date&&hasLesson(e));
+  // Find each column by its header name so inserting or reordering sheet columns cannot shift data into the wrong field.
+  const names=rows[header].map(h=>h.replace(/\s+/g,' ').trim().toLowerCase());
+  const col=(fallback:number,...labels:string[])=>{const i=names.findIndex(n=>labels.some(l=>n===l||n.startsWith(l)));return i>=0?i:fallback;};
+  const c={week:col(0,'week'),day:col(1,'day'),date:col(2,'date'),cedTopic:col(3,'ced topic'),learningTarget:col(4,'topic title'),classwork:col(5,'class'),campbell:col(6,'campbell'),biozone:col(7,'biozone'),homework:col(8,'home after class'),apTarget:col(9,'ap target'),teacherNote:col(10,'teacher note')};
+  const get=(r:string[],i:number)=>r[i]||'';
+  return rows.slice(header+1).map(r=>({week:Number(get(r,c.week))||0,day:get(r,c.day),date:toIso(get(r,c.date)),cedTopic:get(r,c.cedTopic),learningTarget:get(r,c.learningTarget),classwork:get(r,c.classwork),campbell:get(r,c.campbell),biozone:get(r,c.biozone),homework:get(r,c.homework),apTarget:get(r,c.apTarget),teacherNote:get(r,c.teacherNote)})).filter(e=>isIsoDate(e.date)&&hasLesson(e));
 }
+// Only real YYYY-MM-DD dates are kept; a stray value like "TBD" in the Date column is skipped instead of crashing the page.
+function isIsoDate(value:string){return /^\d{4}-\d{2}-\d{2}$/.test(value)&&!Number.isNaN(new Date(`${value}T12:00:00`).getTime());}
 const hasLesson=(e:CalendarEntry)=>[e.cedTopic,e.learningTarget,e.classwork,e.campbell,e.biozone,e.homework,e.apTarget,e.teacherNote].some(v=>String(v||'').trim());
-const formatDate=(value:string)=>new Intl.DateTimeFormat('en-US',{weekday:'long',month:'long',day:'numeric'}).format(new Date(`${value}T12:00:00`));
+const formatDate=(value:string)=>{const d=new Date(`${value}T12:00:00`);return Number.isNaN(d.getTime())?value:new Intl.DateTimeFormat('en-US',{weekday:'long',month:'long',day:'numeric'}).format(d);};
 const unitColor=(entry:CalendarEntry)=>courseData.units[Number(entry.cedTopic.split('.')[0])-1]?.color||'#3e382b';
 const localIso=(date:Date)=>`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
 function navigatorWeekBounds(now:Date){
