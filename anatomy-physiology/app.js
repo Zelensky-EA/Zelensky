@@ -47,7 +47,21 @@ function mostRelevantDay(rows=DATA.dailyFallback){
 }
 
 function xDate(entry){return toISODate(entry.date)}
-function hasLessonData(entry){return [entry.topic,entry.topicText,entry.classwork,entry.biozone,entry.video,entry.home,entry.standard,entry.teacherNote].some(value=>String(value||'').trim())}
+function hasLessonData(entry){return [entry.topic,entry.topicText,entry.classwork,entry.biozone,entry.video,entry.home,entry.standard,entry.teacherNote,entry.summary,entry.dayType].some(value=>String(value||'').trim())}
+// ---- Student-clarity helpers (Nov 2026): day type, due dates, what's due ----
+const clean=v=>String(v??'').trim();
+function dayKind(d){const t=clean(d.dayType).toLowerCase();
+  if(t.startsWith('no'))return 'no-class';if(t.startsWith('home'))return 'homework-only';if(t.startsWith('exam')||t.startsWith('test'))return 'exam';if(t.startsWith('block'))return 'block';if(t.startsWith('class'))return 'class';
+  if(/^no class\b/i.test(clean(d.classwork)))return 'no-class';
+  if(!hasLessonData(d))return 'tbd';
+  return 'class';}
+const meets=d=>['class','block','exam'].includes(dayKind(d));
+const KIND_LABEL={'class':'Class','block':'Block day','exam':'Exam day','no-class':'No class','homework-only':'No class · homework only','tbd':'Plan not posted yet'};
+const addDaysIso=(iso,n)=>{const d=new Date(`${iso}T12:00:00`);d.setDate(d.getDate()+n);return localISODate(d)};
+const shortDay=iso=>formatDate(iso,{weekday:'short',month:'numeric',day:'numeric'});
+function dueLabel(due,today=localISODate()){if(!due)return 'Due date TBA';if(due===today)return 'Due today';if(due===addDaysIso(today,1))return `Due tomorrow (${shortDay(due)})`;if(due<today)return `Was due ${shortDay(due)}`;return `Due ${shortDay(due)}`}
+function teacherMessage(note){return clean(note)?`<aside class="teacher-message"><b>From Mr. Zelensky</b><p>${escapeHTML(note)}</p></aside>`:''}
+function assignmentBlock(d,today){return clean(d.home)?`<p>${escapeHTML(d.home)}</p><p class="due-line ${d.due?'':'tba'}">${dueLabel(d.due,today)}</p>`:'<p class="muted-line">No assignment posted.</p>'}
 function schoolTerm(entry){
   const iso=xDate(entry),month=Number(iso.slice(5,7));
   return month>=7?'Fall':'Spring';
@@ -66,13 +80,35 @@ async function renderToday(){
   const host=document.querySelector('#today-panel'); if(!host)return;
   const source=await loadDaily();
   if(!document.querySelector('#today-panel'))return;
-  const d=mostRelevantDay(source.rows);
-  const browserToday=new Date();
-  const briefingDate=browserToday.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
-  if(!d){host.innerHTML='<div class="today-card"><div class="today-content"><h2>No daily plan posted yet.</h2><p class="empty-state">Check back when the Navigator is updated.</p></div></div>';return}
+  const today=localISODate();
+  const all=[...source.rows].filter(x=>x.date).sort((a,b)=>xDate(a).localeCompare(xDate(b)));
+  const posted=all.filter(hasLessonData);
+  if(!posted.length){host.innerHTML='<div class="today-card"><div class="today-content"><h2>No daily plan posted yet.</h2><p class="empty-state">Check back when the Navigator is updated.</p></div></div>';return}
+  const todayRow=all.find(x=>xDate(x)===today);
+  const classToday=todayRow&&meets(todayRow)?todayRow:null;
+  const lastClass=posted.filter(x=>xDate(x)<today&&meets(x)).at(-1);
+  const nextClass=posted.find(x=>xDate(x)>today&&meets(x));
+  const nextMeeting=all.find(x=>xDate(x)>today&&(meets(x)||dayKind(x)==='tbd'));
+  const d=classToday||lastClass||nextClass;
+  const upcoming=posted.filter(x=>clean(x.home)&&x.due&&x.due>=today).sort((a,b)=>a.due.localeCompare(b.due)).slice(0,6);
+  const dated=new Set(upcoming.map(x=>clean(x.home).toLowerCase()));
+  const tba=[lastClass,todayRow].filter((x,i,a)=>x&&clean(x.home)&&!x.due&&a.indexOf(x)===i&&!dated.has(clean(x.home).toLowerCase()));
+  const dueItems=[...upcoming.map(x=>`<li class="${x.due===today?'urgent':''}"><strong>${dueLabel(x.due,today)}</strong><span>${escapeHTML(x.home)}</span><small>Assigned ${shortDay(xDate(x))}</small></li>`),...tba.map(x=>`<li class="tba"><strong>Due date TBA</strong><span>${escapeHTML(x.home)}</span><small>Assigned ${shortDay(xDate(x))}</small></li>`)].join('');
+  const heading=classToday?(dayKind(classToday)==='exam'?'Exam today':'We have class today'):(todayRow&&dayKind(todayRow)==='tbd'?'Today’s plan is not posted yet':'No A&P class today');
+  const nextLine=!classToday?`<p>${nextMeeting?`Next class: <strong>${formatDate(xDate(nextMeeting),{weekday:'long',month:'long',day:'numeric'})}</strong>${meets(nextMeeting)?'':' (plan not posted yet)'}`:'The next class has not been posted yet.'}</p>`:'';
+  const caption=d===classToday?'Today’s class':d===lastClass?`Last class · ${formatDate(xDate(d),{weekday:'long',month:'short',day:'numeric'})}`:'Next class';
   const topic=topicByCode(d.topic);
   const oddity=oddityPanel(d.topic);
-  host.innerHTML=`<div class="home-toolbar"><div><p class="eyebrow">ANATOMY_OS // DAILY FILE</p><h1>Today’s Briefing</h1></div><div><a class="button teachquest-button" href="https://teach-quest.com/" target="_blank" rel="noopener">TeachQuest ↗</a><a class="button" href="#calendar">Full Navigator</a><a class="button secondary" href="#systems">System Directory</a></div></div><article class="today-card"><div class="today-commandbar"><div class="command-date"><span class="signal-dot ${source.live?'':'fallback'}" aria-hidden="true"></span><strong>${escapeHTML(briefingDate)}</strong></div><div class="command-codes"><span>WK ${escapeHTML(d.week)}</span><span>${topic?`TOPIC ${escapeHTML(topic.code)}`:'DAILY PLAN'}</span><span class="system-online ${source.live?'':'fallback'}">${source.live?'SHEET ONLINE':'BACKUP MODE'}</span></div></div><div class="today-content"><div class="today-primary"><p class="panel-label">CURRENT LEARNING OBJECTIVE</p><h2>${escapeHTML(topic?.title||'Course work')}</h2><p class="target">${escapeHTML(topic?.target||d.topicText||'Review the plan below.')}</p>${topic?`<a class="topic-jump" href="#system/${Number(topic.unit.split(' ')[1])}">OPEN SYSTEM FILE <span>▶</span></a>`:''}</div><div class="today-grid"><div><span>01 // IN CLASS</span><p>${escapeHTML(d.classwork||'See classroom instructions.')}</p></div><div><span>02 // BIOZONE</span><p>${escapeHTML(d.biozone||'No pages assigned.')}</p></div><div><span>03 // AFTER CLASS</span><p>${escapeHTML(d.home||'No homework posted.')}</p></div></div></div></article>`;
+  const past=xDate(d)<today;
+  const headline=clean(d.summary)||topic?.title||clean(d.topicText).split('\n')[0]||'Course work';
+  const resources=[topic?.target||clean(d.topicText).split('\n').slice(1).join(' ')?`<div><span>I can</span><p>${escapeHTML(topic?.target||clean(d.topicText).split('\n').slice(1).join(' '))}</p></div>`:'',clean(d.biozone)?`<div><span>BIOZONE</span><p>${escapeHTML(d.biozone)}</p></div>`:'',clean(d.video)?`<div><span>Video</span>${navigatorVideos(d.video)}</div>`:'',clean(d.standard)?`<div><span>A&amp;P target</span><p>${escapeHTML(d.standard)}</p></div>`:''].join('');
+  host.innerHTML=`<div class="home-toolbar"><div><p class="eyebrow">ANATOMY_OS // DAILY FILE</p><h1>Today’s Briefing</h1></div><div><a class="button teachquest-button" href="https://teach-quest.com/" target="_blank" rel="noopener">TeachQuest ↗</a><a class="button" href="#calendar">Full Navigator</a><a class="button secondary" href="#systems">System Directory</a></div></div>
+  <section class="day-banner ${classToday?'is-class':'is-off'}" role="status"><p class="eyebrow">${escapeHTML(formatDate(today,{weekday:'long',month:'long',day:'numeric'}))}</p><h2>${heading}</h2>${nextLine}</section>
+  ${!classToday&&todayRow?teacherMessage(todayRow.teacherNote):''}
+  <section class="due-board"><h2>What’s due</h2>${dueItems?`<ul>${dueItems}</ul>`:'<p class="empty-due">Nothing posted as due right now.</p>'}</section>
+  <p class="card-caption">${caption}</p>
+  <article class="today-card kind-${dayKind(d)}"><div class="today-commandbar"><div class="command-date"><span class="signal-dot ${source.live?'':'fallback'}" aria-hidden="true"></span><strong>${escapeHTML(formatDate(xDate(d),{weekday:'long',month:'long',day:'numeric'}))}</strong></div><div class="command-codes"><span>${escapeHTML(KIND_LABEL[dayKind(d)].toUpperCase())}</span><span>${topic?`TOPIC ${escapeHTML(topic.code)}`:'DAILY PLAN'}</span><span class="system-online ${source.live?'':'fallback'}">${source.live?'SHEET ONLINE':'BACKUP MODE'}</span></div></div><div class="today-content"><div class="today-primary">${teacherMessage(d.teacherNote)}<h2>${escapeHTML(headline)}</h2>${topic?`<a class="topic-jump" href="#system/${Number(topic.unit.split(' ')[1])}">OPEN SYSTEM FILE <span>▶</span></a>`:''}</div><div class="today-main"><div class="today-grid two"><div><span>01 // ${past?'WHAT WE DID IN CLASS':d===classToday?'IN CLASS TODAY':'PLANNED FOR CLASS'}</span><p>${escapeHTML(d.classwork||'See classroom instructions.')}</p></div><div class="assignment-cell"><span>02 // ASSIGNMENT</span>${assignmentBlock(d,today)}</div></div>${resources?`<details class="today-resources"><summary>Learning target &amp; resources</summary><div class="today-grid">${resources}</div></details>`:''}</div></div></article>
+  ${d!==nextClass&&nextClass?`<p class="next-up">Coming up next class (${escapeHTML(formatDate(xDate(nextClass),{weekday:'long',month:'short',day:'numeric'}))}): <strong>${escapeHTML(clean(nextClass.summary)||topicByCode(nextClass.topic)?.title||'see Full Navigator')}</strong></p>`:''}`;
   if(oddity)host.insertAdjacentHTML('beforeend',oddity);
 }
 
@@ -83,9 +119,12 @@ function parseCSV(text){
 }
 function normalizeLiveRows(rows){
   const headerIndex=rows.findIndex(r=>r.includes('Week')&&r.includes('Date')); if(headerIndex<0)return [];
-  const h=rows[headerIndex]; const col=name=>h.indexOf(name);
-  return rows.slice(headerIndex+1).map(r=>({week:r[col('Week')],day:r[col('Day')],date:toISODate(r[col('Date')]),topic:r[col('Topic')],topicText:r[col('Topic Title / I Can…')],classwork:r[col('Class')],biozone:r[col('BIOZONE')],video:r[col('Crash Course / Video')],home:r[col('HOME After Class')],standard:r[col('A&P Target')],teacherNote:r[col('Teacher Note')]})).filter(x=>x.date&&x.week&&hasLessonData(x));
+  const h=rows[headerIndex].map(x=>x.replace(/\s+/g,' ').trim()); const col=(...names)=>{for(const n of names){const i=h.indexOf(n);if(i>=0)return i}return -1};
+  const get=(r,i)=>i>=0?(r[i]||''):'';
+  const c={week:col('Week'),day:col('Day'),date:col('Date'),topic:col('Topic'),topicText:col('Topic Title / I Can…'),classwork:col('Class'),biozone:col('BIOZONE'),video:col('Crash Course / Video'),home:col('HOME After Class'),standard:col('A&P Target'),teacherNote:col('Teacher Note'),dayType:col('Day Type'),due:col('Assignment Due'),summary:col('Student Summary')};
+  return rows.slice(headerIndex+1).map(r=>{const o=Object.fromEntries(Object.entries(c).map(([k,i])=>[k,get(r,i)]));o.date=toISODate(o.date);o.due=o.due?toISODate(o.due):'';return o}).filter(x=>x.date&&x.week&&/^\d{4}-\d{2}-\d{2}$/.test(x.date));
 }
+
 async function loadDaily(){
   try{const separator=DATA.dailyCsv.includes('?')?'&':'?';const liveUrl=`${DATA.dailyCsv}${separator}_=${Date.now()}`;const res=await fetch(liveUrl,{cache:'no-store'});if(!res.ok)throw new Error('Unavailable');const live=normalizeLiveRows(parseCSV(await res.text()));if(!live.length)throw new Error('Empty');return {rows:live,live:true}}catch{return {rows:DATA.dailyFallback,live:false}}
 }
@@ -93,18 +132,23 @@ async function loadDaily(){
 async function renderCalendar(){
   main.innerHTML=`<section class="navigator-hero"><p class="overline">Daily course map</p><h1>Daily Navigator</h1><p>Learning targets, classwork, BIOZONE pages, videos, and what to complete after class—all in one place.</p></section><section class="navigator-wrap"><div class="navigator-toolbar"><div class="week-controls"><button class="icon-btn" id="prev-week" aria-label="Previous week">←</button><span class="week-label" id="week-label">Loading…</span><button class="icon-btn" id="next-week" aria-label="Next week">→</button></div><span class="sync-status" id="sync-status">Loading published plan</span></div><div class="week-grid" id="week-grid"></div></section>`;
   const {rows:loadedRows,live}=await loadDaily(); let weekIndex=0;
-  const rows=loadedRows.filter(row=>row.date&&row.week&&hasLessonData(row)).sort((a,b)=>xDate(a).localeCompare(xDate(b)));
+  const allRows=loadedRows.filter(row=>row.date&&row.week).sort((a,b)=>xDate(a).localeCompare(xDate(b)));
+  const rows=allRows.filter(hasLessonData);
   const weeks=[...new Map(rows.map(row=>[termWeekKey(row),{key:termWeekKey(row),term:schoolTerm(row),number:String(row.week).trim(),start:xDate(row)}])).values()];
   const todayIso=localISODate();
   const currentRow=rows.find(row=>xDate(row)===todayIso);
   if(currentRow)weekIndex=Math.max(0,weeks.findIndex(week=>week.key===termWeekKey(currentRow)));
   else {const future=rows.find(row=>xDate(row)>=todayIso);weekIndex=future?weeks.findIndex(week=>week.key===termWeekKey(future)):Math.max(0,weeks.length-1)}
-  const draw=()=>{const week=weeks[weekIndex];if(!week){document.querySelector('#week-label').textContent='No current week';document.querySelector('#week-grid').innerHTML='<p>No plans posted.</p>';return}document.querySelector('#week-label').textContent=`${week.term} ${week.number}`;document.querySelector('#prev-week').disabled=weekIndex===0;document.querySelector('#next-week').disabled=weekIndex===weeks.length-1;document.querySelector('#week-grid').innerHTML=rows.filter(row=>termWeekKey(row)===week.key).map(dayCard).join('')||'<p>No plans posted for this week.</p>'};
+  const draw=()=>{const week=weeks[weekIndex];if(!week){document.querySelector('#week-label').textContent='No current week';document.querySelector('#week-grid').innerHTML='<p>No plans posted.</p>';return}const wk=allRows.filter(row=>termWeekKey(row)===week.key);document.querySelector('#week-label').textContent=wk.length?`${formatDate(xDate(wk[0]))} – ${formatDate(xDate(wk.at(-1)))} · ${week.term} wk ${week.number}`:`${week.term} ${week.number}`;document.querySelector('#prev-week').disabled=weekIndex===0;document.querySelector('#next-week').disabled=weekIndex===weeks.length-1;document.querySelector('#week-grid').innerHTML=allRows.filter(row=>termWeekKey(row)===week.key).map(row=>dayCard(row,rows)).join('')||'<p>No plans posted for this week.</p>'};
   const status=document.querySelector('#sync-status');status.textContent=live?'Live from the published course sheet':'Showing the framework’s saved schedule';status.classList.toggle('live',live);
   document.querySelector('#prev-week').onclick=()=>{weekIndex=Math.max(0,weekIndex-1);draw()};document.querySelector('#next-week').onclick=()=>{weekIndex=Math.min(weeks.length-1,weekIndex+1);draw()};draw();
 }
 function navigatorVideos(value){return String(value||'').split(/\n+/).map(v=>v.trim()).filter(Boolean).map(v=>`<a class="navigator-video" href="${youtubeSearch(v)}" target="_blank" rel="noopener">▶ ${escapeHTML(v)}</a>`).join('')}
-function dayCard(d){const t=topicByCode(d.topic);const today=xDate(d)===localISODate();const videos=navigatorVideos(d.video);return `<article class="day-card ${today?'current':''}"><div class="date-line"><span class="weekday">${escapeHTML(d.day||formatDate(xDate(d),{weekday:'short'}))}</span><span class="date-small">${formatDate(xDate(d))}</span></div>${t?`<span class="topic-badge">${escapeHTML(t.code)}</span><h3>${escapeHTML(t.title)}</h3><p class="mini-target">${escapeHTML(t.target)}</p>`:'<h3>Course work</h3>'}<div class="day-block class-block"><b>Class</b><p>${escapeHTML(d.classwork||'—')}</p></div><div class="day-block biozone-block"><b>BIOZONE</b><p>${escapeHTML(d.biozone||'—')}</p></div><div class="day-block video-block"><b>Crash Course / Video</b>${videos||'<p>—</p>'}</div><div class="day-block home-block"><b>After class</b><p>${escapeHTML(d.home||'—')}</p></div>${d.teacherNote?`<div class="day-block teacher-note-block"><b>Teacher note</b><p>${escapeHTML(d.teacherNote)}</p></div>`:''}${t?`<div class="day-block"><a class="back-link" href="#system/${Number(t.unit.split(' ')[1])}">Open unit guide →</a></div>`:''}</article>`}
+function dayCard(d,posted=[]){const t=topicByCode(d.topic);const todayIso=localISODate();const iso=xDate(d);const today=iso===todayIso;const kind=dayKind(d);const videos=navigatorVideos(d.video);const past=iso<todayIso;
+  const dueHere=posted.filter(x=>clean(x.home)&&x.due===iso&&xDate(x)!==iso);
+  const head=clean(d.summary)||t?.title||clean(d.topicText).split('\n')[0];
+  const res=[t?.target?`<p class="mini-target">${escapeHTML(t.target)}</p>`:'',clean(d.biozone)?`<div class="day-block biozone-block"><b>BIOZONE</b><p>${escapeHTML(d.biozone)}</p></div>`:'',videos?`<div class="day-block video-block"><b>Video</b>${videos}</div>`:'',t?`<div class="day-block"><a class="back-link" href="#system/${Number(t.unit.split(' ')[1])}">Open unit guide →</a></div>`:''].join('');
+  return `<article class="day-card kind-${kind} ${today?'current':''}"><div class="date-line"><span class="weekday">${escapeHTML(d.day||formatDate(iso,{weekday:'short'}))}</span><span class="date-small">${formatDate(iso)}</span></div><p class="kind-label">${KIND_LABEL[kind]}${today?' · Today':''}</p>${dueHere.length?`<div class="due-here"><b>Due this day</b><ul>${dueHere.map(x=>`<li>${escapeHTML(x.home)} <small>(assigned ${shortDay(xDate(x))})</small></li>`).join('')}</ul></div>`:''}${teacherMessage(d.teacherNote)}${meets(d)?`${t?`<span class="topic-badge">${escapeHTML(t.code)}</span>`:''}${head?`<h3>${escapeHTML(head)}</h3>`:''}<div class="day-block class-block"><b>${past?'What we did':today?'In class today':'Planned for class'}</b><p>${escapeHTML(d.classwork||'—')}</p></div>`:`<p class="noclass-line">${kind==='tbd'?'Mr. Zelensky has not posted this day yet.':'There is no A&amp;P class on this day.'}</p>`}<div class="day-block home-block"><b>Assignment</b>${assignmentBlock(d,todayIso)}</div>${res&&meets(d)?`<details class="day-resources"><summary>Target &amp; resources</summary>${res}</details>`:''}</article>`}
 
 function renderSystems(){main.innerHTML=`<section class="navigator-hero"><p class="overline">The complete course</p><h1>Body Systems</h1><p>Begin with foundations, then move through twelve connected units. Each guide includes every framework target, BIOZONE assignment, key vocabulary, and aligned video.</p></section><section class="section"><div class="systems-grid">${DATA.systems.map(systemCard).join('')}</div></section>`}
 
