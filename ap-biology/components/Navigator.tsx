@@ -5,7 +5,7 @@ import { courseData } from '../constants';
 // One row of the AP Biology COURSE CALENDAR sheet.
 // Columns A–K are the original layout; L–N (dayType, assignmentDue, studentSummary) were added Nov 2026.
 interface CalendarEntry {
-  week:number; day:string; date:string; cedTopic:string; learningTarget:string; classwork:string;
+  week:string; day:string; date:string; cedTopic:string; learningTarget:string; classwork:string;
   campbell:string; biozone:string; homework:string; apTarget:string; teacherNote:string;
   dayType:string; assignmentDue:string; studentSummary:string;
 }
@@ -29,7 +29,7 @@ const text=(v:unknown)=>String(v??'').trim();
 // "None", "None today", "N/A" or a dash in the homework column means no assignment.
 const NO_HOMEWORK=/^(none( today)?|no homework|n\/a|[-–—])\.?$/i;
 function normalize(raw:Partial<CalendarEntry>):CalendarEntry{
-  return {week:Number(raw.week)||0,day:text(raw.day),date:toIso(text(raw.date)),cedTopic:text(raw.cedTopic),learningTarget:text(raw.learningTarget),classwork:text(raw.classwork),
+  return {week:text(raw.week),day:text(raw.day),date:toIso(text(raw.date)),cedTopic:text(raw.cedTopic),learningTarget:text(raw.learningTarget),classwork:text(raw.classwork),
     campbell:text(raw.campbell),biozone:text(raw.biozone),homework:NO_HOMEWORK.test(text(raw.homework))?'':text(raw.homework),apTarget:text(raw.apTarget),teacherNote:text(raw.teacherNote),
     dayType:text(raw.dayType),assignmentDue:toIso(text(raw.assignmentDue)),studentSummary:text(raw.studentSummary)};
 }
@@ -83,6 +83,7 @@ const unitColor=(entry:CalendarEntry)=>courseData.units[Number(entry.cedTopic.sp
 const headline=(e:CalendarEntry)=>e.studentSummary||e.learningTarget.split('\n')[0]||(e.cedTopic?`Topic ${e.cedTopic}`:'');
 const iCan=(e:CalendarEntry)=>e.learningTarget.split('\n').slice(1).join('\n').trim();
 
+const mondayOf=(iso:string)=>{const d=new Date(`${iso}T12:00:00`);const day=d.getDay();d.setDate(d.getDate()+(day===0?-6:1-day));return localIso(d);};
 function navigatorWeekBounds(now:Date){
   const monday=new Date(now);monday.setHours(12,0,0,0);
   const day=monday.getDay();
@@ -120,11 +121,11 @@ function LessonCard({entry,compact=false,todayIso,dueHere=[]}:{entry:CalendarEnt
 }
 
 const Navigator:React.FC<NavigatorProps>=({mode})=>{
-  const [entries,setEntries]=useState<CalendarEntry[]>(()=>(snapshot as Partial<CalendarEntry>[]).map(normalize).filter(e=>isIsoDate(e.date)));
+  const [entries,setEntries]=useState<CalendarEntry[]>(()=>(snapshot as unknown as Partial<CalendarEntry>[]).map(normalize).filter(e=>isIsoDate(e.date)));
   const [live,setLive]=useState(false),[weekIndex,setWeekIndex]=useState(0),[initializedKey,setInitializedKey]=useState('');
   useEffect(()=>{fetch(CSV_URL,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error();return r.text();}).then(t=>{const parsed=parseCsv(t);if(parsed.some(hasLesson)){setEntries(parsed);setLive(true);}}).catch(()=>setLive(false));},[]);
   const now=new Date(),todayIso=localIso(now);
-  const {start:weekStart,end:weekEnd}=navigatorWeekBounds(now);
+  const {start:weekStart}=navigatorWeekBounds(now);
   const sorted=useMemo(()=>[...entries].sort((a,b)=>a.date.localeCompare(b.date)),[entries]);
   const populated=useMemo(()=>sorted.filter(hasLesson),[sorted]);
   const classDays=useMemo(()=>populated.filter(meets),[populated]);
@@ -142,16 +143,18 @@ const Navigator:React.FC<NavigatorProps>=({mode})=>{
   const recentTba=[lastClass,todayRow].filter((e,i,a):e is CalendarEntry=>!!e&&!!e.homework&&!e.assignmentDue&&a.indexOf(e)===i&&!datedText.has(e.homework.toLowerCase()));
 
   // Weekly tab: every weekday in the selected week, including no-class days
-  const weeks=useMemo(()=>[...new Set(populated.map(e=>e.week).filter(Boolean))].sort((a,b)=>a-b),[populated]);
+  // Weeks are grouped by their Monday date: the sheet restarts week numbers in Spring (Fall 16 and Spring 16 both exist).
+  const weeks=useMemo(()=>[...new Set(populated.map(e=>mondayOf(e.date)))].sort(),[populated]);
   const dataKey=`${weekStart}|${weeks.join(',')}|${populated.at(-1)?.date||''}`;
   useEffect(()=>{
     if(initializedKey===dataKey||!weeks.length)return;
-    const currentWeekEntry=sorted.find(e=>e.date>=weekStart&&e.date<=weekEnd&&e.week);
-    const fallback=[...populated].filter(e=>e.date<weekStart).pop()||populated.find(e=>e.date>weekEnd)||populated[0];
-    setWeekIndex(Math.max(0,weeks.indexOf((currentWeekEntry||fallback)?.week as number)));
+    const current=weeks.indexOf(weekStart);
+    const previous=weeks.filter(w=>w<weekStart).length-1;
+    setWeekIndex(current>=0?current:previous>=0?previous:0);
     setInitializedKey(dataKey);
-  },[weeks,populated,sorted,weekStart,weekEnd,dataKey,initializedKey]);
-  const selectedWeek=weeks[weekIndex],weekEntries=sorted.filter(e=>e.week===selectedWeek);
+  },[weeks,weekStart,dataKey,initializedKey]);
+  const selectedWeek=weeks[weekIndex],weekEntries=sorted.filter(e=>mondayOf(e.date)===selectedWeek);
+  const weekLabel=weekEntries[0]?.week?(/^w/i.test(weekEntries[0].week)?'Winter break':`${Number(weekEntries[0].date.slice(5,7))>=7?'Fall':'Spring'} week ${weekEntries[0].week}`):'';
   const dueOn=(date:string)=>populated.filter(e=>e.homework&&e.assignmentDue===date&&e.date!==date);
   const weekRange=weekEntries.length?`${formatDate(weekEntries[0].date,{month:'short',day:'numeric'})} – ${formatDate(weekEntries.at(-1)!.date,{month:'short',day:'numeric'})}`:'—';
 
@@ -176,7 +179,7 @@ const Navigator:React.FC<NavigatorProps>=({mode})=>{
       {featured&&featured!==nextClass&&nextClass&&<p className="next-up">Coming up next class ({formatDate(nextClass.date,{weekday:'long',month:'short',day:'numeric'})}): <strong>{headline(nextClass)||'see Weekly Navigator'}</strong></p>}
       {!featured&&<p className="empty-edition">No class entry has been posted yet.</p>}
     </>:<>
-      <section className="weekly-toolbar"><button onClick={()=>setWeekIndex(Math.max(0,weekIndex-1))} disabled={weekIndex===0}>← Previous week</button><div><small>Week {selectedWeek||'—'}</small><strong>{weekRange}</strong></div><button onClick={()=>setWeekIndex(Math.min(weeks.length-1,weekIndex+1))} disabled={weekIndex>=weeks.length-1}>Next week →</button></section>
+      <section className="weekly-toolbar"><button onClick={()=>setWeekIndex(Math.max(0,weekIndex-1))} disabled={weekIndex===0}>← Previous week</button><div><small>{weekLabel||'—'}</small><strong>{weekRange}</strong></div><button onClick={()=>setWeekIndex(Math.min(weeks.length-1,weekIndex+1))} disabled={weekIndex>=weeks.length-1}>Next week →</button></section>
       <section className="weekly-grid">{weekEntries.map((entry,index)=><LessonCard key={`${entry.date}-${index}`} entry={entry} compact todayIso={todayIso} dueHere={dueOn(entry.date)}/>)}{!weekEntries.length&&<p className="empty-edition">No class entries are posted for this week.</p>}</section>
     </>}
   </div></main>;

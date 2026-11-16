@@ -30,7 +30,8 @@ html,body.notebook-body{background:var(--leather)}
 .course-shell .rpg-tabs button:focus-visible,.course-shell a:focus-visible{outline:2px solid var(--pen);outline-offset:2px}
 
 /* ---------- Ribbon bookmark (slides down with scroll) ---------- */
-.ribbon-bookmark{position:fixed;top:64px;right:max(14px,calc((100vw - 1420px)/2 + 34px));z-index:30;width:26px;
+/* Sits in the page's left margin (left of the red line); App.tsx measures the page edge into --ribbon-left. */
+.ribbon-bookmark{position:fixed;top:64px;left:calc(var(--ribbon-left,26px) + 18px);z-index:30;width:22px;
   height:calc(70px + var(--scroll,0) * 45vh);background:linear-gradient(90deg,#24403A,#2D4A3E 40%,#365A4C 60%,#24403A);
   clip-path:polygon(0 0,100% 0,100% 100%,50% calc(100% - 13px),0 100%);box-shadow:0 2px 4px rgba(0,0,0,.3);
   transition:height .45s cubic-bezier(.22,.8,.3,1);pointer-events:none}
@@ -158,7 +159,7 @@ html,body.notebook-body{background:var(--leather)}
   :root{--margin-x:30px}
   .course-shell .dreadful-main{padding:8px}
   .course-shell .dreadful-page{padding:16px 12px 34px calc(var(--margin-x) + 10px)}
-  .ribbon-bookmark{width:18px;top:120px;right:6px;height:calc(46px + var(--scroll,0) * 30vh)}
+  .ribbon-bookmark{width:13px;top:118px;left:calc(var(--ribbon-left,8px) + 9px);height:calc(46px + var(--scroll,0) * 30vh)}
   .course-shell .rpg-tabs{overflow-x:auto;max-width:100%}
 }
 @media(prefers-reduced-motion:reduce){

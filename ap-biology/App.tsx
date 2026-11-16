@@ -10,10 +10,17 @@ const App: React.FC = () => {
   // Ribbon bookmark: expose scroll progress (0–1) as a CSS variable so the ribbon slides down as the page scrolls.
   useEffect(() => {
     let frame = 0;
-    const update = () => { frame = 0; const max = document.documentElement.scrollHeight - window.innerHeight; document.documentElement.style.setProperty('--scroll', String(max > 0 ? Math.min(1, window.scrollY / max) : 0)); };
+    const update = () => {
+      frame = 0; const root = document.documentElement; const max = root.scrollHeight - window.innerHeight;
+      root.style.setProperty('--scroll', String(max > 0 ? Math.min(1, window.scrollY / max) : 0));
+      // Keep the ribbon in the empty left margin of the notebook page so it never covers content.
+      const page = document.querySelector('.course-shell .dreadful-page') || document.querySelector('.course-shell main');
+      if (page) root.style.setProperty('--ribbon-left', `${Math.round(page.getBoundingClientRect().left)}px`);
+    };
     const onScroll = () => { if (!frame) frame = requestAnimationFrame(update); };
     update(); window.addEventListener('scroll', onScroll, { passive: true }); window.addEventListener('resize', onScroll);
-    return () => { window.removeEventListener('scroll', onScroll); window.removeEventListener('resize', onScroll); if (frame) cancelAnimationFrame(frame); };
+    const late = window.setTimeout(update, 400);
+    return () => { window.removeEventListener('scroll', onScroll); window.removeEventListener('resize', onScroll); if (frame) cancelAnimationFrame(frame); window.clearTimeout(late); };
   }, [tab]);
   return <div className="course-shell notebook min-h-screen">
     <div className="ribbon-bookmark" aria-hidden="true" />
