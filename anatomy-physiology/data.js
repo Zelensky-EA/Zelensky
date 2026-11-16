@@ -356,7 +356,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "0.3",
           "topicTitle": "Body Planes & Sections",
-          "definition": "An standard anatomical or physiological term used to describe body planes & sections and communicate body organization precisely.",
+          "definition": "A standard anatomical or physiological term used to describe body planes & sections and communicate body organization precisely.",
           "connection": "Identify anatomical planes and interpret sections.",
           "teacherNote": ""
         },
@@ -392,7 +392,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "0.4",
           "topicTitle": "Body Regions & Anatomical Landmarks",
-          "definition": "An standard anatomical or physiological term used to describe body regions & anatomical landmarks and communicate body organization precisely.",
+          "definition": "A standard anatomical or physiological term used to describe body regions & anatomical landmarks and communicate body organization precisely.",
           "connection": "Identify axial and appendicular regions and landmarks.",
           "teacherNote": ""
         },
@@ -401,7 +401,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "0.4",
           "topicTitle": "Body Regions & Anatomical Landmarks",
-          "definition": "An standard anatomical or physiological term used to describe body regions & anatomical landmarks and communicate body organization precisely.",
+          "definition": "A standard anatomical or physiological term used to describe body regions & anatomical landmarks and communicate body organization precisely.",
           "connection": "Identify axial and appendicular regions and landmarks.",
           "teacherNote": ""
         },
@@ -482,7 +482,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "0.4",
           "topicTitle": "Body Regions & Anatomical Landmarks",
-          "definition": "An standard anatomical or physiological term used to describe body regions & anatomical landmarks and communicate body organization precisely.",
+          "definition": "A standard anatomical or physiological term used to describe body regions & anatomical landmarks and communicate body organization precisely.",
           "connection": "Identify axial and appendicular regions and landmarks.",
           "teacherNote": ""
         },
@@ -509,7 +509,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "0.5",
           "topicTitle": "Body Cavities & Membranes",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Distinguish body cavities and relate serous membranes to organ protection.",
           "teacherNote": ""
         },
@@ -518,7 +518,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "0.5",
           "topicTitle": "Body Cavities & Membranes",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Distinguish body cavities and relate serous membranes to organ protection.",
           "teacherNote": ""
         },
@@ -545,7 +545,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "0.5",
           "topicTitle": "Body Cavities & Membranes",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Distinguish body cavities and relate serous membranes to organ protection.",
           "teacherNote": ""
         },
@@ -554,7 +554,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "0.5",
           "topicTitle": "Body Cavities & Membranes",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Distinguish body cavities and relate serous membranes to organ protection.",
           "teacherNote": ""
         },
@@ -572,7 +572,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "0.5",
           "topicTitle": "Body Cavities & Membranes",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Distinguish body cavities and relate serous membranes to organ protection.",
           "teacherNote": ""
         },
@@ -599,7 +599,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "0.5",
           "topicTitle": "Body Cavities & Membranes",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Distinguish body cavities and relate serous membranes to organ protection.",
           "teacherNote": ""
         },
@@ -608,7 +608,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "0.5",
           "topicTitle": "Body Cavities & Membranes",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Distinguish body cavities and relate serous membranes to organ protection.",
           "teacherNote": ""
         },
@@ -617,7 +617,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "0.5",
           "topicTitle": "Body Cavities & Membranes",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Distinguish body cavities and relate serous membranes to organ protection.",
           "teacherNote": ""
         },
@@ -757,7 +757,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.1",
           "topicTitle": "Cell Chemistry & Structure",
-          "definition": "An cellular, chemical, or histological feature involved in cell chemistry & structure; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in cell chemistry & structure; its biological role is determined by the molecular or tissue property named.",
           "connection": "Identify major cell components, chemical elements, and specialized cellular features.",
           "teacherNote": ""
         },
@@ -766,7 +766,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.1",
           "topicTitle": "Cell Chemistry & Structure",
-          "definition": "An cellular, chemical, or histological feature involved in cell chemistry & structure; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in cell chemistry & structure; its biological role is determined by the molecular or tissue property named.",
           "connection": "Identify major cell components, chemical elements, and specialized cellular features.",
           "teacherNote": ""
         },
@@ -856,7 +856,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.1",
           "topicTitle": "Cell Chemistry & Structure",
-          "definition": "An cellular, chemical, or histological feature involved in cell chemistry & structure; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in cell chemistry & structure; its biological role is determined by the molecular or tissue property named.",
           "connection": "Identify major cell components, chemical elements, and specialized cellular features.",
           "teacherNote": ""
         },
@@ -865,7 +865,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.1",
           "topicTitle": "Cell Chemistry & Structure",
-          "definition": "An cellular, chemical, or histological feature involved in cell chemistry & structure; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in cell chemistry & structure; its biological role is determined by the molecular or tissue property named.",
           "connection": "Identify major cell components, chemical elements, and specialized cellular features.",
           "teacherNote": ""
         },
@@ -883,7 +883,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.1",
           "topicTitle": "Cell Chemistry & Structure",
-          "definition": "An cellular, chemical, or histological feature involved in cell chemistry & structure; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in cell chemistry & structure; its biological role is determined by the molecular or tissue property named.",
           "connection": "Identify major cell components, chemical elements, and specialized cellular features.",
           "teacherNote": ""
         },
@@ -892,7 +892,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.1",
           "topicTitle": "Cell Chemistry & Structure",
-          "definition": "An cellular, chemical, or histological feature involved in cell chemistry & structure; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in cell chemistry & structure; its biological role is determined by the molecular or tissue property named.",
           "connection": "Identify major cell components, chemical elements, and specialized cellular features.",
           "teacherNote": ""
         },
@@ -1072,7 +1072,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.2",
           "topicTitle": "Cell Membrane Structure & Function",
-          "definition": "An polypeptide or protein complex whose biological role is associated with cell membrane structure & function.",
+          "definition": "A polypeptide or protein complex whose biological role is associated with cell membrane structure & function.",
           "connection": "Relate fluid-mosaic membrane structure to transport and communication.",
           "teacherNote": ""
         },
@@ -1207,7 +1207,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "1.3",
           "topicTitle": "Organelles, Cytoskeleton & Metabolism",
-          "definition": "An cellular, chemical, or histological feature involved in organelles, cytoskeleton & metabolism; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in organelles, cytoskeleton & metabolism; its biological role is determined by the molecular or tissue property named.",
           "connection": "Relate organelles and cytoskeleton to cellular metabolism and organization.",
           "teacherNote": ""
         },
@@ -1333,7 +1333,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.4",
           "topicTitle": "Passive Transport",
-          "definition": "An cellular, chemical, or histological feature involved in passive transport; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in passive transport; its biological role is determined by the molecular or tissue property named.",
           "connection": "Explain diffusion, osmosis, tonicity, and facilitated diffusion.",
           "teacherNote": ""
         },
@@ -1360,7 +1360,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.4",
           "topicTitle": "Passive Transport",
-          "definition": "An cellular, chemical, or histological feature involved in passive transport; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in passive transport; its biological role is determined by the molecular or tissue property named.",
           "connection": "Explain diffusion, osmosis, tonicity, and facilitated diffusion.",
           "teacherNote": ""
         },
@@ -1405,7 +1405,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.4",
           "topicTitle": "Passive Transport",
-          "definition": "An cellular, chemical, or histological feature involved in passive transport; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in passive transport; its biological role is determined by the molecular or tissue property named.",
           "connection": "Explain diffusion, osmosis, tonicity, and facilitated diffusion.",
           "teacherNote": ""
         },
@@ -1423,7 +1423,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.4",
           "topicTitle": "Passive Transport",
-          "definition": "An force per unit area exerted by a body fluid or gas in the compartment indicated by its name.",
+          "definition": "A force per unit area exerted by a body fluid or gas in the compartment indicated by its name.",
           "connection": "Explain diffusion, osmosis, tonicity, and facilitated diffusion.",
           "teacherNote": ""
         },
@@ -1486,7 +1486,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "1.5",
           "topicTitle": "Active & Vesicular Transport",
-          "definition": "An cellular, chemical, or histological feature involved in active & vesicular transport; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in active & vesicular transport; its biological role is determined by the molecular or tissue property named.",
           "connection": "Explain active transport, ion pumps, endocytosis, and exocytosis.",
           "teacherNote": ""
         },
@@ -1495,7 +1495,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.5",
           "topicTitle": "Active & Vesicular Transport",
-          "definition": "An cellular, chemical, or histological feature involved in active & vesicular transport; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in active & vesicular transport; its biological role is determined by the molecular or tissue property named.",
           "connection": "Explain active transport, ion pumps, endocytosis, and exocytosis.",
           "teacherNote": ""
         },
@@ -1504,7 +1504,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.5",
           "topicTitle": "Active & Vesicular Transport",
-          "definition": "An cellular, chemical, or histological feature involved in active & vesicular transport; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in active & vesicular transport; its biological role is determined by the molecular or tissue property named.",
           "connection": "Explain active transport, ion pumps, endocytosis, and exocytosis.",
           "teacherNote": ""
         },
@@ -1603,7 +1603,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.6",
           "topicTitle": "Cell Cycle, Mitosis & Cancer",
-          "definition": "An cellular, chemical, or histological feature involved in cell cycle, mitosis & cancer; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in cell cycle, mitosis & cancer; its biological role is determined by the molecular or tissue property named.",
           "connection": "Describe the cell cycle and explain how failures in regulation contribute to cancer.",
           "teacherNote": ""
         },
@@ -1711,7 +1711,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.6",
           "topicTitle": "Cell Cycle, Mitosis & Cancer",
-          "definition": "An cellular, chemical, or histological feature involved in cell cycle, mitosis & cancer; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in cell cycle, mitosis & cancer; its biological role is determined by the molecular or tissue property named.",
           "connection": "Describe the cell cycle and explain how failures in regulation contribute to cancer.",
           "teacherNote": ""
         },
@@ -1756,7 +1756,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "1.6",
           "topicTitle": "Cell Cycle, Mitosis & Cancer",
-          "definition": "An cellular, chemical, or histological feature involved in cell cycle, mitosis & cancer; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in cell cycle, mitosis & cancer; its biological role is determined by the molecular or tissue property named.",
           "connection": "Describe the cell cycle and explain how failures in regulation contribute to cancer.",
           "teacherNote": ""
         },
@@ -1792,7 +1792,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.6",
           "topicTitle": "Cell Cycle, Mitosis & Cancer",
-          "definition": "A elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
+          "definition": "An elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
           "connection": "Describe the cell cycle and explain how failures in regulation contribute to cancer.",
           "teacherNote": ""
         },
@@ -1846,7 +1846,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
+          "definition": "An organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -1864,7 +1864,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
+          "definition": "An organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -1918,7 +1918,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
+          "definition": "An organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -1936,7 +1936,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
+          "definition": "An organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -1945,7 +1945,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
+          "definition": "An organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -1954,7 +1954,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "An specialized supportive connective tissue containing chondrocytes in a firm extracellular matrix at the named location.",
+          "definition": "A specialized supportive connective tissue containing chondrocytes in a firm extracellular matrix at the named location.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -1981,7 +1981,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "An cellular, chemical, or histological feature involved in levels of organization & human tissues; its biological role is determined by the molecular or tissue property named.",
+          "definition": "A cellular, chemical, or histological feature involved in levels of organization & human tissues; its biological role is determined by the molecular or tissue property named.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2026,7 +2026,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
+          "definition": "An organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2035,7 +2035,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
+          "definition": "An organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2080,7 +2080,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
+          "definition": "An epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2089,7 +2089,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
+          "definition": "An organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2098,7 +2098,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
+          "definition": "An epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2107,7 +2107,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
+          "definition": "An epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2116,7 +2116,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
+          "definition": "An epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2125,7 +2125,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
+          "definition": "An epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2143,7 +2143,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
+          "definition": "An organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2161,7 +2161,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
+          "definition": "An organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2188,7 +2188,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
+          "definition": "An epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2197,7 +2197,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
+          "definition": "An epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         },
@@ -2215,7 +2215,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "1.7",
           "topicTitle": "Levels of Organization & Human Tissues",
-          "definition": "A epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
+          "definition": "An epithelial tissue composed of closely packed cells arranged in the form described, specialized for protection, absorption, secretion, filtration, or exchange.",
           "connection": "Relate levels of organization and the four major tissue types to function.",
           "teacherNote": ""
         }
@@ -2367,7 +2367,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.1",
           "topicTitle": "Homeostasis & Stimulus–Response",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with homeostasis & stimulus–response.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with homeostasis & stimulus–response.",
           "connection": "Explain the need for homeostasis using a stimulus-response model.",
           "teacherNote": ""
         },
@@ -2376,7 +2376,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.1",
           "topicTitle": "Homeostasis & Stimulus–Response",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with homeostasis & stimulus–response.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with homeostasis & stimulus–response.",
           "connection": "Explain the need for homeostasis using a stimulus-response model.",
           "teacherNote": ""
         },
@@ -2421,7 +2421,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.1",
           "topicTitle": "Homeostasis & Stimulus–Response",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with homeostasis & stimulus–response.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with homeostasis & stimulus–response.",
           "connection": "Explain the need for homeostasis using a stimulus-response model.",
           "teacherNote": ""
         },
@@ -2430,7 +2430,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.1",
           "topicTitle": "Homeostasis & Stimulus–Response",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with homeostasis & stimulus–response.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with homeostasis & stimulus–response.",
           "connection": "Explain the need for homeostasis using a stimulus-response model.",
           "teacherNote": ""
         },
@@ -2448,7 +2448,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.1",
           "topicTitle": "Homeostasis & Stimulus–Response",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with homeostasis & stimulus–response.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with homeostasis & stimulus–response.",
           "connection": "Explain the need for homeostasis using a stimulus-response model.",
           "teacherNote": ""
         },
@@ -2475,7 +2475,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.2",
           "topicTitle": "Feedback Loops",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with feedback loops.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with feedback loops.",
           "connection": "Compare positive and negative feedback using physiological examples.",
           "teacherNote": ""
         },
@@ -2484,7 +2484,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.2",
           "topicTitle": "Feedback Loops",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with feedback loops.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with feedback loops.",
           "connection": "Compare positive and negative feedback using physiological examples.",
           "teacherNote": ""
         },
@@ -2493,7 +2493,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.2",
           "topicTitle": "Feedback Loops",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with feedback loops.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with feedback loops.",
           "connection": "Compare positive and negative feedback using physiological examples.",
           "teacherNote": ""
         },
@@ -2502,7 +2502,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.2",
           "topicTitle": "Feedback Loops",
-          "definition": "A active development of tension by muscle tissue, with or without shortening, under the condition indicated by its name.",
+          "definition": "An active development of tension by muscle tissue, with or without shortening, under the condition indicated by its name.",
           "connection": "Compare positive and negative feedback using physiological examples.",
           "teacherNote": ""
         },
@@ -2529,7 +2529,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.2",
           "topicTitle": "Feedback Loops",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with feedback loops.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with feedback loops.",
           "connection": "Compare positive and negative feedback using physiological examples.",
           "teacherNote": ""
         },
@@ -2574,7 +2574,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.3",
           "topicTitle": "Anatomical Language, Cavities & Membranes",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Use anatomical terms and distinguish cavities and membranes.",
           "teacherNote": ""
         },
@@ -2664,7 +2664,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.3",
           "topicTitle": "Anatomical Language, Cavities & Membranes",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Use anatomical terms and distinguish cavities and membranes.",
           "teacherNote": ""
         },
@@ -2682,7 +2682,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.4",
           "topicTitle": "Maintaining Homeostasis & Diagnostic Medicine",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
           "connection": "Explain coordinated homeostatic responses and the use of diagnostic technologies.",
           "teacherNote": ""
         },
@@ -2691,7 +2691,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.4",
           "topicTitle": "Maintaining Homeostasis & Diagnostic Medicine",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
           "connection": "Explain coordinated homeostatic responses and the use of diagnostic technologies.",
           "teacherNote": ""
         },
@@ -2700,7 +2700,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.4",
           "topicTitle": "Maintaining Homeostasis & Diagnostic Medicine",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
           "connection": "Explain coordinated homeostatic responses and the use of diagnostic technologies.",
           "teacherNote": ""
         },
@@ -2709,7 +2709,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.4",
           "topicTitle": "Maintaining Homeostasis & Diagnostic Medicine",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
           "connection": "Explain coordinated homeostatic responses and the use of diagnostic technologies.",
           "teacherNote": ""
         },
@@ -2754,7 +2754,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.4",
           "topicTitle": "Maintaining Homeostasis & Diagnostic Medicine",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
           "connection": "Explain coordinated homeostatic responses and the use of diagnostic technologies.",
           "teacherNote": ""
         },
@@ -2763,7 +2763,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.4",
           "topicTitle": "Maintaining Homeostasis & Diagnostic Medicine",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
           "connection": "Explain coordinated homeostatic responses and the use of diagnostic technologies.",
           "teacherNote": ""
         },
@@ -2781,7 +2781,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.4",
           "topicTitle": "Maintaining Homeostasis & Diagnostic Medicine",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
           "connection": "Explain coordinated homeostatic responses and the use of diagnostic technologies.",
           "teacherNote": ""
         },
@@ -2799,7 +2799,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.4",
           "topicTitle": "Maintaining Homeostasis & Diagnostic Medicine",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
           "connection": "Explain coordinated homeostatic responses and the use of diagnostic technologies.",
           "teacherNote": ""
         },
@@ -2808,7 +2808,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.4",
           "topicTitle": "Maintaining Homeostasis & Diagnostic Medicine",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
           "connection": "Explain coordinated homeostatic responses and the use of diagnostic technologies.",
           "teacherNote": ""
         },
@@ -2826,7 +2826,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.4",
           "topicTitle": "Maintaining Homeostasis & Diagnostic Medicine",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with maintaining homeostasis & diagnostic medicine.",
           "connection": "Explain coordinated homeostatic responses and the use of diagnostic technologies.",
           "teacherNote": ""
         },
@@ -2835,7 +2835,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "An secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
+          "definition": "A secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -2844,7 +2844,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "An secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
+          "definition": "A secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -2862,7 +2862,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "An named skeletal muscle that produces movement or stabilization in the anatomical region indicated by its name and attachments.",
+          "definition": "A named skeletal muscle that produces movement or stabilization in the anatomical region indicated by its name and attachments.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -2907,7 +2907,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -2916,7 +2916,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -2925,7 +2925,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "An secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
+          "definition": "A secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -2934,7 +2934,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "An secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
+          "definition": "A secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -2970,7 +2970,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -2979,7 +2979,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -2997,7 +2997,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3006,7 +3006,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3015,7 +3015,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3042,7 +3042,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "An coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
+          "definition": "A coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3051,7 +3051,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3060,7 +3060,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3069,7 +3069,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3087,7 +3087,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3096,7 +3096,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3114,7 +3114,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3123,7 +3123,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3132,7 +3132,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3177,7 +3177,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3186,7 +3186,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3195,7 +3195,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3204,7 +3204,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3213,7 +3213,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3222,7 +3222,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3231,7 +3231,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
+          "definition": "An organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3249,7 +3249,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "2.5",
           "topicTitle": "Integumentary System",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with integumentary system.",
           "connection": "Relate skin structure and accessory structures to homeostatic functions.",
           "teacherNote": ""
         },
@@ -3276,7 +3276,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.6",
           "topicTitle": "Thermoregulation & Temperature Disorders",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
           "connection": "Explain thermoregulation and temperature-related disorders.",
           "teacherNote": ""
         },
@@ -3294,7 +3294,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.6",
           "topicTitle": "Thermoregulation & Temperature Disorders",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
           "connection": "Explain thermoregulation and temperature-related disorders.",
           "teacherNote": ""
         },
@@ -3303,7 +3303,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.6",
           "topicTitle": "Thermoregulation & Temperature Disorders",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
           "connection": "Explain thermoregulation and temperature-related disorders.",
           "teacherNote": ""
         },
@@ -3312,7 +3312,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.6",
           "topicTitle": "Thermoregulation & Temperature Disorders",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
           "connection": "Explain thermoregulation and temperature-related disorders.",
           "teacherNote": ""
         },
@@ -3348,7 +3348,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.6",
           "topicTitle": "Thermoregulation & Temperature Disorders",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
           "connection": "Explain thermoregulation and temperature-related disorders.",
           "teacherNote": ""
         },
@@ -3357,7 +3357,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.6",
           "topicTitle": "Thermoregulation & Temperature Disorders",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
           "connection": "Explain thermoregulation and temperature-related disorders.",
           "teacherNote": ""
         },
@@ -3366,7 +3366,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.6",
           "topicTitle": "Thermoregulation & Temperature Disorders",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
           "connection": "Explain thermoregulation and temperature-related disorders.",
           "teacherNote": ""
         },
@@ -3375,7 +3375,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.6",
           "topicTitle": "Thermoregulation & Temperature Disorders",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
           "connection": "Explain thermoregulation and temperature-related disorders.",
           "teacherNote": ""
         },
@@ -3384,7 +3384,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.6",
           "topicTitle": "Thermoregulation & Temperature Disorders",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
           "connection": "Explain thermoregulation and temperature-related disorders.",
           "teacherNote": ""
         },
@@ -3393,7 +3393,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.6",
           "topicTitle": "Thermoregulation & Temperature Disorders",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
           "connection": "Explain thermoregulation and temperature-related disorders.",
           "teacherNote": ""
         },
@@ -3402,7 +3402,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.6",
           "topicTitle": "Thermoregulation & Temperature Disorders",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
           "connection": "Explain thermoregulation and temperature-related disorders.",
           "teacherNote": ""
         },
@@ -3411,7 +3411,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "2.6",
           "topicTitle": "Thermoregulation & Temperature Disorders",
-          "definition": "A anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
+          "definition": "An anatomical structure, regulatory component, or clinical process of the integumentary and homeostatic systems associated with thermoregulation & temperature disorders.",
           "connection": "Explain thermoregulation and temperature-related disorders.",
           "teacherNote": ""
         }
@@ -3598,7 +3598,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "3.1",
           "topicTitle": "Organization of the Human Skeleton",
-          "definition": "An prominent ridge of bone that serves as an attachment or anatomical landmark.",
+          "definition": "A prominent ridge of bone that serves as an attachment or anatomical landmark.",
           "connection": "Distinguish axial and appendicular skeletons and classify major bones.",
           "teacherNote": ""
         },
@@ -5074,7 +5074,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "3.2",
           "topicTitle": "Bone Structure, Remodeling & Ossification",
-          "definition": "An specialized supportive connective tissue containing chondrocytes in a firm extracellular matrix at the named location.",
+          "definition": "A specialized supportive connective tissue containing chondrocytes in a firm extracellular matrix at the named location.",
           "connection": "Relate bone structure, ossification, and remodeling to growth, repair, and mineral balance.",
           "teacherNote": ""
         },
@@ -5944,7 +5944,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -5953,7 +5953,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -5962,7 +5962,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -5971,7 +5971,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6079,7 +6079,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6088,7 +6088,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6097,7 +6097,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6106,7 +6106,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6115,7 +6115,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6124,7 +6124,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6133,7 +6133,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named skeletal muscle that produces movement or stabilization in the anatomical region indicated by its name and attachments.",
+          "definition": "A named skeletal muscle that produces movement or stabilization in the anatomical region indicated by its name and attachments.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6142,7 +6142,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6241,7 +6241,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6250,7 +6250,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6259,7 +6259,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6268,7 +6268,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6277,7 +6277,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named skeletal muscle that produces movement or stabilization in the anatomical region indicated by its name and attachments.",
+          "definition": "A named skeletal muscle that produces movement or stabilization in the anatomical region indicated by its name and attachments.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6304,7 +6304,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "A elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
+          "definition": "An elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6313,7 +6313,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "A organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
+          "definition": "An organized group of cells and extracellular matrix with the structural and physiological properties indicated by its name.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6322,7 +6322,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6331,7 +6331,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6340,7 +6340,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6349,7 +6349,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.1",
           "topicTitle": "Muscle Types & Organization",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle types & organization that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare muscle tissue types and skeletal-muscle organization.",
           "teacherNote": ""
         },
@@ -6655,7 +6655,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "4.2",
           "topicTitle": "Skeletal Muscle Ultrastructure",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in skeletal muscle ultrastructure that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in skeletal muscle ultrastructure that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Relate muscle ultrastructure to contraction.",
           "teacherNote": ""
         },
@@ -6664,7 +6664,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "4.2",
           "topicTitle": "Skeletal Muscle Ultrastructure",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in skeletal muscle ultrastructure that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in skeletal muscle ultrastructure that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Relate muscle ultrastructure to contraction.",
           "teacherNote": ""
         },
@@ -6691,7 +6691,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "4.2",
           "topicTitle": "Skeletal Muscle Ultrastructure",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in skeletal muscle ultrastructure that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in skeletal muscle ultrastructure that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Relate muscle ultrastructure to contraction.",
           "teacherNote": ""
         },
@@ -6853,7 +6853,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.3",
           "topicTitle": "Neuromuscular Junction & Sliding Filament Mechanism",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in neuromuscular junction & sliding filament mechanism that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in neuromuscular junction & sliding filament mechanism that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Trace signaling at the neuromuscular junction through the sliding-filament mechanism.",
           "teacherNote": ""
         },
@@ -6862,7 +6862,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.3",
           "topicTitle": "Neuromuscular Junction & Sliding Filament Mechanism",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in neuromuscular junction & sliding filament mechanism that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in neuromuscular junction & sliding filament mechanism that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Trace signaling at the neuromuscular junction through the sliding-filament mechanism.",
           "teacherNote": ""
         },
@@ -6880,7 +6880,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.3",
           "topicTitle": "Neuromuscular Junction & Sliding Filament Mechanism",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in neuromuscular junction & sliding filament mechanism that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in neuromuscular junction & sliding filament mechanism that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Trace signaling at the neuromuscular junction through the sliding-filament mechanism.",
           "teacherNote": ""
         },
@@ -6898,7 +6898,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.3",
           "topicTitle": "Neuromuscular Junction & Sliding Filament Mechanism",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in neuromuscular junction & sliding filament mechanism that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in neuromuscular junction & sliding filament mechanism that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Trace signaling at the neuromuscular junction through the sliding-filament mechanism.",
           "teacherNote": ""
         },
@@ -6925,7 +6925,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "4.3",
           "topicTitle": "Neuromuscular Junction & Sliding Filament Mechanism",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in neuromuscular junction & sliding filament mechanism that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in neuromuscular junction & sliding filament mechanism that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Trace signaling at the neuromuscular junction through the sliding-filament mechanism.",
           "teacherNote": ""
         },
@@ -7015,7 +7015,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.4",
           "topicTitle": "Muscle Tone, Posture & Antagonistic Movement",
-          "definition": "A active development of tension by muscle tissue, with or without shortening, under the condition indicated by its name.",
+          "definition": "An active development of tension by muscle tissue, with or without shortening, under the condition indicated by its name.",
           "connection": "Explain tone, posture, proprioception, and antagonistic movement.",
           "teacherNote": ""
         },
@@ -7114,7 +7114,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.5",
           "topicTitle": "Energy for Muscle Contraction & Fatigue",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in energy for muscle contraction & fatigue that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in energy for muscle contraction & fatigue that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare ATP sources and analyze muscle fatigue.",
           "teacherNote": ""
         },
@@ -7123,7 +7123,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.5",
           "topicTitle": "Energy for Muscle Contraction & Fatigue",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in energy for muscle contraction & fatigue that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in energy for muscle contraction & fatigue that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare ATP sources and analyze muscle fatigue.",
           "teacherNote": ""
         },
@@ -7159,7 +7159,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.5",
           "topicTitle": "Energy for Muscle Contraction & Fatigue",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in energy for muscle contraction & fatigue that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in energy for muscle contraction & fatigue that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare ATP sources and analyze muscle fatigue.",
           "teacherNote": ""
         },
@@ -7231,7 +7231,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.5",
           "topicTitle": "Energy for Muscle Contraction & Fatigue",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in energy for muscle contraction & fatigue that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in energy for muscle contraction & fatigue that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Compare ATP sources and analyze muscle fatigue.",
           "teacherNote": ""
         },
@@ -7258,7 +7258,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.6",
           "topicTitle": "Muscle Performance, Training & Disorders",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle performance, training & disorders that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle performance, training & disorders that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Relate fiber type, training, injury, and disease to performance.",
           "teacherNote": ""
         },
@@ -7267,7 +7267,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.6",
           "topicTitle": "Muscle Performance, Training & Disorders",
-          "definition": "An named muscle, connective-tissue component, or contraction-related feature in muscle performance, training & disorders that contributes to force production, movement, posture, or muscle organization.",
+          "definition": "A named muscle, connective-tissue component, or contraction-related feature in muscle performance, training & disorders that contributes to force production, movement, posture, or muscle organization.",
           "connection": "Relate fiber type, training, injury, and disease to performance.",
           "teacherNote": ""
         },
@@ -7303,7 +7303,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.6",
           "topicTitle": "Muscle Performance, Training & Disorders",
-          "definition": "A elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
+          "definition": "An elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
           "connection": "Relate fiber type, training, injury, and disease to performance.",
           "teacherNote": ""
         },
@@ -7312,7 +7312,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "4.6",
           "topicTitle": "Muscle Performance, Training & Disorders",
-          "definition": "A elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
+          "definition": "An elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
           "connection": "Relate fiber type, training, injury, and disease to performance.",
           "teacherNote": ""
         },
@@ -7321,7 +7321,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.6",
           "topicTitle": "Muscle Performance, Training & Disorders",
-          "definition": "A elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
+          "definition": "An elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
           "connection": "Relate fiber type, training, injury, and disease to performance.",
           "teacherNote": ""
         },
@@ -7375,7 +7375,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.6",
           "topicTitle": "Muscle Performance, Training & Disorders",
-          "definition": "A elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
+          "definition": "An elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
           "connection": "Relate fiber type, training, injury, and disease to performance.",
           "teacherNote": ""
         },
@@ -7384,7 +7384,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "4.6",
           "topicTitle": "Muscle Performance, Training & Disorders",
-          "definition": "A elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
+          "definition": "An elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
           "connection": "Relate fiber type, training, injury, and disease to performance.",
           "teacherNote": ""
         },
@@ -7547,7 +7547,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.1",
           "topicTitle": "Nervous System Organization & Autonomic Control",
-          "definition": "An specialized nerve cell in the pathway or region named that receives, processes, or transmits electrochemical information.",
+          "definition": "A specialized nerve cell in the pathway or region named that receives, processes, or transmits electrochemical information.",
           "connection": "Compare CNS, PNS, somatic, and autonomic organization and control.",
           "teacherNote": ""
         },
@@ -7556,7 +7556,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.1",
           "topicTitle": "Nervous System Organization & Autonomic Control",
-          "definition": "An coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
+          "definition": "A coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
           "connection": "Compare CNS, PNS, somatic, and autonomic organization and control.",
           "teacherNote": ""
         },
@@ -7592,7 +7592,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.1",
           "topicTitle": "Nervous System Organization & Autonomic Control",
-          "definition": "An specialized nerve cell in the pathway or region named that receives, processes, or transmits electrochemical information.",
+          "definition": "A specialized nerve cell in the pathway or region named that receives, processes, or transmits electrochemical information.",
           "connection": "Compare CNS, PNS, somatic, and autonomic organization and control.",
           "teacherNote": ""
         },
@@ -7601,7 +7601,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "5.1",
           "topicTitle": "Nervous System Organization & Autonomic Control",
-          "definition": "An coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
+          "definition": "A coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
           "connection": "Compare CNS, PNS, somatic, and autonomic organization and control.",
           "teacherNote": ""
         },
@@ -7709,7 +7709,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.2",
           "topicTitle": "Brain Structure & Cerebral Function",
-          "definition": "An neural structure, pathway, signal, or functional division involved in brain structure & cerebral function and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in brain structure & cerebral function and the reception, integration, or transmission of information.",
           "connection": "Relate major brain regions to sensory, motor, and integrative functions.",
           "teacherNote": ""
         },
@@ -7718,7 +7718,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.2",
           "topicTitle": "Brain Structure & Cerebral Function",
-          "definition": "An neural structure, pathway, signal, or functional division involved in brain structure & cerebral function and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in brain structure & cerebral function and the reception, integration, or transmission of information.",
           "connection": "Relate major brain regions to sensory, motor, and integrative functions.",
           "teacherNote": ""
         },
@@ -7808,7 +7808,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.2",
           "topicTitle": "Brain Structure & Cerebral Function",
-          "definition": "A interconnecting network of nerves or vessels located in or serving the region indicated by its name.",
+          "definition": "An interconnecting network of nerves or vessels located in or serving the region indicated by its name.",
           "connection": "Relate major brain regions to sensory, motor, and integrative functions.",
           "teacherNote": ""
         },
@@ -7862,7 +7862,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.2",
           "topicTitle": "Brain Structure & Cerebral Function",
-          "definition": "A anatomically distinguishable division of an organ, named for its location or function.",
+          "definition": "An anatomically distinguishable division of an organ, named for its location or function.",
           "connection": "Relate major brain regions to sensory, motor, and integrative functions.",
           "teacherNote": ""
         },
@@ -7898,7 +7898,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.2",
           "topicTitle": "Brain Structure & Cerebral Function",
-          "definition": "An neural structure, pathway, signal, or functional division involved in brain structure & cerebral function and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in brain structure & cerebral function and the reception, integration, or transmission of information.",
           "connection": "Relate major brain regions to sensory, motor, and integrative functions.",
           "teacherNote": ""
         },
@@ -7907,7 +7907,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension + Identification",
           "topic": "5.2",
           "topicTitle": "Brain Structure & Cerebral Function",
-          "definition": "An neural structure, pathway, signal, or functional division involved in brain structure & cerebral function and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in brain structure & cerebral function and the reception, integration, or transmission of information.",
           "connection": "Relate major brain regions to sensory, motor, and integrative functions.",
           "teacherNote": ""
         },
@@ -7979,7 +7979,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.2",
           "topicTitle": "Brain Structure & Cerebral Function",
-          "definition": "A anatomically distinguishable division of an organ, named for its location or function.",
+          "definition": "An anatomically distinguishable division of an organ, named for its location or function.",
           "connection": "Relate major brain regions to sensory, motor, and integrative functions.",
           "teacherNote": ""
         },
@@ -8096,7 +8096,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.2",
           "topicTitle": "Brain Structure & Cerebral Function",
-          "definition": "A anatomically distinguishable division of an organ, named for its location or function.",
+          "definition": "An anatomically distinguishable division of an organ, named for its location or function.",
           "connection": "Relate major brain regions to sensory, motor, and integrative functions.",
           "teacherNote": ""
         },
@@ -8141,7 +8141,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.3",
           "topicTitle": "Neuron Structure, Neuroglia & Reflexes",
-          "definition": "An neural structure, pathway, signal, or functional division involved in neuron structure, neuroglia & reflexes and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in neuron structure, neuroglia & reflexes and the reception, integration, or transmission of information.",
           "connection": "Relate neuron and glial structure to function and explain reflexes.",
           "teacherNote": ""
         },
@@ -8150,7 +8150,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.3",
           "topicTitle": "Neuron Structure, Neuroglia & Reflexes",
-          "definition": "An neural structure, pathway, signal, or functional division involved in neuron structure, neuroglia & reflexes and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in neuron structure, neuroglia & reflexes and the reception, integration, or transmission of information.",
           "connection": "Relate neuron and glial structure to function and explain reflexes.",
           "teacherNote": ""
         },
@@ -8159,7 +8159,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.3",
           "topicTitle": "Neuron Structure, Neuroglia & Reflexes",
-          "definition": "An neural structure, pathway, signal, or functional division involved in neuron structure, neuroglia & reflexes and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in neuron structure, neuroglia & reflexes and the reception, integration, or transmission of information.",
           "connection": "Relate neuron and glial structure to function and explain reflexes.",
           "teacherNote": ""
         },
@@ -8168,7 +8168,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.3",
           "topicTitle": "Neuron Structure, Neuroglia & Reflexes",
-          "definition": "An neural structure, pathway, signal, or functional division involved in neuron structure, neuroglia & reflexes and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in neuron structure, neuroglia & reflexes and the reception, integration, or transmission of information.",
           "connection": "Relate neuron and glial structure to function and explain reflexes.",
           "teacherNote": ""
         },
@@ -8231,7 +8231,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension + Identification",
           "topic": "5.3",
           "topicTitle": "Neuron Structure, Neuroglia & Reflexes",
-          "definition": "An specialized cell type whose structure and physiological role are associated with neuron structure, neuroglia & reflexes.",
+          "definition": "A specialized cell type whose structure and physiological role are associated with neuron structure, neuroglia & reflexes.",
           "connection": "Relate neuron and glial structure to function and explain reflexes.",
           "teacherNote": ""
         },
@@ -8249,7 +8249,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.3",
           "topicTitle": "Neuron Structure, Neuroglia & Reflexes",
-          "definition": "An neural structure, pathway, signal, or functional division involved in neuron structure, neuroglia & reflexes and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in neuron structure, neuroglia & reflexes and the reception, integration, or transmission of information.",
           "connection": "Relate neuron and glial structure to function and explain reflexes.",
           "teacherNote": ""
         },
@@ -8339,7 +8339,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.3",
           "topicTitle": "Neuron Structure, Neuroglia & Reflexes",
-          "definition": "An neural structure, pathway, signal, or functional division involved in neuron structure, neuroglia & reflexes and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in neuron structure, neuroglia & reflexes and the reception, integration, or transmission of information.",
           "connection": "Relate neuron and glial structure to function and explain reflexes.",
           "teacherNote": ""
         },
@@ -8456,7 +8456,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.4",
           "topicTitle": "Resting Potential & Action Potentials",
-          "definition": "An neural structure, pathway, signal, or functional division involved in resting potential & action potentials and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in resting potential & action potentials and the reception, integration, or transmission of information.",
           "connection": "Explain resting potential and action potentials using ion movement.",
           "teacherNote": ""
         },
@@ -8492,7 +8492,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.4",
           "topicTitle": "Resting Potential & Action Potentials",
-          "definition": "An neural structure, pathway, signal, or functional division involved in resting potential & action potentials and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in resting potential & action potentials and the reception, integration, or transmission of information.",
           "connection": "Explain resting potential and action potentials using ion movement.",
           "teacherNote": ""
         },
@@ -8609,7 +8609,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.5",
           "topicTitle": "Neurotransmitters & Synaptic Integration",
-          "definition": "An neural structure, pathway, signal, or functional division involved in neurotransmitters & synaptic integration and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in neurotransmitters & synaptic integration and the reception, integration, or transmission of information.",
           "connection": "Explain synaptic transmission, integration, and drug effects.",
           "teacherNote": ""
         },
@@ -8618,7 +8618,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.5",
           "topicTitle": "Neurotransmitters & Synaptic Integration",
-          "definition": "An neural structure, pathway, signal, or functional division involved in neurotransmitters & synaptic integration and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in neurotransmitters & synaptic integration and the reception, integration, or transmission of information.",
           "connection": "Explain synaptic transmission, integration, and drug effects.",
           "teacherNote": ""
         },
@@ -8627,7 +8627,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.5",
           "topicTitle": "Neurotransmitters & Synaptic Integration",
-          "definition": "An neural structure, pathway, signal, or functional division involved in neurotransmitters & synaptic integration and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in neurotransmitters & synaptic integration and the reception, integration, or transmission of information.",
           "connection": "Explain synaptic transmission, integration, and drug effects.",
           "teacherNote": ""
         },
@@ -8654,7 +8654,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "5.5",
           "topicTitle": "Neurotransmitters & Synaptic Integration",
-          "definition": "An neural structure, pathway, signal, or functional division involved in neurotransmitters & synaptic integration and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in neurotransmitters & synaptic integration and the reception, integration, or transmission of information.",
           "connection": "Explain synaptic transmission, integration, and drug effects.",
           "teacherNote": ""
         },
@@ -8663,7 +8663,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.5",
           "topicTitle": "Neurotransmitters & Synaptic Integration",
-          "definition": "An neural structure, pathway, signal, or functional division involved in neurotransmitters & synaptic integration and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in neurotransmitters & synaptic integration and the reception, integration, or transmission of information.",
           "connection": "Explain synaptic transmission, integration, and drug effects.",
           "teacherNote": ""
         },
@@ -8681,7 +8681,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.5",
           "topicTitle": "Neurotransmitters & Synaptic Integration",
-          "definition": "An difference in electrical charge across a membrane or a defined change in that voltage, as specified by the term.",
+          "definition": "A difference in electrical charge across a membrane or a defined change in that voltage, as specified by the term.",
           "connection": "Explain synaptic transmission, integration, and drug effects.",
           "teacherNote": ""
         },
@@ -8708,7 +8708,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.5",
           "topicTitle": "Neurotransmitters & Synaptic Integration",
-          "definition": "An difference in electrical charge across a membrane or a defined change in that voltage, as specified by the term.",
+          "definition": "A difference in electrical charge across a membrane or a defined change in that voltage, as specified by the term.",
           "connection": "Explain synaptic transmission, integration, and drug effects.",
           "teacherNote": ""
         },
@@ -8843,7 +8843,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.6",
           "topicTitle": "Sensory Receptors & Signal Transduction",
-          "definition": "An neural structure, pathway, signal, or functional division involved in sensory receptors & signal transduction and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in sensory receptors & signal transduction and the reception, integration, or transmission of information.",
           "connection": "Explain sensory reception and signal transduction.",
           "teacherNote": ""
         },
@@ -8969,7 +8969,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.7",
           "topicTitle": "Vision & Somatic Sensation",
-          "definition": "An neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
           "connection": "Relate eye structure to vision and skin receptors to somatic sensation.",
           "teacherNote": ""
         },
@@ -8987,7 +8987,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.7",
           "topicTitle": "Vision & Somatic Sensation",
-          "definition": "An neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
           "connection": "Relate eye structure to vision and skin receptors to somatic sensation.",
           "teacherNote": ""
         },
@@ -8996,7 +8996,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.7",
           "topicTitle": "Vision & Somatic Sensation",
-          "definition": "An neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
           "connection": "Relate eye structure to vision and skin receptors to somatic sensation.",
           "teacherNote": ""
         },
@@ -9068,7 +9068,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.7",
           "topicTitle": "Vision & Somatic Sensation",
-          "definition": "An neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
           "connection": "Relate eye structure to vision and skin receptors to somatic sensation.",
           "teacherNote": ""
         },
@@ -9077,7 +9077,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.7",
           "topicTitle": "Vision & Somatic Sensation",
-          "definition": "An neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
           "connection": "Relate eye structure to vision and skin receptors to somatic sensation.",
           "teacherNote": ""
         },
@@ -9122,7 +9122,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.7",
           "topicTitle": "Vision & Somatic Sensation",
-          "definition": "An neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
           "connection": "Relate eye structure to vision and skin receptors to somatic sensation.",
           "teacherNote": ""
         },
@@ -9131,7 +9131,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.7",
           "topicTitle": "Vision & Somatic Sensation",
-          "definition": "An neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
           "connection": "Relate eye structure to vision and skin receptors to somatic sensation.",
           "teacherNote": ""
         },
@@ -9140,7 +9140,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.7",
           "topicTitle": "Vision & Somatic Sensation",
-          "definition": "An neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
           "connection": "Relate eye structure to vision and skin receptors to somatic sensation.",
           "teacherNote": ""
         },
@@ -9230,7 +9230,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.7",
           "topicTitle": "Vision & Somatic Sensation",
-          "definition": "An neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in vision & somatic sensation and the reception, integration, or transmission of information.",
           "connection": "Relate eye structure to vision and skin receptors to somatic sensation.",
           "teacherNote": ""
         },
@@ -9239,7 +9239,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.7",
           "topicTitle": "Vision & Somatic Sensation",
-          "definition": "An named peripheral nerve containing sensory, motor, and/or autonomic axons that serves structures associated with vision & somatic sensation.",
+          "definition": "A named peripheral nerve containing sensory, motor, and/or autonomic axons that serves structures associated with vision & somatic sensation.",
           "connection": "Relate eye structure to vision and skin receptors to somatic sensation.",
           "teacherNote": ""
         },
@@ -9248,7 +9248,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.7",
           "topicTitle": "Vision & Somatic Sensation",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Relate eye structure to vision and skin receptors to somatic sensation.",
           "teacherNote": ""
         },
@@ -9347,7 +9347,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An pathological disorder characterized by abnormal structure or function in the body system indicated by its name.",
+          "definition": "A pathological disorder characterized by abnormal structure or function in the body system indicated by its name.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9356,7 +9356,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9365,7 +9365,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9374,7 +9374,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9383,7 +9383,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9437,7 +9437,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9446,7 +9446,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9455,7 +9455,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An tube-like anatomical passage through which the named fluid, structure, or organ component passes.",
+          "definition": "A tube-like anatomical passage through which the named fluid, structure, or organ component passes.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9491,7 +9491,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9518,7 +9518,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9527,7 +9527,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9554,7 +9554,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9563,7 +9563,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9572,7 +9572,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9698,7 +9698,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "5.8",
           "topicTitle": "Hearing, Balance, Taste, Smell & Nervous-System Aging",
-          "definition": "An neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
+          "definition": "A neural structure, pathway, signal, or functional division involved in hearing, balance, taste, smell & nervous-system aging and the reception, integration, or transmission of information.",
           "connection": "Explain hearing, balance, taste, smell, and nervous-system aging.",
           "teacherNote": ""
         },
@@ -9902,7 +9902,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "6.1",
           "topicTitle": "Endocrine Glands & Hormonal Regulation",
-          "definition": "An secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
+          "definition": "A secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
           "connection": "Explain endocrine glands, hormones, target cells, and antagonistic regulation.",
           "teacherNote": ""
         },
@@ -9911,7 +9911,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.1",
           "topicTitle": "Endocrine Glands & Hormonal Regulation",
-          "definition": "An chemical messenger released into body fluids that regulates target cells involved in endocrine glands & hormonal regulation.",
+          "definition": "A chemical messenger released into body fluids that regulates target cells involved in endocrine glands & hormonal regulation.",
           "connection": "Explain endocrine glands, hormones, target cells, and antagonistic regulation.",
           "teacherNote": ""
         },
@@ -9929,7 +9929,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.1",
           "topicTitle": "Endocrine Glands & Hormonal Regulation",
-          "definition": "An secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
+          "definition": "A secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
           "connection": "Explain endocrine glands, hormones, target cells, and antagonistic regulation.",
           "teacherNote": ""
         },
@@ -9938,7 +9938,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.1",
           "topicTitle": "Endocrine Glands & Hormonal Regulation",
-          "definition": "An coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
+          "definition": "A coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
           "connection": "Explain endocrine glands, hormones, target cells, and antagonistic regulation.",
           "teacherNote": ""
         },
@@ -9947,7 +9947,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.1",
           "topicTitle": "Endocrine Glands & Hormonal Regulation",
-          "definition": "An secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
+          "definition": "A secretory organ or group of epithelial cells that produces and releases the substance or signal associated with its name.",
           "connection": "Explain endocrine glands, hormones, target cells, and antagonistic regulation.",
           "teacherNote": ""
         },
@@ -9956,7 +9956,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.1",
           "topicTitle": "Endocrine Glands & Hormonal Regulation",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in endocrine glands & hormonal regulation and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in endocrine glands & hormonal regulation and chemical coordination of target-cell activity.",
           "connection": "Explain endocrine glands, hormones, target cells, and antagonistic regulation.",
           "teacherNote": ""
         },
@@ -10010,7 +10010,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "6.1",
           "topicTitle": "Endocrine Glands & Hormonal Regulation",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in endocrine glands & hormonal regulation and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in endocrine glands & hormonal regulation and chemical coordination of target-cell activity.",
           "connection": "Explain endocrine glands, hormones, target cells, and antagonistic regulation.",
           "teacherNote": ""
         },
@@ -10055,7 +10055,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "6.1",
           "topicTitle": "Endocrine Glands & Hormonal Regulation",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in endocrine glands & hormonal regulation and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in endocrine glands & hormonal regulation and chemical coordination of target-cell activity.",
           "connection": "Explain endocrine glands, hormones, target cells, and antagonistic regulation.",
           "teacherNote": ""
         },
@@ -10064,7 +10064,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "6.1",
           "topicTitle": "Endocrine Glands & Hormonal Regulation",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in endocrine glands & hormonal regulation and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in endocrine glands & hormonal regulation and chemical coordination of target-cell activity.",
           "connection": "Explain endocrine glands, hormones, target cells, and antagonistic regulation.",
           "teacherNote": ""
         },
@@ -10100,7 +10100,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.2",
           "topicTitle": "Pituitary, Hypothalamus & Pancreas",
-          "definition": "An chemical messenger released into body fluids that regulates target cells involved in pituitary, hypothalamus & pancreas.",
+          "definition": "A chemical messenger released into body fluids that regulates target cells involved in pituitary, hypothalamus & pancreas.",
           "connection": "Explain coordination by the hypothalamus, pituitary, and pancreas.",
           "teacherNote": ""
         },
@@ -10109,7 +10109,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "6.2",
           "topicTitle": "Pituitary, Hypothalamus & Pancreas",
-          "definition": "An specialized cell type whose structure and physiological role are associated with pituitary, hypothalamus & pancreas.",
+          "definition": "A specialized cell type whose structure and physiological role are associated with pituitary, hypothalamus & pancreas.",
           "connection": "Explain coordination by the hypothalamus, pituitary, and pancreas.",
           "teacherNote": ""
         },
@@ -10127,7 +10127,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.2",
           "topicTitle": "Pituitary, Hypothalamus & Pancreas",
-          "definition": "An chemical messenger released into body fluids that regulates target cells involved in pituitary, hypothalamus & pancreas.",
+          "definition": "A chemical messenger released into body fluids that regulates target cells involved in pituitary, hypothalamus & pancreas.",
           "connection": "Explain coordination by the hypothalamus, pituitary, and pancreas.",
           "teacherNote": ""
         },
@@ -10181,7 +10181,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.2",
           "topicTitle": "Pituitary, Hypothalamus & Pancreas",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in pituitary, hypothalamus & pancreas and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in pituitary, hypothalamus & pancreas and chemical coordination of target-cell activity.",
           "connection": "Explain coordination by the hypothalamus, pituitary, and pancreas.",
           "teacherNote": ""
         },
@@ -10217,7 +10217,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "6.2",
           "topicTitle": "Pituitary, Hypothalamus & Pancreas",
-          "definition": "An chemical messenger released into body fluids that regulates target cells involved in pituitary, hypothalamus & pancreas.",
+          "definition": "A chemical messenger released into body fluids that regulates target cells involved in pituitary, hypothalamus & pancreas.",
           "connection": "Explain coordination by the hypothalamus, pituitary, and pancreas.",
           "teacherNote": ""
         },
@@ -10262,7 +10262,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "6.2",
           "topicTitle": "Pituitary, Hypothalamus & Pancreas",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in pituitary, hypothalamus & pancreas and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in pituitary, hypothalamus & pancreas and chemical coordination of target-cell activity.",
           "connection": "Explain coordination by the hypothalamus, pituitary, and pancreas.",
           "teacherNote": ""
         },
@@ -10271,7 +10271,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "6.2",
           "topicTitle": "Pituitary, Hypothalamus & Pancreas",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in pituitary, hypothalamus & pancreas and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in pituitary, hypothalamus & pancreas and chemical coordination of target-cell activity.",
           "connection": "Explain coordination by the hypothalamus, pituitary, and pancreas.",
           "teacherNote": ""
         },
@@ -10280,7 +10280,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "6.2",
           "topicTitle": "Pituitary, Hypothalamus & Pancreas",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in pituitary, hypothalamus & pancreas and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in pituitary, hypothalamus & pancreas and chemical coordination of target-cell activity.",
           "connection": "Explain coordination by the hypothalamus, pituitary, and pancreas.",
           "teacherNote": ""
         },
@@ -10289,7 +10289,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.2",
           "topicTitle": "Pituitary, Hypothalamus & Pancreas",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in pituitary, hypothalamus & pancreas and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in pituitary, hypothalamus & pancreas and chemical coordination of target-cell activity.",
           "connection": "Explain coordination by the hypothalamus, pituitary, and pancreas.",
           "teacherNote": ""
         },
@@ -10334,7 +10334,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.3",
           "topicTitle": "Cell Signaling & Signal Transduction",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
           "connection": "Explain ligands, receptors, and signal-transduction pathways.",
           "teacherNote": ""
         },
@@ -10343,7 +10343,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.3",
           "topicTitle": "Cell Signaling & Signal Transduction",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
           "connection": "Explain ligands, receptors, and signal-transduction pathways.",
           "teacherNote": ""
         },
@@ -10370,7 +10370,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.3",
           "topicTitle": "Cell Signaling & Signal Transduction",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
           "connection": "Explain ligands, receptors, and signal-transduction pathways.",
           "teacherNote": ""
         },
@@ -10397,7 +10397,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.3",
           "topicTitle": "Cell Signaling & Signal Transduction",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
           "connection": "Explain ligands, receptors, and signal-transduction pathways.",
           "teacherNote": ""
         },
@@ -10406,7 +10406,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "6.3",
           "topicTitle": "Cell Signaling & Signal Transduction",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
           "connection": "Explain ligands, receptors, and signal-transduction pathways.",
           "teacherNote": ""
         },
@@ -10424,7 +10424,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.3",
           "topicTitle": "Cell Signaling & Signal Transduction",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
           "connection": "Explain ligands, receptors, and signal-transduction pathways.",
           "teacherNote": ""
         },
@@ -10433,7 +10433,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "6.3",
           "topicTitle": "Cell Signaling & Signal Transduction",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
           "connection": "Explain ligands, receptors, and signal-transduction pathways.",
           "teacherNote": ""
         },
@@ -10451,7 +10451,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "6.3",
           "topicTitle": "Cell Signaling & Signal Transduction",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
           "connection": "Explain ligands, receptors, and signal-transduction pathways.",
           "teacherNote": ""
         },
@@ -10460,7 +10460,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.3",
           "topicTitle": "Cell Signaling & Signal Transduction",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
           "connection": "Explain ligands, receptors, and signal-transduction pathways.",
           "teacherNote": ""
         },
@@ -10469,7 +10469,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.3",
           "topicTitle": "Cell Signaling & Signal Transduction",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
           "connection": "Explain ligands, receptors, and signal-transduction pathways.",
           "teacherNote": ""
         },
@@ -10478,7 +10478,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.3",
           "topicTitle": "Cell Signaling & Signal Transduction",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
           "connection": "Explain ligands, receptors, and signal-transduction pathways.",
           "teacherNote": ""
         },
@@ -10496,7 +10496,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.3",
           "topicTitle": "Cell Signaling & Signal Transduction",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in cell signaling & signal transduction and chemical coordination of target-cell activity.",
           "connection": "Explain ligands, receptors, and signal-transduction pathways.",
           "teacherNote": ""
         },
@@ -10505,7 +10505,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.4",
           "topicTitle": "Hormonal Homeostasis: Temperature & Blood Glucose",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
           "connection": "Explain hormonal feedback in thermoregulation and blood-glucose control.",
           "teacherNote": ""
         },
@@ -10514,7 +10514,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.4",
           "topicTitle": "Hormonal Homeostasis: Temperature & Blood Glucose",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
           "connection": "Explain hormonal feedback in thermoregulation and blood-glucose control.",
           "teacherNote": ""
         },
@@ -10532,7 +10532,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.4",
           "topicTitle": "Hormonal Homeostasis: Temperature & Blood Glucose",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
           "connection": "Explain hormonal feedback in thermoregulation and blood-glucose control.",
           "teacherNote": ""
         },
@@ -10541,7 +10541,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.4",
           "topicTitle": "Hormonal Homeostasis: Temperature & Blood Glucose",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
           "connection": "Explain hormonal feedback in thermoregulation and blood-glucose control.",
           "teacherNote": ""
         },
@@ -10550,7 +10550,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.4",
           "topicTitle": "Hormonal Homeostasis: Temperature & Blood Glucose",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
           "connection": "Explain hormonal feedback in thermoregulation and blood-glucose control.",
           "teacherNote": ""
         },
@@ -10559,7 +10559,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.4",
           "topicTitle": "Hormonal Homeostasis: Temperature & Blood Glucose",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
           "connection": "Explain hormonal feedback in thermoregulation and blood-glucose control.",
           "teacherNote": ""
         },
@@ -10568,7 +10568,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.4",
           "topicTitle": "Hormonal Homeostasis: Temperature & Blood Glucose",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
           "connection": "Explain hormonal feedback in thermoregulation and blood-glucose control.",
           "teacherNote": ""
         },
@@ -10577,7 +10577,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.4",
           "topicTitle": "Hormonal Homeostasis: Temperature & Blood Glucose",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
           "connection": "Explain hormonal feedback in thermoregulation and blood-glucose control.",
           "teacherNote": ""
         },
@@ -10595,7 +10595,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.4",
           "topicTitle": "Hormonal Homeostasis: Temperature & Blood Glucose",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
           "connection": "Explain hormonal feedback in thermoregulation and blood-glucose control.",
           "teacherNote": ""
         },
@@ -10604,7 +10604,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.4",
           "topicTitle": "Hormonal Homeostasis: Temperature & Blood Glucose",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in hormonal homeostasis: temperature & blood glucose and chemical coordination of target-cell activity.",
           "connection": "Explain hormonal feedback in thermoregulation and blood-glucose control.",
           "teacherNote": ""
         },
@@ -10613,7 +10613,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.5",
           "topicTitle": "Diabetes & Blood-Glucose Disorders",
-          "definition": "An pathological disorder characterized by abnormal structure or function in the body system indicated by its name.",
+          "definition": "A pathological disorder characterized by abnormal structure or function in the body system indicated by its name.",
           "connection": "Compare diabetes types, consequences, risk factors, and management.",
           "teacherNote": ""
         },
@@ -10622,7 +10622,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.5",
           "topicTitle": "Diabetes & Blood-Glucose Disorders",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
           "connection": "Compare diabetes types, consequences, risk factors, and management.",
           "teacherNote": ""
         },
@@ -10631,7 +10631,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.5",
           "topicTitle": "Diabetes & Blood-Glucose Disorders",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
           "connection": "Compare diabetes types, consequences, risk factors, and management.",
           "teacherNote": ""
         },
@@ -10640,7 +10640,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.5",
           "topicTitle": "Diabetes & Blood-Glucose Disorders",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
           "connection": "Compare diabetes types, consequences, risk factors, and management.",
           "teacherNote": ""
         },
@@ -10649,7 +10649,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.5",
           "topicTitle": "Diabetes & Blood-Glucose Disorders",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
           "connection": "Compare diabetes types, consequences, risk factors, and management.",
           "teacherNote": ""
         },
@@ -10658,7 +10658,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "6.5",
           "topicTitle": "Diabetes & Blood-Glucose Disorders",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
           "connection": "Compare diabetes types, consequences, risk factors, and management.",
           "teacherNote": ""
         },
@@ -10676,7 +10676,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.5",
           "topicTitle": "Diabetes & Blood-Glucose Disorders",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
           "connection": "Compare diabetes types, consequences, risk factors, and management.",
           "teacherNote": ""
         },
@@ -10739,7 +10739,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.5",
           "topicTitle": "Diabetes & Blood-Glucose Disorders",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
           "connection": "Compare diabetes types, consequences, risk factors, and management.",
           "teacherNote": ""
         },
@@ -10748,7 +10748,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.5",
           "topicTitle": "Diabetes & Blood-Glucose Disorders",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
           "connection": "Compare diabetes types, consequences, risk factors, and management.",
           "teacherNote": ""
         },
@@ -10757,7 +10757,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.5",
           "topicTitle": "Diabetes & Blood-Glucose Disorders",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in diabetes & blood-glucose disorders and chemical coordination of target-cell activity.",
           "connection": "Compare diabetes types, consequences, risk factors, and management.",
           "teacherNote": ""
         },
@@ -10811,7 +10811,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.6",
           "topicTitle": "Stress & Endocrine Aging",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
           "connection": "Explain acute and chronic stress responses and endocrine aging.",
           "teacherNote": ""
         },
@@ -10856,7 +10856,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "6.6",
           "topicTitle": "Stress & Endocrine Aging",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
           "connection": "Explain acute and chronic stress responses and endocrine aging.",
           "teacherNote": ""
         },
@@ -10874,7 +10874,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.6",
           "topicTitle": "Stress & Endocrine Aging",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
           "connection": "Explain acute and chronic stress responses and endocrine aging.",
           "teacherNote": ""
         },
@@ -10883,7 +10883,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.6",
           "topicTitle": "Stress & Endocrine Aging",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
           "connection": "Explain acute and chronic stress responses and endocrine aging.",
           "teacherNote": ""
         },
@@ -10901,7 +10901,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "6.6",
           "topicTitle": "Stress & Endocrine Aging",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
           "connection": "Explain acute and chronic stress responses and endocrine aging.",
           "teacherNote": ""
         },
@@ -10910,7 +10910,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "6.6",
           "topicTitle": "Stress & Endocrine Aging",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
           "connection": "Explain acute and chronic stress responses and endocrine aging.",
           "teacherNote": ""
         },
@@ -10919,7 +10919,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "6.6",
           "topicTitle": "Stress & Endocrine Aging",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
           "connection": "Explain acute and chronic stress responses and endocrine aging.",
           "teacherNote": ""
         },
@@ -10928,7 +10928,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "6.6",
           "topicTitle": "Stress & Endocrine Aging",
-          "definition": "A endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
+          "definition": "An endocrine structure, hormone-related molecule, or regulatory process involved in stress & endocrine aging and chemical coordination of target-cell activity.",
           "connection": "Explain acute and chronic stress responses and endocrine aging.",
           "teacherNote": ""
         }
@@ -11083,7 +11083,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "7.1",
           "topicTitle": "Circulation & Transport",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in circulation & transport and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in circulation & transport and circulation of blood through the body.",
           "connection": "Trace pulmonary and systemic circulation and explain transport roles.",
           "teacherNote": ""
         },
@@ -11092,7 +11092,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "7.1",
           "topicTitle": "Circulation & Transport",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in circulation & transport and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in circulation & transport and circulation of blood through the body.",
           "connection": "Trace pulmonary and systemic circulation and explain transport roles.",
           "teacherNote": ""
         },
@@ -11164,7 +11164,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.1",
           "topicTitle": "Circulation & Transport",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in circulation & transport and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in circulation & transport and circulation of blood through the body.",
           "connection": "Trace pulmonary and systemic circulation and explain transport roles.",
           "teacherNote": ""
         },
@@ -11218,7 +11218,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in blood vessels & capillary exchange and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in blood vessels & capillary exchange and circulation of blood through the body.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11227,7 +11227,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
+          "definition": "A named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11236,7 +11236,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in blood vessels & capillary exchange and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in blood vessels & capillary exchange and circulation of blood through the body.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11245,7 +11245,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in blood vessels & capillary exchange and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in blood vessels & capillary exchange and circulation of blood through the body.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11254,7 +11254,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
+          "definition": "A named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11263,7 +11263,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An named vein that returns blood from structures associated with blood vessels & capillary exchange toward the heart.",
+          "definition": "A named vein that returns blood from structures associated with blood vessels & capillary exchange toward the heart.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11380,7 +11380,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in blood vessels & capillary exchange and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in blood vessels & capillary exchange and circulation of blood through the body.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11389,7 +11389,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
+          "definition": "A named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11398,7 +11398,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
+          "definition": "A named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11407,7 +11407,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
+          "definition": "A named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11416,7 +11416,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An named vein that returns blood from structures associated with blood vessels & capillary exchange toward the heart.",
+          "definition": "A named vein that returns blood from structures associated with blood vessels & capillary exchange toward the heart.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11425,7 +11425,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An named vein that returns blood from structures associated with blood vessels & capillary exchange toward the heart.",
+          "definition": "A named vein that returns blood from structures associated with blood vessels & capillary exchange toward the heart.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11497,7 +11497,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
+          "definition": "A named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11506,7 +11506,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An named vein that returns blood from structures associated with blood vessels & capillary exchange toward the heart.",
+          "definition": "A named vein that returns blood from structures associated with blood vessels & capillary exchange toward the heart.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11515,7 +11515,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in blood vessels & capillary exchange and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in blood vessels & capillary exchange and circulation of blood through the body.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11659,7 +11659,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.2",
           "topicTitle": "Blood Vessels & Capillary Exchange",
-          "definition": "An named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
+          "definition": "A named artery that carries oxygenated blood away from the heart to structures associated with blood vessels & capillary exchange; its exact distribution is determined by its anatomical branches.",
           "connection": "Relate vessel structure to function and explain capillary exchange.",
           "teacherNote": ""
         },
@@ -11695,7 +11695,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.3",
           "topicTitle": "Blood, Hematopoiesis & Exercise",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in blood, hematopoiesis & exercise and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in blood, hematopoiesis & exercise and circulation of blood through the body.",
           "connection": "Identify blood components, explain hematopoiesis, and describe exercise responses.",
           "teacherNote": ""
         },
@@ -11713,7 +11713,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "7.3",
           "topicTitle": "Blood, Hematopoiesis & Exercise",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in blood, hematopoiesis & exercise and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in blood, hematopoiesis & exercise and circulation of blood through the body.",
           "connection": "Identify blood components, explain hematopoiesis, and describe exercise responses.",
           "teacherNote": ""
         },
@@ -11731,7 +11731,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "7.3",
           "topicTitle": "Blood, Hematopoiesis & Exercise",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in blood, hematopoiesis & exercise and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in blood, hematopoiesis & exercise and circulation of blood through the body.",
           "connection": "Identify blood components, explain hematopoiesis, and describe exercise responses.",
           "teacherNote": ""
         },
@@ -11740,7 +11740,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.3",
           "topicTitle": "Blood, Hematopoiesis & Exercise",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in blood, hematopoiesis & exercise and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in blood, hematopoiesis & exercise and circulation of blood through the body.",
           "connection": "Identify blood components, explain hematopoiesis, and describe exercise responses.",
           "teacherNote": ""
         },
@@ -11893,7 +11893,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.4",
           "topicTitle": "Heart Structure, Blood Flow & Dissection",
-          "definition": "An named artery that carries oxygenated blood away from the heart to structures associated with heart structure, blood flow & dissection; its exact distribution is determined by its anatomical branches.",
+          "definition": "A named artery that carries oxygenated blood away from the heart to structures associated with heart structure, blood flow & dissection; its exact distribution is determined by its anatomical branches.",
           "connection": "Trace one-way blood flow through heart chambers, valves, and vessels.",
           "teacherNote": ""
         },
@@ -11902,7 +11902,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.4",
           "topicTitle": "Heart Structure, Blood Flow & Dissection",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
           "connection": "Trace one-way blood flow through heart chambers, valves, and vessels.",
           "teacherNote": ""
         },
@@ -11911,7 +11911,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "7.4",
           "topicTitle": "Heart Structure, Blood Flow & Dissection",
-          "definition": "An flap-like structure that opens and closes to maintain one-way flow or regulate passage through the named location.",
+          "definition": "A flap-like structure that opens and closes to maintain one-way flow or regulate passage through the named location.",
           "connection": "Trace one-way blood flow through heart chambers, valves, and vessels.",
           "teacherNote": ""
         },
@@ -11920,7 +11920,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.4",
           "topicTitle": "Heart Structure, Blood Flow & Dissection",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
           "connection": "Trace one-way blood flow through heart chambers, valves, and vessels.",
           "teacherNote": ""
         },
@@ -11974,7 +11974,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.4",
           "topicTitle": "Heart Structure, Blood Flow & Dissection",
-          "definition": "A air-filled cavity, venous channel, or dilated passage located in the structure indicated by its name.",
+          "definition": "An air-filled cavity, venous channel, or dilated passage located in the structure indicated by its name.",
           "connection": "Trace one-way blood flow through heart chambers, valves, and vessels.",
           "teacherNote": ""
         },
@@ -11992,7 +11992,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "7.4",
           "topicTitle": "Heart Structure, Blood Flow & Dissection",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
           "connection": "Trace one-way blood flow through heart chambers, valves, and vessels.",
           "teacherNote": ""
         },
@@ -12001,7 +12001,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.4",
           "topicTitle": "Heart Structure, Blood Flow & Dissection",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
           "connection": "Trace one-way blood flow through heart chambers, valves, and vessels.",
           "teacherNote": ""
         },
@@ -12046,7 +12046,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "7.4",
           "topicTitle": "Heart Structure, Blood Flow & Dissection",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
           "connection": "Trace one-way blood flow through heart chambers, valves, and vessels.",
           "teacherNote": ""
         },
@@ -12055,7 +12055,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "7.4",
           "topicTitle": "Heart Structure, Blood Flow & Dissection",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
           "connection": "Trace one-way blood flow through heart chambers, valves, and vessels.",
           "teacherNote": ""
         },
@@ -12064,7 +12064,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "7.4",
           "topicTitle": "Heart Structure, Blood Flow & Dissection",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in heart structure, blood flow & dissection and circulation of blood through the body.",
           "connection": "Trace one-way blood flow through heart chambers, valves, and vessels.",
           "teacherNote": ""
         },
@@ -12163,7 +12163,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "7.4",
           "topicTitle": "Heart Structure, Blood Flow & Dissection",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Trace one-way blood flow through heart chambers, valves, and vessels.",
           "teacherNote": ""
         },
@@ -12316,7 +12316,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.5",
           "topicTitle": "Cardiac Cycle & ECG",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in cardiac cycle & ecg and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in cardiac cycle & ecg and circulation of blood through the body.",
           "connection": "Relate electrical activity, pressure, volume, and valve position in the cardiac cycle.",
           "teacherNote": ""
         },
@@ -12370,7 +12370,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.5",
           "topicTitle": "Cardiac Cycle & ECG",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in cardiac cycle & ecg and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in cardiac cycle & ecg and circulation of blood through the body.",
           "connection": "Relate electrical activity, pressure, volume, and valve position in the cardiac cycle.",
           "teacherNote": ""
         },
@@ -12379,7 +12379,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "7.5",
           "topicTitle": "Cardiac Cycle & ECG",
-          "definition": "An measured quantity of fluid or gas contained, moved, or exchanged under the physiological condition indicated by its name.",
+          "definition": "A measured quantity of fluid or gas contained, moved, or exchanged under the physiological condition indicated by its name.",
           "connection": "Relate electrical activity, pressure, volume, and valve position in the cardiac cycle.",
           "teacherNote": ""
         },
@@ -12388,7 +12388,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "7.5",
           "topicTitle": "Cardiac Cycle & ECG",
-          "definition": "An measured quantity of fluid or gas contained, moved, or exchanged under the physiological condition indicated by its name.",
+          "definition": "A measured quantity of fluid or gas contained, moved, or exchanged under the physiological condition indicated by its name.",
           "connection": "Relate electrical activity, pressure, volume, and valve position in the cardiac cycle.",
           "teacherNote": ""
         },
@@ -12469,7 +12469,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.6",
           "topicTitle": "Intrinsic & Extrinsic Regulation of Heart Rate",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in intrinsic & extrinsic regulation of heart rate and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in intrinsic & extrinsic regulation of heart rate and circulation of blood through the body.",
           "connection": "Explain intrinsic conduction and autonomic control of heart rate.",
           "teacherNote": ""
         },
@@ -12478,7 +12478,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.6",
           "topicTitle": "Intrinsic & Extrinsic Regulation of Heart Rate",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in intrinsic & extrinsic regulation of heart rate and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in intrinsic & extrinsic regulation of heart rate and circulation of blood through the body.",
           "connection": "Explain intrinsic conduction and autonomic control of heart rate.",
           "teacherNote": ""
         },
@@ -12487,7 +12487,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.6",
           "topicTitle": "Intrinsic & Extrinsic Regulation of Heart Rate",
-          "definition": "An specialized cell type whose structure and physiological role are associated with intrinsic & extrinsic regulation of heart rate.",
+          "definition": "A specialized cell type whose structure and physiological role are associated with intrinsic & extrinsic regulation of heart rate.",
           "connection": "Explain intrinsic conduction and autonomic control of heart rate.",
           "teacherNote": ""
         },
@@ -12496,7 +12496,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.6",
           "topicTitle": "Intrinsic & Extrinsic Regulation of Heart Rate",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in intrinsic & extrinsic regulation of heart rate and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in intrinsic & extrinsic regulation of heart rate and circulation of blood through the body.",
           "connection": "Explain intrinsic conduction and autonomic control of heart rate.",
           "teacherNote": ""
         },
@@ -12568,7 +12568,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.6",
           "topicTitle": "Intrinsic & Extrinsic Regulation of Heart Rate",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in intrinsic & extrinsic regulation of heart rate and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in intrinsic & extrinsic regulation of heart rate and circulation of blood through the body.",
           "connection": "Explain intrinsic conduction and autonomic control of heart rate.",
           "teacherNote": ""
         },
@@ -12577,7 +12577,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.6",
           "topicTitle": "Intrinsic & Extrinsic Regulation of Heart Rate",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in intrinsic & extrinsic regulation of heart rate and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in intrinsic & extrinsic regulation of heart rate and circulation of blood through the body.",
           "connection": "Explain intrinsic conduction and autonomic control of heart rate.",
           "teacherNote": ""
         },
@@ -12595,7 +12595,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.6",
           "topicTitle": "Intrinsic & Extrinsic Regulation of Heart Rate",
-          "definition": "A elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
+          "definition": "An elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
           "connection": "Explain intrinsic conduction and autonomic control of heart rate.",
           "teacherNote": ""
         },
@@ -12631,7 +12631,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.7",
           "topicTitle": "Cardiovascular Physiology & Exercise",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in cardiovascular physiology & exercise and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in cardiovascular physiology & exercise and circulation of blood through the body.",
           "connection": "Analyze heart-rate and blood-pressure responses and training adaptations.",
           "teacherNote": ""
         },
@@ -12730,7 +12730,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.8",
           "topicTitle": "Cardiovascular Disease & Treatment",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in cardiovascular disease & treatment and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in cardiovascular disease & treatment and circulation of blood through the body.",
           "connection": "Relate cardiovascular disease mechanisms and risk factors to treatments.",
           "teacherNote": ""
         },
@@ -12739,7 +12739,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.8",
           "topicTitle": "Cardiovascular Disease & Treatment",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in cardiovascular disease & treatment and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in cardiovascular disease & treatment and circulation of blood through the body.",
           "connection": "Relate cardiovascular disease mechanisms and risk factors to treatments.",
           "teacherNote": ""
         },
@@ -12748,7 +12748,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.8",
           "topicTitle": "Cardiovascular Disease & Treatment",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in cardiovascular disease & treatment and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in cardiovascular disease & treatment and circulation of blood through the body.",
           "connection": "Relate cardiovascular disease mechanisms and risk factors to treatments.",
           "teacherNote": ""
         },
@@ -12757,7 +12757,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.8",
           "topicTitle": "Cardiovascular Disease & Treatment",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in cardiovascular disease & treatment and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in cardiovascular disease & treatment and circulation of blood through the body.",
           "connection": "Relate cardiovascular disease mechanisms and risk factors to treatments.",
           "teacherNote": ""
         },
@@ -12820,7 +12820,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "7.8",
           "topicTitle": "Cardiovascular Disease & Treatment",
-          "definition": "An cardiovascular structure, blood component, measurement, or transport process involved in cardiovascular disease & treatment and circulation of blood through the body.",
+          "definition": "A cardiovascular structure, blood component, measurement, or transport process involved in cardiovascular disease & treatment and circulation of blood through the body.",
           "connection": "Relate cardiovascular disease mechanisms and risk factors to treatments.",
           "teacherNote": ""
         },
@@ -13082,7 +13082,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.1",
           "topicTitle": "Antigens, Self/Nonself & Autoimmunity",
-          "definition": "An pathological disorder characterized by abnormal structure or function in the body system indicated by its name.",
+          "definition": "A pathological disorder characterized by abnormal structure or function in the body system indicated by its name.",
           "connection": "Explain self/nonself recognition, the microbiome, and autoimmune disease.",
           "teacherNote": ""
         },
@@ -13091,7 +13091,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.1",
           "topicTitle": "Antigens, Self/Nonself & Autoimmunity",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in antigens, self/nonself & autoimmunity and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in antigens, self/nonself & autoimmunity and protection against infection or abnormal cells.",
           "connection": "Explain self/nonself recognition, the microbiome, and autoimmune disease.",
           "teacherNote": ""
         },
@@ -13109,7 +13109,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.1",
           "topicTitle": "Antigens, Self/Nonself & Autoimmunity",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in antigens, self/nonself & autoimmunity and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in antigens, self/nonself & autoimmunity and protection against infection or abnormal cells.",
           "connection": "Explain self/nonself recognition, the microbiome, and autoimmune disease.",
           "teacherNote": ""
         },
@@ -13118,7 +13118,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.1",
           "topicTitle": "Antigens, Self/Nonself & Autoimmunity",
-          "definition": "An coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
+          "definition": "A coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
           "connection": "Explain self/nonself recognition, the microbiome, and autoimmune disease.",
           "teacherNote": ""
         },
@@ -13195,11 +13195,11 @@ window.COURSE_DATA = {
           "teacherNote": ""
         },
         {
-          "term": "A antigen",
+          "term": "An antigen",
           "priority": "Core",
           "topic": "8.2",
           "topicTitle": "Blood Group Antigens & Clotting",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
           "connection": "Explain blood-group compatibility and clotting.",
           "teacherNote": ""
         },
@@ -13208,7 +13208,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.2",
           "topicTitle": "Blood Group Antigens & Clotting",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
           "connection": "Explain blood-group compatibility and clotting.",
           "teacherNote": ""
         },
@@ -13217,16 +13217,16 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.2",
           "topicTitle": "Blood Group Antigens & Clotting",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
           "connection": "Explain blood-group compatibility and clotting.",
           "teacherNote": ""
         },
         {
-          "term": "anti-A antibody",
+          "term": "anti-An antibody",
           "priority": "Core",
           "topic": "8.2",
           "topicTitle": "Blood Group Antigens & Clotting",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
           "connection": "Explain blood-group compatibility and clotting.",
           "teacherNote": ""
         },
@@ -13235,7 +13235,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.2",
           "topicTitle": "Blood Group Antigens & Clotting",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
           "connection": "Explain blood-group compatibility and clotting.",
           "teacherNote": ""
         },
@@ -13352,7 +13352,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "8.2",
           "topicTitle": "Blood Group Antigens & Clotting",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
           "connection": "Explain blood-group compatibility and clotting.",
           "teacherNote": ""
         },
@@ -13361,7 +13361,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "8.2",
           "topicTitle": "Blood Group Antigens & Clotting",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in blood group antigens & clotting and protection against infection or abnormal cells.",
           "connection": "Explain blood-group compatibility and clotting.",
           "teacherNote": ""
         },
@@ -13379,7 +13379,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.3",
           "topicTitle": "Innate Immunity & Phagocytosis",
-          "definition": "An form or mechanism of host defense that recognizes, prevents, or eliminates pathogens or abnormal cells as specified by the term.",
+          "definition": "A form or mechanism of host defense that recognizes, prevents, or eliminates pathogens or abnormal cells as specified by the term.",
           "connection": "Compare innate and adaptive immunity and explain phagocytosis.",
           "teacherNote": ""
         },
@@ -13424,7 +13424,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.3",
           "topicTitle": "Innate Immunity & Phagocytosis",
-          "definition": "An form or mechanism of host defense that recognizes, prevents, or eliminates pathogens or abnormal cells as specified by the term.",
+          "definition": "A form or mechanism of host defense that recognizes, prevents, or eliminates pathogens or abnormal cells as specified by the term.",
           "connection": "Compare innate and adaptive immunity and explain phagocytosis.",
           "teacherNote": ""
         },
@@ -13433,7 +13433,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.3",
           "topicTitle": "Innate Immunity & Phagocytosis",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in innate immunity & phagocytosis and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in innate immunity & phagocytosis and protection against infection or abnormal cells.",
           "connection": "Compare innate and adaptive immunity and explain phagocytosis.",
           "teacherNote": ""
         },
@@ -13568,7 +13568,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.4",
           "topicTitle": "Inflammation, Antigen Presentation & Fever",
-          "definition": "An specialized cell type whose structure and physiological role are associated with inflammation, antigen presentation & fever.",
+          "definition": "A specialized cell type whose structure and physiological role are associated with inflammation, antigen presentation & fever.",
           "connection": "Explain inflammation, antigen presentation, MHC, and fever.",
           "teacherNote": ""
         },
@@ -13712,7 +13712,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "8.5",
           "topicTitle": "Lymphatic System & Adaptive Immunity",
-          "definition": "An tubular structure that carries blood, lymph, or another body fluid through the region indicated by its name.",
+          "definition": "A tubular structure that carries blood, lymph, or another body fluid through the region indicated by its name.",
           "connection": "Relate lymphatic structures to humoral and cell-mediated immunity.",
           "teacherNote": ""
         },
@@ -13784,7 +13784,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "8.5",
           "topicTitle": "Lymphatic System & Adaptive Immunity",
-          "definition": "An tubular structure that carries blood, lymph, or another body fluid through the region indicated by its name.",
+          "definition": "A tubular structure that carries blood, lymph, or another body fluid through the region indicated by its name.",
           "connection": "Relate lymphatic structures to humoral and cell-mediated immunity.",
           "teacherNote": ""
         },
@@ -13973,7 +13973,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.6",
           "topicTitle": "Clonal Selection, Antibodies & Acquired Immunity",
-          "definition": "An form or mechanism of host defense that recognizes, prevents, or eliminates pathogens or abnormal cells as specified by the term.",
+          "definition": "A form or mechanism of host defense that recognizes, prevents, or eliminates pathogens or abnormal cells as specified by the term.",
           "connection": "Explain clonal selection, antibody actions, immune memory, and vaccination.",
           "teacherNote": ""
         },
@@ -13991,7 +13991,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.6",
           "topicTitle": "Clonal Selection, Antibodies & Acquired Immunity",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in clonal selection, antibodies & acquired immunity and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in clonal selection, antibodies & acquired immunity and protection against infection or abnormal cells.",
           "connection": "Explain clonal selection, antibody actions, immune memory, and vaccination.",
           "teacherNote": ""
         },
@@ -14000,7 +14000,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.6",
           "topicTitle": "Clonal Selection, Antibodies & Acquired Immunity",
-          "definition": "An form or mechanism of host defense that recognizes, prevents, or eliminates pathogens or abnormal cells as specified by the term.",
+          "definition": "A form or mechanism of host defense that recognizes, prevents, or eliminates pathogens or abnormal cells as specified by the term.",
           "connection": "Explain clonal selection, antibody actions, immune memory, and vaccination.",
           "teacherNote": ""
         },
@@ -14045,7 +14045,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.6",
           "topicTitle": "Clonal Selection, Antibodies & Acquired Immunity",
-          "definition": "A anatomically defined area identified by its boundaries, location, or relationship to nearby structures.",
+          "definition": "An anatomically defined area identified by its boundaries, location, or relationship to nearby structures.",
           "connection": "Explain clonal selection, antibody actions, immune memory, and vaccination.",
           "teacherNote": ""
         },
@@ -14063,7 +14063,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.6",
           "topicTitle": "Clonal Selection, Antibodies & Acquired Immunity",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in clonal selection, antibodies & acquired immunity and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in clonal selection, antibodies & acquired immunity and protection against infection or abnormal cells.",
           "connection": "Explain clonal selection, antibody actions, immune memory, and vaccination.",
           "teacherNote": ""
         },
@@ -14099,7 +14099,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "8.6",
           "topicTitle": "Clonal Selection, Antibodies & Acquired Immunity",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in clonal selection, antibodies & acquired immunity and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in clonal selection, antibodies & acquired immunity and protection against infection or abnormal cells.",
           "connection": "Explain clonal selection, antibody actions, immune memory, and vaccination.",
           "teacherNote": ""
         },
@@ -14153,7 +14153,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.6",
           "topicTitle": "Clonal Selection, Antibodies & Acquired Immunity",
-          "definition": "A anatomically defined area identified by its boundaries, location, or relationship to nearby structures.",
+          "definition": "An anatomically defined area identified by its boundaries, location, or relationship to nearby structures.",
           "connection": "Explain clonal selection, antibody actions, immune memory, and vaccination.",
           "teacherNote": ""
         },
@@ -14162,7 +14162,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.7",
           "topicTitle": "Immune Dysfunction & Medical Applications",
-          "definition": "An recognized group of signs, symptoms, and physiological abnormalities that occur together.",
+          "definition": "A recognized group of signs, symptoms, and physiological abnormalities that occur together.",
           "connection": "Explain immune dysfunction and medical applications of immune principles.",
           "teacherNote": ""
         },
@@ -14180,7 +14180,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.7",
           "topicTitle": "Immune Dysfunction & Medical Applications",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in immune dysfunction & medical applications and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in immune dysfunction & medical applications and protection against infection or abnormal cells.",
           "connection": "Explain immune dysfunction and medical applications of immune principles.",
           "teacherNote": ""
         },
@@ -14189,7 +14189,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.7",
           "topicTitle": "Immune Dysfunction & Medical Applications",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in immune dysfunction & medical applications and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in immune dysfunction & medical applications and protection against infection or abnormal cells.",
           "connection": "Explain immune dysfunction and medical applications of immune principles.",
           "teacherNote": ""
         },
@@ -14198,7 +14198,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.7",
           "topicTitle": "Immune Dysfunction & Medical Applications",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in immune dysfunction & medical applications and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in immune dysfunction & medical applications and protection against infection or abnormal cells.",
           "connection": "Explain immune dysfunction and medical applications of immune principles.",
           "teacherNote": ""
         },
@@ -14279,7 +14279,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.7",
           "topicTitle": "Immune Dysfunction & Medical Applications",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in immune dysfunction & medical applications and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in immune dysfunction & medical applications and protection against infection or abnormal cells.",
           "connection": "Explain immune dysfunction and medical applications of immune principles.",
           "teacherNote": ""
         },
@@ -14288,7 +14288,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "8.7",
           "topicTitle": "Immune Dysfunction & Medical Applications",
-          "definition": "An lymphatic or immune structure, cell, molecule, or defense process involved in immune dysfunction & medical applications and protection against infection or abnormal cells.",
+          "definition": "A lymphatic or immune structure, cell, molecule, or defense process involved in immune dysfunction & medical applications and protection against infection or abnormal cells.",
           "connection": "Explain immune dysfunction and medical applications of immune principles.",
           "teacherNote": ""
         },
@@ -14478,7 +14478,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "An tube that conveys a glandular secretion or body fluid from its site of production to the named destination.",
+          "definition": "A tube that conveys a glandular secretion or body fluid from its site of production to the named destination.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14487,7 +14487,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14496,7 +14496,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14505,7 +14505,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14532,7 +14532,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "A indentation at the edge of a bone or organ that accommodates another structure.",
+          "definition": "An indentation at the edge of a bone or organ that accommodates another structure.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14568,7 +14568,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14577,7 +14577,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14586,7 +14586,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14631,7 +14631,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14685,7 +14685,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "A anatomically distinguishable division of an organ, named for its location or function.",
+          "definition": "An anatomically distinguishable division of an organ, named for its location or function.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14694,7 +14694,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14721,7 +14721,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14739,7 +14739,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in respiratory anatomy & gas exchange and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14784,7 +14784,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "A anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
+          "definition": "An anatomically defined internal space that contains, surrounds, or separates the organs or structures indicated by its name.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -14865,7 +14865,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "9.1",
           "topicTitle": "Respiratory Anatomy & Gas Exchange",
-          "definition": "A anatomically distinguishable division of an organ, named for its location or function.",
+          "definition": "An anatomically distinguishable division of an organ, named for its location or function.",
           "connection": "Relate respiratory anatomy and exchange-surface features to gas exchange.",
           "teacherNote": ""
         },
@@ -15045,7 +15045,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.2",
           "topicTitle": "Gas Transport",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in gas transport and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in gas transport and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain oxygen and carbon-dioxide transport in blood.",
           "teacherNote": ""
         },
@@ -15054,7 +15054,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.2",
           "topicTitle": "Gas Transport",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in gas transport and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in gas transport and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain oxygen and carbon-dioxide transport in blood.",
           "teacherNote": ""
         },
@@ -15063,7 +15063,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.2",
           "topicTitle": "Gas Transport",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in gas transport and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in gas transport and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain oxygen and carbon-dioxide transport in blood.",
           "teacherNote": ""
         },
@@ -15090,7 +15090,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.3",
           "topicTitle": "Breathing & Control of Ventilation",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in breathing & control of ventilation and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in breathing & control of ventilation and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain breathing mechanics, neural control, and sleep apnea.",
           "teacherNote": ""
         },
@@ -15099,7 +15099,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.3",
           "topicTitle": "Breathing & Control of Ventilation",
-          "definition": "An named skeletal muscle that produces movement or stabilization in the anatomical region indicated by its name and attachments.",
+          "definition": "A named skeletal muscle that produces movement or stabilization in the anatomical region indicated by its name and attachments.",
           "connection": "Explain breathing mechanics, neural control, and sleep apnea.",
           "teacherNote": ""
         },
@@ -15117,7 +15117,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.3",
           "topicTitle": "Breathing & Control of Ventilation",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in breathing & control of ventilation and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in breathing & control of ventilation and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain breathing mechanics, neural control, and sleep apnea.",
           "teacherNote": ""
         },
@@ -15126,7 +15126,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.3",
           "topicTitle": "Breathing & Control of Ventilation",
-          "definition": "An named skeletal muscle that produces movement or stabilization in the anatomical region indicated by its name and attachments.",
+          "definition": "A named skeletal muscle that produces movement or stabilization in the anatomical region indicated by its name and attachments.",
           "connection": "Explain breathing mechanics, neural control, and sleep apnea.",
           "teacherNote": ""
         },
@@ -15135,7 +15135,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.3",
           "topicTitle": "Breathing & Control of Ventilation",
-          "definition": "An force per unit area exerted by a body fluid or gas in the compartment indicated by its name.",
+          "definition": "A force per unit area exerted by a body fluid or gas in the compartment indicated by its name.",
           "connection": "Explain breathing mechanics, neural control, and sleep apnea.",
           "teacherNote": ""
         },
@@ -15144,7 +15144,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.3",
           "topicTitle": "Breathing & Control of Ventilation",
-          "definition": "An force per unit area exerted by a body fluid or gas in the compartment indicated by its name.",
+          "definition": "A force per unit area exerted by a body fluid or gas in the compartment indicated by its name.",
           "connection": "Explain breathing mechanics, neural control, and sleep apnea.",
           "teacherNote": ""
         },
@@ -15234,7 +15234,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.4",
           "topicTitle": "Lung Function & Spirometry",
-          "definition": "An measured quantity of fluid or gas contained, moved, or exchanged under the physiological condition indicated by its name.",
+          "definition": "A measured quantity of fluid or gas contained, moved, or exchanged under the physiological condition indicated by its name.",
           "connection": "Interpret spirometry and lung-volume data.",
           "teacherNote": ""
         },
@@ -15270,7 +15270,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.4",
           "topicTitle": "Lung Function & Spirometry",
-          "definition": "An maximum or combined physiological volume or functional ability defined by the component named.",
+          "definition": "A maximum or combined physiological volume or functional ability defined by the component named.",
           "connection": "Interpret spirometry and lung-volume data.",
           "teacherNote": ""
         },
@@ -15279,7 +15279,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.4",
           "topicTitle": "Lung Function & Spirometry",
-          "definition": "An measured quantity of fluid or gas contained, moved, or exchanged under the physiological condition indicated by its name.",
+          "definition": "A measured quantity of fluid or gas contained, moved, or exchanged under the physiological condition indicated by its name.",
           "connection": "Interpret spirometry and lung-volume data.",
           "teacherNote": ""
         },
@@ -15360,7 +15360,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.5",
           "topicTitle": "Respiratory Disease, Smoking & Vaping",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in respiratory disease, smoking & vaping and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in respiratory disease, smoking & vaping and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain how disease, smoking, and vaping alter respiratory function.",
           "teacherNote": ""
         },
@@ -15423,7 +15423,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.5",
           "topicTitle": "Respiratory Disease, Smoking & Vaping",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in respiratory disease, smoking & vaping and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in respiratory disease, smoking & vaping and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain how disease, smoking, and vaping alter respiratory function.",
           "teacherNote": ""
         },
@@ -15432,7 +15432,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.5",
           "topicTitle": "Respiratory Disease, Smoking & Vaping",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in respiratory disease, smoking & vaping and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in respiratory disease, smoking & vaping and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain how disease, smoking, and vaping alter respiratory function.",
           "teacherNote": ""
         },
@@ -15522,7 +15522,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.6",
           "topicTitle": "Exercise, Altitude & Respiratory Aging",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in exercise, altitude & respiratory aging and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in exercise, altitude & respiratory aging and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain respiratory adjustments to exercise, altitude, and aging.",
           "teacherNote": ""
         },
@@ -15531,7 +15531,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.6",
           "topicTitle": "Exercise, Altitude & Respiratory Aging",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in exercise, altitude & respiratory aging and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in exercise, altitude & respiratory aging and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain respiratory adjustments to exercise, altitude, and aging.",
           "teacherNote": ""
         },
@@ -15540,7 +15540,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.6",
           "topicTitle": "Exercise, Altitude & Respiratory Aging",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in exercise, altitude & respiratory aging and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in exercise, altitude & respiratory aging and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain respiratory adjustments to exercise, altitude, and aging.",
           "teacherNote": ""
         },
@@ -15549,7 +15549,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.6",
           "topicTitle": "Exercise, Altitude & Respiratory Aging",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in exercise, altitude & respiratory aging and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in exercise, altitude & respiratory aging and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain respiratory adjustments to exercise, altitude, and aging.",
           "teacherNote": ""
         },
@@ -15585,7 +15585,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "9.6",
           "topicTitle": "Exercise, Altitude & Respiratory Aging",
-          "definition": "An respiratory structure, gas variable, measurement, or physiological process involved in exercise, altitude & respiratory aging and movement or exchange of oxygen and carbon dioxide.",
+          "definition": "A respiratory structure, gas variable, measurement, or physiological process involved in exercise, altitude & respiratory aging and movement or exchange of oxygen and carbon dioxide.",
           "connection": "Explain respiratory adjustments to exercise, altitude, and aging.",
           "teacherNote": ""
         },
@@ -15821,7 +15821,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.1",
           "topicTitle": "Nutrition & Balanced Diet",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in nutrition & balanced diet and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in nutrition & balanced diet and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Evaluate diet using nutritional and energy-balance principles.",
           "teacherNote": ""
         },
@@ -15830,7 +15830,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.1",
           "topicTitle": "Nutrition & Balanced Diet",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in nutrition & balanced diet and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in nutrition & balanced diet and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Evaluate diet using nutritional and energy-balance principles.",
           "teacherNote": ""
         },
@@ -15920,7 +15920,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.2",
           "topicTitle": "Digestive Tract, Motility & Digestion",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Trace food through the tract and explain mechanical and chemical processing.",
           "teacherNote": ""
         },
@@ -15929,7 +15929,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.2",
           "topicTitle": "Digestive Tract, Motility & Digestion",
-          "definition": "An tube-like anatomical passage through which the named fluid, structure, or organ component passes.",
+          "definition": "A tube-like anatomical passage through which the named fluid, structure, or organ component passes.",
           "connection": "Trace food through the tract and explain mechanical and chemical processing.",
           "teacherNote": ""
         },
@@ -15938,7 +15938,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "10.2",
           "topicTitle": "Digestive Tract, Motility & Digestion",
-          "definition": "An tube-like anatomical passage through which the named fluid, structure, or organ component passes.",
+          "definition": "A tube-like anatomical passage through which the named fluid, structure, or organ component passes.",
           "connection": "Trace food through the tract and explain mechanical and chemical processing.",
           "teacherNote": ""
         },
@@ -15947,7 +15947,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "10.2",
           "topicTitle": "Digestive Tract, Motility & Digestion",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Trace food through the tract and explain mechanical and chemical processing.",
           "teacherNote": ""
         },
@@ -16010,7 +16010,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.2",
           "topicTitle": "Digestive Tract, Motility & Digestion",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Trace food through the tract and explain mechanical and chemical processing.",
           "teacherNote": ""
         },
@@ -16019,7 +16019,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "10.2",
           "topicTitle": "Digestive Tract, Motility & Digestion",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Trace food through the tract and explain mechanical and chemical processing.",
           "teacherNote": ""
         },
@@ -16028,7 +16028,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.2",
           "topicTitle": "Digestive Tract, Motility & Digestion",
-          "definition": "A anatomically organized pathway or bundle that conducts material, impulses, or signals between the regions indicated by its name.",
+          "definition": "An anatomically organized pathway or bundle that conducts material, impulses, or signals between the regions indicated by its name.",
           "connection": "Trace food through the tract and explain mechanical and chemical processing.",
           "teacherNote": ""
         },
@@ -16046,7 +16046,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "10.2",
           "topicTitle": "Digestive Tract, Motility & Digestion",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Trace food through the tract and explain mechanical and chemical processing.",
           "teacherNote": ""
         },
@@ -16055,7 +16055,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.2",
           "topicTitle": "Digestive Tract, Motility & Digestion",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Trace food through the tract and explain mechanical and chemical processing.",
           "teacherNote": ""
         },
@@ -16262,7 +16262,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "10.2",
           "topicTitle": "Digestive Tract, Motility & Digestion",
-          "definition": "An circular muscle that constricts or relaxes to regulate movement through the opening or passage named.",
+          "definition": "A circular muscle that constricts or relaxes to regulate movement through the opening or passage named.",
           "connection": "Trace food through the tract and explain mechanical and chemical processing.",
           "teacherNote": ""
         },
@@ -16271,7 +16271,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "10.2",
           "topicTitle": "Digestive Tract, Motility & Digestion",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in digestive tract, motility & digestion and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Trace food through the tract and explain mechanical and chemical processing.",
           "teacherNote": ""
         },
@@ -16280,7 +16280,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "10.3",
           "topicTitle": "Stomach, Small Intestine & Absorption",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in stomach, small intestine & absorption and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in stomach, small intestine & absorption and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Relate stomach and intestinal structure and secretions to digestion and absorption.",
           "teacherNote": ""
         },
@@ -16451,7 +16451,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "10.3",
           "topicTitle": "Stomach, Small Intestine & Absorption",
-          "definition": "An flap-like structure that opens and closes to maintain one-way flow or regulate passage through the named location.",
+          "definition": "A flap-like structure that opens and closes to maintain one-way flow or regulate passage through the named location.",
           "connection": "Relate stomach and intestinal structure and secretions to digestion and absorption.",
           "teacherNote": ""
         },
@@ -16460,7 +16460,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "10.3",
           "topicTitle": "Stomach, Small Intestine & Absorption",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in stomach, small intestine & absorption and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in stomach, small intestine & absorption and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Relate stomach and intestinal structure and secretions to digestion and absorption.",
           "teacherNote": ""
         },
@@ -16469,7 +16469,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.3",
           "topicTitle": "Stomach, Small Intestine & Absorption",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in stomach, small intestine & absorption and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in stomach, small intestine & absorption and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Relate stomach and intestinal structure and secretions to digestion and absorption.",
           "teacherNote": ""
         },
@@ -16676,7 +16676,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "10.4",
           "topicTitle": "Control of Digestion",
-          "definition": "An coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
+          "definition": "A coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
           "connection": "Explain nervous and hormonal control of digestion.",
           "teacherNote": ""
         },
@@ -16730,7 +16730,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.4",
           "topicTitle": "Control of Digestion",
-          "definition": "An defined stage within the sequence described by control of digestion, distinguished by characteristic events.",
+          "definition": "A defined stage within the sequence described by control of digestion, distinguished by characteristic events.",
           "connection": "Explain nervous and hormonal control of digestion.",
           "teacherNote": ""
         },
@@ -16766,7 +16766,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.5",
           "topicTitle": "Liver Structure & Homeostatic Function",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in liver structure & homeostatic function and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in liver structure & homeostatic function and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Relate liver structure to nutrient processing, detoxification, and urea production.",
           "teacherNote": ""
         },
@@ -16955,7 +16955,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.5",
           "topicTitle": "Liver Structure & Homeostatic Function",
-          "definition": "An recurring sequence of anatomical or physiological events involved in liver structure & homeostatic function.",
+          "definition": "A recurring sequence of anatomical or physiological events involved in liver structure & homeostatic function.",
           "connection": "Relate liver structure to nutrient processing, detoxification, and urea production.",
           "teacherNote": ""
         },
@@ -17000,7 +17000,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.5",
           "topicTitle": "Liver Structure & Homeostatic Function",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in liver structure & homeostatic function and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in liver structure & homeostatic function and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Relate liver structure to nutrient processing, detoxification, and urea production.",
           "teacherNote": ""
         },
@@ -17009,7 +17009,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.5",
           "topicTitle": "Liver Structure & Homeostatic Function",
-          "definition": "An recurring sequence of anatomical or physiological events involved in liver structure & homeostatic function.",
+          "definition": "A recurring sequence of anatomical or physiological events involved in liver structure & homeostatic function.",
           "connection": "Relate liver structure to nutrient processing, detoxification, and urea production.",
           "teacherNote": ""
         },
@@ -17027,7 +17027,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.6",
           "topicTitle": "Fiber, Exercise & Gut Function",
-          "definition": "A elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
+          "definition": "An elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
           "connection": "Relate fiber and exercise to gut function.",
           "teacherNote": ""
         },
@@ -17090,7 +17090,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.6",
           "topicTitle": "Fiber, Exercise & Gut Function",
-          "definition": "A elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
+          "definition": "An elongated cellular element or extracellular strand specialized for conduction, contraction, or structural support as indicated by context.",
           "connection": "Relate fiber and exercise to gut function.",
           "teacherNote": ""
         },
@@ -17153,7 +17153,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.7",
           "topicTitle": "Malnutrition, Obesity, Deficiency & Gut Disease",
-          "definition": "An pathological disorder characterized by abnormal structure or function in the body system indicated by its name.",
+          "definition": "A pathological disorder characterized by abnormal structure or function in the body system indicated by its name.",
           "connection": "Explain malnutrition, obesity, deficiencies, infection, and inflammatory gut disease.",
           "teacherNote": ""
         },
@@ -17207,7 +17207,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.7",
           "topicTitle": "Malnutrition, Obesity, Deficiency & Gut Disease",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in malnutrition, obesity, deficiency & gut disease and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in malnutrition, obesity, deficiency & gut disease and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Explain malnutrition, obesity, deficiencies, infection, and inflammatory gut disease.",
           "teacherNote": ""
         },
@@ -17216,7 +17216,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.7",
           "topicTitle": "Malnutrition, Obesity, Deficiency & Gut Disease",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in malnutrition, obesity, deficiency & gut disease and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in malnutrition, obesity, deficiency & gut disease and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Explain malnutrition, obesity, deficiencies, infection, and inflammatory gut disease.",
           "teacherNote": ""
         },
@@ -17261,7 +17261,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "10.7",
           "topicTitle": "Malnutrition, Obesity, Deficiency & Gut Disease",
-          "definition": "An digestive structure, nutrient, secretion, or physiological process involved in malnutrition, obesity, deficiency & gut disease and the ingestion, digestion, absorption, or elimination of material.",
+          "definition": "A digestive structure, nutrient, secretion, or physiological process involved in malnutrition, obesity, deficiency & gut disease and the ingestion, digestion, absorption, or elimination of material.",
           "connection": "Explain malnutrition, obesity, deficiencies, infection, and inflammatory gut disease.",
           "teacherNote": ""
         }
@@ -17445,7 +17445,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "11.1",
           "topicTitle": "Excretion, Water Budget & Urinary Anatomy",
-          "definition": "An circular muscle that constricts or relaxes to regulate movement through the opening or passage named.",
+          "definition": "A circular muscle that constricts or relaxes to regulate movement through the opening or passage named.",
           "connection": "Distinguish excretion from egestion and explain the water budget and urinary anatomy.",
           "teacherNote": ""
         },
@@ -17463,7 +17463,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "11.1",
           "topicTitle": "Excretion, Water Budget & Urinary Anatomy",
-          "definition": "An circular muscle that constricts or relaxes to regulate movement through the opening or passage named.",
+          "definition": "A circular muscle that constricts or relaxes to regulate movement through the opening or passage named.",
           "connection": "Distinguish excretion from egestion and explain the water budget and urinary anatomy.",
           "teacherNote": ""
         },
@@ -17652,7 +17652,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "11.1",
           "topicTitle": "Excretion, Water Budget & Urinary Anatomy",
-          "definition": "An coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
+          "definition": "A coordinated group of organs, tissues, or regulatory components that performs the physiological functions indicated by its name.",
           "connection": "Distinguish excretion from egestion and explain the water budget and urinary anatomy.",
           "teacherNote": ""
         },
@@ -18012,7 +18012,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "11.3",
           "topicTitle": "Hormonal Regulation, Fluids & Acid–Base Balance",
-          "definition": "An chemical messenger released into body fluids that regulates target cells involved in hormonal regulation, fluids & acid–base balance.",
+          "definition": "A chemical messenger released into body fluids that regulates target cells involved in hormonal regulation, fluids & acid–base balance.",
           "connection": "Explain hormonal fluid, electrolyte, and acid-base regulation.",
           "teacherNote": ""
         },
@@ -18490,7 +18490,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18499,7 +18499,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18589,7 +18589,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18598,7 +18598,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An tube that conveys a glandular secretion or body fluid from its site of production to the named destination.",
+          "definition": "A tube that conveys a glandular secretion or body fluid from its site of production to the named destination.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18607,7 +18607,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18616,7 +18616,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18697,7 +18697,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18706,7 +18706,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18715,7 +18715,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18778,7 +18778,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18787,7 +18787,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18796,7 +18796,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An small sac-like or spherical functional unit that encloses developing cells or secretory material in the named organ.",
+          "definition": "A small sac-like or spherical functional unit that encloses developing cells or secretory material in the named organ.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18805,7 +18805,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -18823,7 +18823,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -19039,7 +19039,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -19048,7 +19048,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "12.1",
           "topicTitle": "Gametes, Reproductive Anatomy & Gametogenesis",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in gametes, reproductive anatomy & gametogenesis and production, transport, or development of gametes and offspring.",
           "connection": "Compare reproductive anatomy, gametes, spermatogenesis, and oogenesis.",
           "teacherNote": ""
         },
@@ -19084,7 +19084,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.2",
           "topicTitle": "Menstrual Cycle & Hormonal Control",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in menstrual cycle & hormonal control and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in menstrual cycle & hormonal control and production, transport, or development of gametes and offspring.",
           "connection": "Explain ovarian and uterine cycles and their hormonal control.",
           "teacherNote": ""
         },
@@ -19192,7 +19192,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.2",
           "topicTitle": "Menstrual Cycle & Hormonal Control",
-          "definition": "An recurring sequence of anatomical or physiological events involved in menstrual cycle & hormonal control.",
+          "definition": "A recurring sequence of anatomical or physiological events involved in menstrual cycle & hormonal control.",
           "connection": "Explain ovarian and uterine cycles and their hormonal control.",
           "teacherNote": ""
         },
@@ -19228,7 +19228,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.2",
           "topicTitle": "Menstrual Cycle & Hormonal Control",
-          "definition": "An recurring sequence of anatomical or physiological events involved in menstrual cycle & hormonal control.",
+          "definition": "A recurring sequence of anatomical or physiological events involved in menstrual cycle & hormonal control.",
           "connection": "Explain ovarian and uterine cycles and their hormonal control.",
           "teacherNote": ""
         },
@@ -19237,7 +19237,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "12.3",
           "topicTitle": "Fertilization, Placenta & Early Development",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
           "connection": "Trace fertilization, implantation, early development, and placental exchange.",
           "teacherNote": ""
         },
@@ -19246,7 +19246,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "12.3",
           "topicTitle": "Fertilization, Placenta & Early Development",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
           "connection": "Trace fertilization, implantation, early development, and placental exchange.",
           "teacherNote": ""
         },
@@ -19309,7 +19309,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.3",
           "topicTitle": "Fertilization, Placenta & Early Development",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
           "connection": "Trace fertilization, implantation, early development, and placental exchange.",
           "teacherNote": ""
         },
@@ -19318,7 +19318,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.3",
           "topicTitle": "Fertilization, Placenta & Early Development",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
           "connection": "Trace fertilization, implantation, early development, and placental exchange.",
           "teacherNote": ""
         },
@@ -19327,7 +19327,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "12.3",
           "topicTitle": "Fertilization, Placenta & Early Development",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
           "connection": "Trace fertilization, implantation, early development, and placental exchange.",
           "teacherNote": ""
         },
@@ -19336,7 +19336,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.3",
           "topicTitle": "Fertilization, Placenta & Early Development",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
           "connection": "Trace fertilization, implantation, early development, and placental exchange.",
           "teacherNote": ""
         },
@@ -19372,7 +19372,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "12.3",
           "topicTitle": "Fertilization, Placenta & Early Development",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
           "connection": "Trace fertilization, implantation, early development, and placental exchange.",
           "teacherNote": ""
         },
@@ -19426,7 +19426,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "12.3",
           "topicTitle": "Fertilization, Placenta & Early Development",
-          "definition": "An named artery that carries oxygenated blood away from the heart to structures associated with fertilization, placenta & early development; its exact distribution is determined by its anatomical branches.",
+          "definition": "A named artery that carries oxygenated blood away from the heart to structures associated with fertilization, placenta & early development; its exact distribution is determined by its anatomical branches.",
           "connection": "Trace fertilization, implantation, early development, and placental exchange.",
           "teacherNote": ""
         },
@@ -19435,7 +19435,7 @@ window.COURSE_DATA = {
           "priority": "Core + Identification",
           "topic": "12.3",
           "topicTitle": "Fertilization, Placenta & Early Development",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in fertilization, placenta & early development and production, transport, or development of gametes and offspring.",
           "connection": "Trace fertilization, implantation, early development, and placental exchange.",
           "teacherNote": ""
         },
@@ -19444,7 +19444,7 @@ window.COURSE_DATA = {
           "priority": "Identification",
           "topic": "12.3",
           "topicTitle": "Fertilization, Placenta & Early Development",
-          "definition": "An named vein that returns blood from structures associated with fertilization, placenta & early development toward the heart.",
+          "definition": "A named vein that returns blood from structures associated with fertilization, placenta & early development toward the heart.",
           "connection": "Trace fertilization, implantation, early development, and placental exchange.",
           "teacherNote": ""
         },
@@ -19471,7 +19471,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.4",
           "topicTitle": "Apoptosis & Development",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in apoptosis & development and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in apoptosis & development and production, transport, or development of gametes and offspring.",
           "connection": "Explain apoptosis and its developmental role.",
           "teacherNote": ""
         },
@@ -19507,7 +19507,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "12.4",
           "topicTitle": "Apoptosis & Development",
-          "definition": "An defined sequence of anatomical connections or biochemical reactions that produces the function indicated by its name.",
+          "definition": "A defined sequence of anatomical connections or biochemical reactions that produces the function indicated by its name.",
           "connection": "Explain apoptosis and its developmental role.",
           "teacherNote": ""
         },
@@ -19516,7 +19516,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "12.4",
           "topicTitle": "Apoptosis & Development",
-          "definition": "An defined sequence of anatomical connections or biochemical reactions that produces the function indicated by its name.",
+          "definition": "A defined sequence of anatomical connections or biochemical reactions that produces the function indicated by its name.",
           "connection": "Explain apoptosis and its developmental role.",
           "teacherNote": ""
         },
@@ -19570,7 +19570,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.5",
           "topicTitle": "Pregnancy Hormones, Birth & Lactation",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in pregnancy hormones, birth & lactation and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in pregnancy hormones, birth & lactation and production, transport, or development of gametes and offspring.",
           "connection": "Explain hormonal regulation of pregnancy, birth, and lactation.",
           "teacherNote": ""
         },
@@ -19624,7 +19624,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.5",
           "topicTitle": "Pregnancy Hormones, Birth & Lactation",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in pregnancy hormones, birth & lactation and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in pregnancy hormones, birth & lactation and production, transport, or development of gametes and offspring.",
           "connection": "Explain hormonal regulation of pregnancy, birth, and lactation.",
           "teacherNote": ""
         },
@@ -19687,7 +19687,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.6",
           "topicTitle": "Contraception & Fertility Treatment",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
           "connection": "Compare contraception and assisted reproductive technologies.",
           "teacherNote": ""
         },
@@ -19696,7 +19696,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.6",
           "topicTitle": "Contraception & Fertility Treatment",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
           "connection": "Compare contraception and assisted reproductive technologies.",
           "teacherNote": ""
         },
@@ -19723,7 +19723,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.6",
           "topicTitle": "Contraception & Fertility Treatment",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
           "connection": "Compare contraception and assisted reproductive technologies.",
           "teacherNote": ""
         },
@@ -19732,7 +19732,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.6",
           "topicTitle": "Contraception & Fertility Treatment",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
           "connection": "Compare contraception and assisted reproductive technologies.",
           "teacherNote": ""
         },
@@ -19759,7 +19759,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.6",
           "topicTitle": "Contraception & Fertility Treatment",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
           "connection": "Compare contraception and assisted reproductive technologies.",
           "teacherNote": ""
         },
@@ -19768,7 +19768,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.6",
           "topicTitle": "Contraception & Fertility Treatment",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
           "connection": "Compare contraception and assisted reproductive technologies.",
           "teacherNote": ""
         },
@@ -19777,7 +19777,7 @@ window.COURSE_DATA = {
           "priority": "Honors Extension",
           "topic": "12.6",
           "topicTitle": "Contraception & Fertility Treatment",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
           "connection": "Compare contraception and assisted reproductive technologies.",
           "teacherNote": ""
         },
@@ -19786,7 +19786,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.6",
           "topicTitle": "Contraception & Fertility Treatment",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in contraception & fertility treatment and production, transport, or development of gametes and offspring.",
           "connection": "Compare contraception and assisted reproductive technologies.",
           "teacherNote": ""
         },
@@ -19840,7 +19840,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.7",
           "topicTitle": "Human Growth & Aging",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in human growth & aging and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in human growth & aging and production, transport, or development of gametes and offspring.",
           "connection": "Describe growth, sexual maturation, and age-related change.",
           "teacherNote": ""
         },
@@ -19849,7 +19849,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.7",
           "topicTitle": "Human Growth & Aging",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in human growth & aging and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in human growth & aging and production, transport, or development of gametes and offspring.",
           "connection": "Describe growth, sexual maturation, and age-related change.",
           "teacherNote": ""
         },
@@ -19858,7 +19858,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.7",
           "topicTitle": "Human Growth & Aging",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in human growth & aging and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in human growth & aging and production, transport, or development of gametes and offspring.",
           "connection": "Describe growth, sexual maturation, and age-related change.",
           "teacherNote": ""
         },
@@ -19903,7 +19903,7 @@ window.COURSE_DATA = {
           "priority": "Core",
           "topic": "12.7",
           "topicTitle": "Human Growth & Aging",
-          "definition": "An reproductive structure, cell, hormone-related feature, or physiological process involved in human growth & aging and production, transport, or development of gametes and offspring.",
+          "definition": "A reproductive structure, cell, hormone-related feature, or physiological process involved in human growth & aging and production, transport, or development of gametes and offspring.",
           "connection": "Describe growth, sexual maturation, and age-related change.",
           "teacherNote": ""
         },

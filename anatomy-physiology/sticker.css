@@ -1,0 +1,218 @@
+/* ==========================================================================
+   Neo-Brutalist Sticker Sheet theme — Anatomy & Physiology (Nov 2026)
+   Lilac/mint canvas, stark black, electric yellow, coral. 2px black outlines,
+   zero-blur hard shadows, pill tags, die-cut stickers, mechanical press.
+   Loaded last; everything is scoped to body.sticker-theme.
+   ========================================================================== */
+:root{--canvas:#ECE6FF;--mint:#E3F9E5;--ink:#111111;--yellow:#FFE600;--coral:#FF6B6B;--white:#FFFFFF;
+  --line:2px solid #111111;--hard:4px 4px 0 #111111;--hard-sm:2px 2px 0 #111111;--radius:14px;
+  --display:"Space Grotesk","Syne",system-ui,sans-serif;--mono:"JetBrains Mono","Space Mono",ui-monospace,monospace}
+body.sticker-theme{background:var(--canvas)!important;color:var(--ink)!important;font-family:var(--display)!important;line-height:1.55}
+.sticker-theme main,.sticker-theme .section,.sticker-theme .systems-section,.sticker-theme .system-layout,.sticker-theme .navigator-wrap,.sticker-theme .resources-grid,.sticker-theme .home-today,.sticker-theme .glossary-page{
+  background:var(--canvas)!important;background-image:radial-gradient(rgba(17,17,17,.10) 1px,transparent 1.2px)!important;background-size:18px 18px!important;color:var(--ink)!important}
+.sticker-theme h1,.sticker-theme h2,.sticker-theme h3,.sticker-theme h4{font-family:var(--display)!important;font-weight:700!important;letter-spacing:-.02em!important;color:var(--ink)!important;text-shadow:none!important}
+.sticker-theme p,.sticker-theme li,.sticker-theme span,.sticker-theme small,.sticker-theme b,.sticker-theme strong{font-family:inherit}
+.sticker-theme p{color:var(--ink)!important}
+.sticker-theme a{color:var(--ink)}
+.sticker-theme :focus-visible{outline:3px solid var(--coral)!important;outline-offset:3px}
+
+/* ---------- Header ---------- */
+.sticker-theme .site-header{background:var(--white)!important;border-bottom:var(--line)!important;backdrop-filter:none;box-shadow:0 4px 0 var(--ink)}
+.sticker-theme .brand strong{font-family:var(--display);font-weight:700;color:var(--ink)!important;font-size:19px}
+.sticker-theme .brand small{font-family:var(--mono);color:var(--ink)!important;opacity:.7;letter-spacing:.06em;text-transform:uppercase}
+.sticker-theme .brand-mark{background:var(--yellow)!important;border:var(--line);box-shadow:var(--hard-sm)}
+.sticker-theme .brand-mark span,.sticker-theme .brand-mark:before,.sticker-theme .brand-mark:after{border-color:var(--ink)!important;background:transparent}
+.sticker-theme nav a{font-family:var(--mono)!important;font-size:12px!important;font-weight:700!important;color:var(--ink)!important;text-transform:uppercase;letter-spacing:.04em;
+  padding:7px 12px;border:var(--line);border-radius:999px;background:var(--white);box-shadow:var(--hard-sm);transition:transform .08s,box-shadow .08s}
+.sticker-theme nav{gap:10px!important;border:0!important;background:transparent!important;box-shadow:none!important}
+.sticker-theme nav a:after{display:none!important}
+.sticker-theme nav a.active{background:var(--yellow)!important}
+.sticker-theme nav a:hover{transform:translate(2px,2px);box-shadow:0 0 0 var(--ink)}
+.sticker-theme .search-button,.sticker-theme .menu-toggle{font-family:var(--mono)!important;font-weight:700;color:var(--white)!important;background:var(--ink)!important;border:var(--line)!important;border-radius:999px!important;box-shadow:2px 2px 0 var(--coral)!important}
+
+/* ---------- Hero bands ---------- */
+.sticker-theme .navigator-hero,.sticker-theme .resources-hero,.sticker-theme .glossary-hero{background:var(--yellow)!important;color:var(--ink)!important;border-bottom:var(--line);position:relative;overflow:visible}
+.sticker-theme .system-hero{background:var(--mint)!important;color:var(--ink)!important;border-bottom:var(--line);border-top:8px solid var(--unit-color)}
+.sticker-theme .navigator-hero:before,.sticker-theme .navigator-hero:after,.sticker-theme .system-hero:before,.sticker-theme .system-hero:after,.sticker-theme .resources-hero:before,.sticker-theme .resources-hero:after{display:none!important}
+.sticker-theme .navigator-hero h1,.sticker-theme .resources-hero h1,.sticker-theme .system-hero h1{font-size:clamp(44px,6vw,80px)!important;line-height:.95}
+.sticker-theme .navigator-hero p,.sticker-theme .system-hero p,.sticker-theme .resources-hero p{color:var(--ink)!important;max-width:720px}
+.sticker-theme .overline,.sticker-theme .eyebrow,.sticker-theme .panel-label,.sticker-theme .breadcrumbs{font-family:var(--mono)!important;font-size:12px!important;font-weight:700!important;letter-spacing:.08em!important;text-transform:uppercase;color:var(--ink)!important}
+.sticker-theme .breadcrumbs a{color:var(--ink)!important;text-decoration:underline;text-decoration-thickness:2px}
+
+/* ---------- Containers: 2px outline + hard shadow ---------- */
+.sticker-theme .today-card,.sticker-theme .due-board,.sticker-theme .day-card,.sticker-theme .system-card,.sticker-theme .resource-card,.sticker-theme .topic-item,.sticker-theme .vocab-card,.sticker-theme .connections-card,
+.sticker-theme .vocab-database,.sticker-theme .oddity-panel,.sticker-theme .system-stat,.sticker-theme .meta-box,.sticker-theme .next-up,.sticker-theme .search-shell,.sticker-theme .vocab-window,.sticker-theme .error-page{
+  background:var(--white)!important;color:var(--ink)!important;border:var(--line)!important;border-radius:var(--radius)!important;box-shadow:var(--hard)!important;filter:none!important;backdrop-filter:none!important}
+.sticker-theme .today-card *,.sticker-theme .day-card *,.sticker-theme .topic-item *{text-shadow:none!important}
+
+/* Mechanical press: cards and buttons sink into their shadow */
+.sticker-theme .system-card,.sticker-theme .resource-card,.sticker-theme .day-card,.sticker-theme .due-board,.sticker-theme .today-card,.sticker-theme .button,.sticker-theme .icon-btn,.sticker-theme .topic-jump,.sticker-theme .resource-pill,.sticker-theme .vocab-launch,.sticker-theme .master-vocab-term,.sticker-theme .search-button{transition:transform .08s ease,box-shadow .08s ease!important}
+.sticker-theme .system-card:hover,.sticker-theme .resource-card:hover,.sticker-theme .day-card:hover,.sticker-theme .due-board:hover,.sticker-theme .today-card:hover{transform:translate(2px,2px)!important;box-shadow:2px 2px 0 var(--ink)!important}
+.sticker-theme .system-card:active,.sticker-theme .resource-card:active,.sticker-theme .day-card:active{transform:translate(4px,4px)!important;box-shadow:0 0 0 var(--ink)!important}
+.sticker-theme .button,.sticker-theme .icon-btn,.sticker-theme .topic-jump,.sticker-theme .vocab-launch,.sticker-theme .search-result{
+  font-family:var(--mono)!important;font-weight:700!important;text-transform:uppercase;letter-spacing:.04em;border:var(--line)!important;border-radius:999px!important;
+  background:var(--yellow)!important;color:var(--ink)!important;box-shadow:var(--hard)!important;text-decoration:none}
+.sticker-theme .button.secondary{background:var(--white)!important}
+.sticker-theme .teachquest-button{background:var(--coral)!important}
+.sticker-theme .icon-btn{border-radius:10px!important;width:42px;height:42px;display:inline-grid;place-items:center;font-size:18px}
+.sticker-theme .button:hover,.sticker-theme .icon-btn:hover,.sticker-theme .topic-jump:hover,.sticker-theme .vocab-launch:hover,.sticker-theme .search-result:hover,.sticker-theme .resource-pill:hover,.sticker-theme .master-vocab-term:hover,.sticker-theme .search-button:hover{transform:translate(2px,2px)!important;box-shadow:2px 2px 0 var(--ink)!important}
+.sticker-theme .button:active,.sticker-theme .icon-btn:active,.sticker-theme .topic-jump:active,.sticker-theme .vocab-launch:active,.sticker-theme .resource-pill:active,.sticker-theme .master-vocab-term:active,.sticker-theme .search-button:active{transform:translate(4px,4px)!important;box-shadow:0 0 0 var(--ink)!important}
+.sticker-theme .icon-btn:disabled{opacity:.35;transform:none!important}
+
+/* ---------- Pill tags in crisp mono ---------- */
+.sticker-theme .topic-badge,.sticker-theme .topic-code,.sticker-theme .kind-label,.sticker-theme .command-codes span,.sticker-theme .resource-pill,.sticker-theme .date-small,.sticker-theme .sync-status,.sticker-theme #vocab-priority,.sticker-theme .vocab-priority-key span,.sticker-theme .master-vocab-term,.sticker-theme .week-label{
+  display:inline-flex;align-items:center;gap:6px;font-family:var(--mono)!important;font-size:11px!important;font-weight:700!important;letter-spacing:.04em;text-transform:uppercase;
+  padding:4px 10px!important;border:var(--line)!important;border-radius:999px!important;background:var(--white)!important;color:var(--ink)!important;box-shadow:none}
+.sticker-theme .topic-badge,.sticker-theme .topic-code{background:var(--mint)!important}
+.sticker-theme .kind-label{background:var(--yellow)!important;margin:0 0 10px!important}
+.sticker-theme .resource-pill,.sticker-theme .master-vocab-term{box-shadow:var(--hard-sm)!important;text-transform:none;font-size:12px!important}
+.sticker-theme .master-vocab-term.honors{background:var(--canvas)!important}.sticker-theme .master-vocab-term.identification{background:var(--mint)!important}
+.sticker-theme .week-label{font-size:13px!important;background:var(--yellow)!important}
+.sticker-theme .sync-status.live{background:var(--mint)!important}
+.sticker-theme .command-codes .system-online{background:var(--mint)!important}.sticker-theme .command-codes .system-online.fallback{background:var(--coral)!important}
+
+/* ---------- Today briefing ---------- */
+.sticker-theme .home-toolbar{position:relative;border-bottom:0!important;align-items:center}
+.sticker-theme .home-toolbar h1{font-size:clamp(40px,6vw,64px)!important;line-height:1}
+.sticker-theme .day-banner{border:var(--line)!important;border-radius:var(--radius);background:var(--yellow);box-shadow:var(--hard);text-align:left;padding:18px 22px!important}
+.sticker-theme .day-banner.is-off{background:var(--white)}
+.sticker-theme .day-banner h2{font-size:clamp(30px,5vw,52px)!important;color:var(--ink)!important}
+.sticker-theme .day-banner .eyebrow{color:var(--ink)!important}
+.sticker-theme .due-board h2{font-size:26px}
+.sticker-theme .due-board li{border-top:2px dashed var(--ink)!important}
+.sticker-theme .due-board li:first-child{border-top:0!important}
+.sticker-theme .due-board li strong{font-family:var(--mono);color:var(--ink)!important;background:var(--yellow);border:var(--line);border-radius:999px;padding:2px 10px;justify-self:start;font-size:11px}
+.sticker-theme .due-board li.urgent{background:var(--canvas)!important;margin:0 -18px;padding-inline:18px}
+.sticker-theme .due-board li.urgent strong{background:var(--coral)}
+.sticker-theme .due-board li.tba strong{background:var(--white)}
+.sticker-theme .due-board li small{font-family:var(--mono);color:var(--ink)!important;opacity:.7}
+.sticker-theme .card-caption{font-family:var(--mono)!important;color:var(--ink)!important;letter-spacing:.06em}
+.sticker-theme .today-card{overflow:hidden}
+.sticker-theme .today-commandbar{background:var(--ink)!important;border-bottom:var(--line)!important}
+.sticker-theme .today-commandbar .command-date strong{font-family:var(--mono);color:var(--yellow)!important}
+.sticker-theme .signal-dot{background:var(--mint)!important;box-shadow:none!important;border:2px solid var(--white)}
+.sticker-theme .today-content,.sticker-theme .today-primary,.sticker-theme .today-main{background:var(--white)!important;color:var(--ink)!important;border-color:var(--ink)!important}
+.sticker-theme .today-primary{border-right:var(--line)!important;background:var(--mint)!important}
+.sticker-theme .today-grid>div{border-color:var(--ink)!important}
+.sticker-theme .today-grid span{font-family:var(--mono)!important;color:var(--ink)!important;letter-spacing:.06em}
+.sticker-theme .today-grid p{color:var(--ink)!important}
+.sticker-theme .assignment-cell{background:var(--canvas)!important;border-left:var(--line)!important}
+.sticker-theme .due-line{font-family:var(--mono);color:var(--ink)!important;background:var(--yellow);display:inline-block;padding:2px 10px;border:var(--line);border-radius:999px}
+.sticker-theme .due-line.tba{background:var(--white)}
+.sticker-theme .topic-jump{background:var(--ink)!important;color:var(--yellow)!important;padding:8px 14px}
+.sticker-theme .today-resources,.sticker-theme .day-resources{border-top:2px dashed var(--ink)!important}
+.sticker-theme .today-resources summary,.sticker-theme .day-resources summary{font-family:var(--mono);color:var(--ink)}
+.sticker-theme .teacher-message{background:var(--coral)!important;color:var(--ink)!important;border:var(--line)!important;border-radius:12px;box-shadow:var(--hard-sm)!important;transform:rotate(-1deg)}
+.sticker-theme .teacher-message b{font-family:var(--mono);color:var(--ink)!important}
+.sticker-theme .teacher-message p{color:var(--ink)!important;font-weight:600}
+.sticker-theme .next-up{background:var(--white)!important}
+
+/* ---------- Weekly navigator ---------- */
+.sticker-theme .navigator-toolbar{border:0!important}
+.sticker-theme .day-card{padding:16px!important}
+.sticker-theme .day-card.current{background:var(--yellow)!important}
+.sticker-theme .day-card .weekday{font-family:var(--display)!important;font-weight:700;font-size:26px!important}
+.sticker-theme .day-card .date-line{border-bottom:var(--line)!important}
+.sticker-theme .day-card.kind-no-class,.sticker-theme .day-card.kind-homework-only,.sticker-theme .day-card.kind-tbd{background:var(--canvas)!important;opacity:1}
+.sticker-theme .day-block{border-top:2px dashed var(--ink)!important}
+.sticker-theme .day-block b{font-family:var(--mono)!important;color:var(--ink)!important}
+.sticker-theme .day-card .home-block{background:var(--mint)!important;border-top:var(--line)!important}
+.sticker-theme .due-here{background:var(--yellow)!important;border:var(--line)!important;border-radius:10px}
+.sticker-theme .due-here b{color:var(--ink)!important;font-family:var(--mono)}
+.sticker-theme .navigator-video{color:var(--ink)!important;font-family:var(--mono);font-size:12px;text-decoration:underline;text-decoration-thickness:2px}
+
+/* ---------- Systems ---------- */
+.sticker-theme .system-card{overflow:visible!important}
+.sticker-theme .system-art,.sticker-theme .systems-grid .system-art{height:140px;background:color-mix(in srgb,var(--unit-color),#fff 65%)!important;filter:none!important;border-bottom:var(--line)!important;border-radius:12px 12px 0 0;overflow:visible!important}
+.sticker-theme .system-art:before,.sticker-theme .system-art:after,.sticker-theme .systems-grid .system-art:before,.sticker-theme .systems-grid .system-art:after{display:none!important}
+.sticker-theme .system-glyph,.sticker-theme .systems-grid .system-glyph{font-size:44px!important;filter:none!important;text-shadow:none!important;color:var(--ink)!important;
+  background:var(--white);border:5px solid var(--white);border-radius:22px;box-shadow:0 0 0 2px var(--ink),var(--hard);width:84px;height:84px;display:grid;place-items:center;transform:rotate(-4deg);transition:transform .15s}
+.sticker-theme .system-card:hover .system-glyph{transform:rotate(4deg) translateY(-4px)}
+.sticker-theme .unit-number,.sticker-theme .systems-grid .unit-number{font-family:var(--mono)!important;font-size:13px!important;font-weight:700;color:var(--ink)!important;background:var(--yellow);border:var(--line);border-radius:999px;padding:2px 10px;top:12px;right:12px}
+.sticker-theme .system-card-copy,.sticker-theme .systems-grid .system-card-copy{background:var(--white)!important;border-radius:0 0 12px 12px}
+.sticker-theme .card-link{font-family:var(--mono);font-weight:700;color:var(--ink)!important}
+.sticker-theme .card-kicker{color:var(--ink)!important;opacity:.75}
+.sticker-theme .system-stat span{font-family:var(--display);font-weight:700;color:var(--ink)!important}
+.sticker-theme .system-stat small{font-family:var(--mono);color:var(--ink)!important}
+.sticker-theme .topic-item summary{color:var(--ink)!important}
+.sticker-theme .topic-item[open]{background:var(--mint)!important}
+.sticker-theme .i-can{font-weight:600}
+.sticker-theme .meta-box{box-shadow:var(--hard-sm)!important}
+.sticker-theme .meta-box span{font-family:var(--mono)!important;color:var(--ink)!important}
+.sticker-theme .vocab-card,.sticker-theme .connections-card{background:var(--yellow)!important}
+.sticker-theme .connections-card{background:var(--mint)!important}
+.sticker-theme .back-link{font-family:var(--mono);color:var(--ink)!important;text-decoration:underline;text-decoration-thickness:2px}
+
+/* Terminal-style title bars become black sticker strips */
+.sticker-theme .vocab-database-titlebar,.sticker-theme .oddity-titlebar,.sticker-theme .vocab-titlebar{background:var(--ink)!important;color:var(--yellow)!important;font-family:var(--mono)!important;border-bottom:var(--line)!important}
+.sticker-theme .vocab-titlebar button{color:var(--yellow)!important;background:transparent;border:0;font-size:22px}
+.sticker-theme .vocab-database,.sticker-theme .oddity-panel,.sticker-theme .vocab-window{overflow:hidden}
+.sticker-theme .vocab-database-body,.sticker-theme .oddity-body,.sticker-theme .vocab-record{background:var(--white)!important;color:var(--ink)!important}
+.sticker-theme .vocab-record *{color:var(--ink)!important}
+.sticker-theme .vocab-filter,.sticker-theme #global-search{font-family:var(--mono)!important;border:var(--line)!important;border-radius:10px!important;background:var(--white)!important;color:var(--ink)!important;box-shadow:var(--hard-sm)}
+.sticker-theme .oddity-stamp{color:var(--ink)!important;background:var(--yellow)!important;border:5px solid var(--white)!important;box-shadow:0 0 0 2px var(--ink),var(--hard)!important;border-radius:18px!important;transform:rotate(-5deg);font-family:var(--display)!important;transition:transform .15s}
+.sticker-theme .oddity-stamp:hover{transform:rotate(4deg) translateY(-4px)}
+.sticker-theme .oddity-copy a{color:var(--ink)!important;background:var(--mint)!important;border:var(--line);border-radius:999px;padding:4px 12px;font-family:var(--mono)}
+.sticker-theme .oddity-copy .eyebrow{color:var(--ink)!important}
+.sticker-theme .search-shell{background:var(--white)!important}
+.sticker-theme .search-top{border-bottom:var(--line)!important}
+.sticker-theme .search-result{display:block;text-transform:none;border-radius:12px!important;background:var(--white)!important;margin:8px 0}
+.sticker-theme dialog::backdrop{background:rgba(17,17,17,.45)}
+
+/* ---------- Resources + footer ---------- */
+.sticker-theme .resource-card:nth-child(1){background:var(--mint)!important}.sticker-theme .resource-card:nth-child(2){background:var(--yellow)!important}
+.sticker-theme .resource-card a{font-family:var(--mono);color:var(--ink)!important;text-decoration:underline;text-decoration-thickness:2px}
+.sticker-theme .resource-icon{display:inline-grid;place-items:center;width:64px;height:64px;background:var(--white);border:5px solid var(--white);border-radius:18px;box-shadow:0 0 0 2px var(--ink),var(--hard-sm);transform:rotate(-4deg);transition:transform .15s}
+.sticker-theme .resource-card:hover .resource-icon{transform:rotate(4deg) translateY(-3px)}
+.sticker-theme footer{background:var(--ink)!important;color:var(--white)!important;border-top:var(--line)}
+.sticker-theme footer *{color:var(--white)!important}
+.sticker-theme footer strong{font-family:var(--display)}
+
+/* ---------- Die-cut decorative stickers ---------- */
+.sticker-theme .deco-stickers{display:flex;gap:14px;flex-wrap:wrap;align-items:center;justify-content:flex-end}
+.sticker-theme .navigator-hero .deco-stickers,.sticker-theme .resources-hero .deco-stickers{position:absolute;right:clamp(16px,6vw,90px);bottom:-30px}
+.sticker-theme .sticker{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;background:var(--sticker-bg,var(--yellow));border:5px solid var(--white);border-radius:999px;
+  box-shadow:0 0 0 2px var(--ink),var(--hard);transform:rotate(var(--tilt,-4deg));transition:transform .15s ease;cursor:default;user-select:none}
+.sticker-theme .sticker b{font-size:26px;line-height:1}
+.sticker-theme .sticker small{font-family:var(--mono);font-weight:700;font-size:12px;text-transform:uppercase;color:var(--ink)}
+.sticker-theme .sticker:hover{transform:rotate(4deg) translateY(-4px) scale(1.04)}
+
+@media(max-width:760px){
+  .sticker-theme .navigator-hero .deco-stickers,.sticker-theme .resources-hero .deco-stickers{position:static;justify-content:flex-start;margin-top:18px}
+  .sticker-theme .home-toolbar .deco-stickers{justify-content:flex-start}
+  .sticker-theme .sticker b{font-size:20px}
+  .sticker-theme .today-primary{border-right:0!important;border-bottom:var(--line)!important}
+  .sticker-theme .assignment-cell{border-left:0!important;border-top:var(--line)!important}
+}
+@media(prefers-reduced-motion:reduce){.sticker-theme *{transition:none!important}}
+
+/* ---------- Clean-up: remove the old theme's double rules and leftovers ---------- */
+.sticker-theme .site-header{border-top:0!important;border-bottom:var(--line)!important}
+.sticker-theme .home-toolbar,.sticker-theme .section-heading,.sticker-theme .navigator-toolbar{border:0!important;box-shadow:none!important;background:transparent!important}
+.sticker-theme .navigator-hero,.sticker-theme .resources-hero,.sticker-theme .glossary-hero{border-top:0!important;border-bottom:var(--line)!important}
+.sticker-theme .system-hero{border-bottom:var(--line)!important}
+.sticker-theme .day-card.current{border:var(--line)!important;box-shadow:var(--hard)!important}
+.sticker-theme dialog,.sticker-theme .vocab-dialog{border:0!important;background:transparent!important;padding:0}
+.sticker-theme .brand strong{font-family:var(--display)!important;font-weight:700!important;font-size:19px!important;letter-spacing:-.02em!important}
+.sticker-theme .brand-mark{border:var(--line)!important}
+.sticker-theme nav a,.sticker-theme nav a.portal-home{border:var(--line)!important;background:var(--white)!important}
+.sticker-theme nav a.active{background:var(--yellow)!important}
+.sticker-theme .oddity-stamp{outline:0!important;padding:18px 12px!important}
+.sticker-theme .card-link{display:inline-flex!important;align-items:center;gap:6px;margin-top:6px;font-family:var(--mono)!important;font-size:12px!important;font-weight:700;text-transform:uppercase;
+  color:var(--ink)!important;background:var(--yellow)!important;border:var(--line)!important;border-radius:999px!important;padding:6px 12px!important;box-shadow:var(--hard-sm)!important;width:auto!important}
+.sticker-theme .card-link b{color:var(--ink)!important}
+.sticker-theme .system-stat{padding:12px 16px!important;min-width:120px}
+.sticker-theme .system-stat span{font-size:34px!important;line-height:1}
+.sticker-theme .resource-card a{display:inline-flex!important;width:auto!important;align-items:center;gap:6px;margin-top:8px;padding:8px 14px!important;font-family:var(--mono)!important;font-size:12px!important;font-weight:700;text-transform:uppercase;text-decoration:none!important;
+  color:var(--ink)!important;background:var(--white)!important;border:var(--line)!important;border-radius:999px!important;box-shadow:var(--hard-sm)!important;transition:transform .08s,box-shadow .08s}
+.sticker-theme .resource-card a:hover{transform:translate(2px,2px);box-shadow:0 0 0 var(--ink)!important}
+.sticker-theme footer .brand-mark{background:var(--yellow)!important}
+@media(max-width:950px){.sticker-theme nav.open{background:var(--white)!important;border-bottom:var(--line)!important;box-shadow:0 4px 0 var(--ink)!important;padding:16px!important;align-items:flex-start}}
+.sticker-theme .vocab-topic-group{border:var(--line)!important;border-radius:12px;overflow:hidden;background:var(--white)!important}
+.sticker-theme .vocab-group-heading{background:var(--mint)!important;border-bottom:var(--line)!important}
+.sticker-theme .vocab-group-heading span{font-family:var(--mono);background:var(--ink)!important;color:var(--yellow)!important;border-radius:999px;padding:2px 10px}
+.sticker-theme .vocab-group-heading small{font-family:var(--mono);color:var(--ink)!important}
+.sticker-theme .vocab-record section{background:var(--white)!important;border:var(--line)!important;border-radius:12px;box-shadow:var(--hard-sm)}
+.sticker-theme .vocab-record section h3{font-family:var(--mono)!important;font-size:12px!important;text-transform:uppercase;letter-spacing:.06em}
+.sticker-theme .vocab-record section:first-of-type{background:var(--yellow)!important}
+.sticker-theme .record-heading{border-bottom:var(--line)!important}
