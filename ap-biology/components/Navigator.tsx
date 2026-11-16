@@ -156,7 +156,7 @@ const Navigator:React.FC<NavigatorProps>=({mode})=>{
   const weekRange=weekEntries.length?`${formatDate(weekEntries[0].date,{month:'short',day:'numeric'})} – ${formatDate(weekEntries.at(-1)!.date,{month:'short',day:'numeric'})}`:'—';
 
   return <main className="dreadful-main"><div className="dreadful-page">
-    <section className="masthead"><p className="edition">The Scholarly Chronicle · 2025 CED Edition</p><h2>{COURSE}</h2><div className="masthead-rule"><span>{mode==='today'?'Today’s Dispatch':'Weekly Navigator'}</span><span>{live?'Published Sheet Online':'Saved Edition'}</span></div></section>
+    <section className="masthead"><p className="edition">lab notebook · 2025 CED edition</p><h2>{COURSE}</h2><div className="masthead-rule"><span>{mode==='today'?'Today':'Weekly Navigator'}</span><span>{live?'Live from the course sheet':'Saved copy (sheet offline)'}</span></div></section>
     {mode==='today'?<>
       <section className={`day-banner ${classToday?'is-class':'is-off'}`} role="status">
         <p className="kicker">{formatDate(todayIso)}</p>
