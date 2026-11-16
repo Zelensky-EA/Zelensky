@@ -12,7 +12,7 @@ The landing page and Anatomy navigator can be previewed with `python -m http.ser
 
 1. Upload this folder to the root of a GitHub repository.
 2. In **Settings → Pages**, select **GitHub Actions** as the source.
-3. Add repository variable `VITE_NAVIGATOR_CSV_URL` containing the published AP Biology student-calendar CSV URL.
+3. The AP Biology Navigator reads the published COURSE CALENDAR tab of the master AP Biology Navigator sheet (link in `ap-biology/components/Navigator.tsx`); no repository variable is needed.
 4. Push to `main`. The workflow builds AP Biology, combines both course sites, and publishes the unified portal.
 
-The Anatomy navigator's published-sheet URL remains embedded in `anatomy-physiology/data.js`, with its saved fallback retained.
+The Anatomy navigator reads the published NAVIGATOR tab of the master A&P sheet; its URL is in `anatomy-physiology/data.js`, with its saved fallback retained.

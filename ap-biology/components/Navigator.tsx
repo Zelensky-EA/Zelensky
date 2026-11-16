@@ -12,7 +12,8 @@ interface CalendarEntry {
 interface NavigatorProps { mode:'today'|'weekly'; }
 type DayKind = 'class'|'block'|'exam'|'no-class'|'homework-only'|'tbd';
 
-const CSV_URL=(import.meta.env.VITE_NAVIGATOR_CSV_URL as string|undefined)||'https://docs.google.com/spreadsheets/d/e/2PACX-1vSQmAQUeLO19pcXizo9fhfSULh1KEewdq4Og3vnTLBxgrA7QYpKq_NNwcqoFDaf57OMiFf7FQx3MM5E/pub?gid=135989314&single=true&output=csv';
+// Published COURSE CALENDAR tab of the master AP Biology Navigator sheet (Nov 2026).
+const CSV_URL='https://docs.google.com/spreadsheets/d/e/2PACX-1vSkHbGP_LXyehmkA-s6KC7qT6hiGWszAQ1ZMBcNCRiSQg2GMSpB0VSzFashaOmt_B-7WocIR38xqJIw/pub?gid=1962443842&single=true&output=csv';
 const COURSE='AP Biology';
 
 function toIso(value:string){
@@ -25,9 +26,11 @@ function toIso(value:string){
 function isIsoDate(value:string){return /^\d{4}-\d{2}-\d{2}$/.test(value)&&!Number.isNaN(new Date(`${value}T12:00:00`).getTime());}
 const text=(v:unknown)=>String(v??'').trim();
 
+// "None", "None today", "N/A" or a dash in the homework column means no assignment.
+const NO_HOMEWORK=/^(none( today)?|no homework|n\/a|[-–—])\.?$/i;
 function normalize(raw:Partial<CalendarEntry>):CalendarEntry{
   return {week:Number(raw.week)||0,day:text(raw.day),date:toIso(text(raw.date)),cedTopic:text(raw.cedTopic),learningTarget:text(raw.learningTarget),classwork:text(raw.classwork),
-    campbell:text(raw.campbell),biozone:text(raw.biozone),homework:text(raw.homework),apTarget:text(raw.apTarget),teacherNote:text(raw.teacherNote),
+    campbell:text(raw.campbell),biozone:text(raw.biozone),homework:NO_HOMEWORK.test(text(raw.homework))?'':text(raw.homework),apTarget:text(raw.apTarget),teacherNote:text(raw.teacherNote),
     dayType:text(raw.dayType),assignmentDue:toIso(text(raw.assignmentDue)),studentSummary:text(raw.studentSummary)};
 }
 

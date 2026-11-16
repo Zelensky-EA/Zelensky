@@ -122,7 +122,7 @@ function normalizeLiveRows(rows){
   const h=rows[headerIndex].map(x=>x.replace(/\s+/g,' ').trim()); const col=(...names)=>{for(const n of names){const i=h.indexOf(n);if(i>=0)return i}return -1};
   const get=(r,i)=>i>=0?(r[i]||''):'';
   const c={week:col('Week'),day:col('Day'),date:col('Date'),topic:col('Topic'),topicText:col('Topic Title / I Can…'),classwork:col('Class'),biozone:col('BIOZONE'),video:col('Crash Course / Video'),home:col('HOME After Class'),standard:col('A&P Target'),teacherNote:col('Teacher Note'),dayType:col('Day Type'),due:col('Assignment Due'),summary:col('Student Summary')};
-  return rows.slice(headerIndex+1).map(r=>{const o=Object.fromEntries(Object.entries(c).map(([k,i])=>[k,get(r,i)]));o.date=toISODate(o.date);o.due=o.due?toISODate(o.due):'';return o}).filter(x=>x.date&&x.week&&/^\d{4}-\d{2}-\d{2}$/.test(x.date));
+  return rows.slice(headerIndex+1).map(r=>{const o=Object.fromEntries(Object.entries(c).map(([k,i])=>[k,get(r,i)]));o.date=toISODate(o.date);if(/^(none( today)?|no homework|n\/a|[-–—])\.?$/i.test(String(o.home||'').trim()))o.home='';o.due=o.due?toISODate(o.due):'';return o}).filter(x=>x.date&&x.week&&/^\d{4}-\d{2}-\d{2}$/.test(x.date));
 }
 
 async function loadDaily(){

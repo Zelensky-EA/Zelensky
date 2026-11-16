@@ -3,7 +3,7 @@ window.COURSE_DATA = {
   "biozoneEdition": "Anatomy & Physiology, 3rd Edition",
   "biozoneHub": "https://www.biozonehub.com/anp3-4085/",
   "crashCourseHub": "https://thecrashcourse.com/topic/anatomy/",
-  "dailyCsv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTe7510DxBjf9UjF-jVsWNfzd0dLyhQnMiiPqkADkR6dDJHMEwHyeUVchZ_N69nJ2PeF5AiPCrlpeJq/pub?gid=135989314&single=true&output=csv",
+  "dailyCsv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQUUxWlnIauFEil9DYzcptvu8EcL-ogOGnImx9irp4cVmq5nCG-nDCBljbHS10Wk4qSXSKiJG8HY38L/pub?gid=1110129379&single=true&output=csv",
   "systems": [
     {
       "unit": 0,
